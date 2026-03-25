@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","126","store values frm DD","chromium","2026-03-24","passed","2026-03-24","","DEMO\reporters.spec.ts","",""
+"","8258","select value from dropdown","chromium","2026-03-24","passed","2026-03-24","","DEMO\reporters.spec.ts","",""
+"","9905","open dropdown page","chromium","2026-03-24","passed","2026-03-24","","DEMO\reporters.spec.ts","",""
+"","7326","open Url","chromium","2026-03-24","failed","2026-03-24","","DEMO\reporters.spec.ts","",""

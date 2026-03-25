@@ -1,0 +1,50 @@
+
+Retries 
+
+we can retry the failed test cases specified number of times
+need to set retries in playwright.config.ts also
+e.g. retries: process.env.CI ? 2 : 0,
+here it is set to 2 on CI and 0 locally
+so when we run tests on CI it will retry 2 times before marking test as failed
+locally it will not retry
+to test this functionality we can set retries to 2 locally also
+e.g. retries: process.env.CI ? 2 : 2, or retries: 2,
+
+Maximise or set screen res 
+ // we can also set the viewport size in the playwright.config.ts file
+    // use the below code in the config file inside the 'use' block
+    /*
+    projects: [
+    {
+      name: 'chromium', 
+      use : {
+        viewport: { width: 1536, height: 730 },
+      },
+    }
+    ]
+    */
+
+SS , Video , Trace 
+    //screenshot
+    /*
+    To take a screenshot after every test, we need to set it in the playwright.config.ts file   
+    use: {
+      screenshot: 'on',
+    }
+    */
+
+    //video
+    /*
+    To enable video recording, we need to set it in the playwright.config.ts file
+    use: {
+      video: 'on',
+    }
+    */
+    //trace
+    /*
+    To enable trace, we need to set it in the playwright.config.ts file
+    use: {
+      trace: 'on',
+    }
+    */
+    // After the test execution, go to the 'test-results' folder and open the trace file in the Playwright Trace Viewer.
