@@ -9,30 +9,42 @@ test.beforeAll("setup",async () => {
  context = await browser.newContext();
  p = await context.newPage();});
 
-// test("openURL", async ({page}) => {
-//     await p.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-//     await expect(p).toHaveTitle("OrangeHRM");
-// });
+test("openURL", async () => {
+    await p.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+    await expect(p).toHaveTitle("OrangeHRM");
+});
 
-// test("login", async ({page}) => { var username: string = "";
-//     var password: string = "";
-//     var username: string = "";
-//    username = await p.locator(".oxd-text").nth(1).innerHTML();
-//    password = await p.locator(".oxd-text").nth(2).innerHTML();
-//     let UNarray= username.split(" ");
-//     let PWDarray= password.split(" ");
-//     await p.locator('input[name="username"]').fill(UNarray[UNarray.length-1]);
-//     //.type() can also be used instead of .fill()
-//     await p.locator('input[name="password"]').fill(PWDarray[PWDarray.length-1]);
-//     await p.locator('button[type="submit"]').click();
-//     await expect(p).toHaveURL("https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");
-//     await expect(p.locator("h6.oxd-text")).toHaveText("Dashboard");  
-//     await p.screenshot({path:"tests/DEMO/screenshot/orangelogin.png", fullPage:true});});
+test("login", async () => {
+    let p1 : Page = await context.newPage();
+    await p1.goto("https://www.youtube.com/");
 
-// test("logout", async ({page}) => {
-//     await p.locator("li.oxd-userdropdown").click();
-//     await p.getByText("Logout").click();   
-//       }); 
+    let context2 = await browser.newContext();
+    let p3 = await context2.newPage();
+    await p3.goto("https://www.netflix.com/browse");
+
+    await p1.close();
+    await p3.close();
+
+    
+ var username: string = "";
+    var password: string = "";
+    var username: string = "";
+   username = await p.locator(".oxd-text").nth(1).innerHTML();
+   password = await p.locator(".oxd-text").nth(2).innerHTML();
+    let UNarray= username.split(" ");
+    let PWDarray= password.split(" ");
+    await p.locator('input[name="username"]').fill(UNarray[UNarray.length-1]);
+    //.type() can also be used instead of .fill()
+    await p.locator('input[name="password"]').fill(PWDarray[PWDarray.length-1]);
+    await p.locator('button[type="submit"]').click();
+    await expect(p).toHaveURL("https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");
+    await expect(p.locator("h6.oxd-text")).toHaveText("Dashboard");  
+    await p.screenshot({path:"tests/DEMO/screenshot/orangelogin.png", fullPage:true});});
+
+test("logout", async () => {
+    await p.locator("li.oxd-userdropdown").click();
+    await p.getByText("Logout").click();   
+      }); 
 
 
  // browser and context will be closed after all the tests are executed
@@ -85,7 +97,7 @@ const [newpage]= await Promise.all([context.waitForEvent("page"), // this will w
     console.log(newpage.url());
 });
 
-test.only("popup switch" , async ()=>{
+test("popup switch" , async ()=>{
     await p.goto("https://testautomationpractice.blogspot.com/p/playwrightpractice.html");
 
     const [popup] = await Promise.all([p.waitForEvent("popup"), // this will wait for the new page to be opened
@@ -108,8 +120,6 @@ for (const a of pages){
       }
     // console.log(pages[1].url())
     // console.log(pages[2].url())
-
-
 
 
 });
