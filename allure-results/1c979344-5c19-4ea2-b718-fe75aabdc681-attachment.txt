@@ -1,0 +1,31 @@
+[ 'Sunday' ]
+sunday : Sunday
+monday : Monday
+tuesday : Tuesday
+wednesday : Wednesday
+thursday : Thursday
+friday : Friday
+saturday : Saturday
+[
+  locator('//input[@type="checkbox"]/following-sibling::label').first(),
+  locator('//input[@type="checkbox"]/following-sibling::label').nth(1),
+  locator('//input[@type="checkbox"]/following-sibling::label').nth(2),
+  locator('//input[@type="checkbox"]/following-sibling::label').nth(3),
+  locator('//input[@type="checkbox"]/following-sibling::label').nth(4),
+  locator('//input[@type="checkbox"]/following-sibling::label').nth(5),
+  locator('//input[@type="checkbox"]/following-sibling::label').nth(6)
+]
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday is checked 
+Monday is not checked 
+Tuesday is checked 
+Wednesday is not checked 
+Thursday is checked 
+Friday is not checked 
+Saturday is checked 
