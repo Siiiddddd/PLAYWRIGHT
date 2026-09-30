@@ -1,0 +1,2927 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - link "Naukri Logo" [ref=e6] [cursor=pointer]:
+        - /url: https://www.naukri.com
+        - img "Naukri Logo" [ref=e7]
+      - navigation:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Jobs 2" [ref=e10] [cursor=pointer]:
+              - /url: /mnjuser/recommendedjobs
+              - generic [ref=e11]: Jobs
+              - generic [ref=e12]: "2"
+            - generic:
+              - list:
+                - listitem:
+                  - link "Recommended jobs":
+                    - /url: /mnjuser/recommendedjobs
+                    - generic:
+                      - generic:
+                        - generic: Recommended jobs
+                - listitem:
+                  - link "NVites 1 New":
+                    - /url: /mnjuser/inbox
+                    - generic:
+                      - generic:
+                        - generic: NVites
+                    - generic "1 New"
+                - listitem:
+                  - link "Application status 294 Updates":
+                    - /url: /myapply/historypage
+                    - generic:
+                      - generic:
+                        - generic: Application status
+                    - generic "294 Updates"
+                - listitem:
+                  - link "Saved jobs":
+                    - /url: /mnjuser/savedjobs
+                    - generic:
+                      - generic:
+                        - generic: Saved jobs
+          - listitem [ref=e13]:
+            - link "Companies" [ref=e14] [cursor=pointer]:
+              - /url: https://www.naukri.com/companies-hiring-in-india?src=gnbCompanies_homepage_srch
+              - generic [ref=e15]: Companies
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Explore categories
+                - listitem:
+                  - link "Unicorn":
+                    - /url: https://www.naukri.com/unicorn-companies-in-india-cat102?title=Unicorns%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Unicorn
+                - listitem:
+                  - link "MNC":
+                    - /url: https://www.naukri.com/mnc-companies-in-india-cat101?title=MNCs%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: MNC
+                - listitem:
+                  - link "Startup":
+                    - /url: https://www.naukri.com/startup-companies-in-india-cat103?title=Startups%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Startup
+                - listitem:
+                  - link "Product based":
+                    - /url: https://www.naukri.com/product-companies-in-india-cat106?title=Product%20companies%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Product based
+                - listitem:
+                  - link "Internet":
+                    - /url: https://www.naukri.com/internet-companies-in-india-cat105?title=Internet%20companies%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Internet
+              - list:
+                - listitem:
+                  - generic: Explore collections
+                - listitem:
+                  - link "Top companies":
+                    - /url: https://www.naukri.com/companies-hiring-in-india?src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Top companies
+                - listitem:
+                  - link "IT companies":
+                    - /url: https://www.naukri.com/it-companies-in-india-cat116?src=gnbCompanies_homepage_srch&title=IT%20Companies%20Hiring
+                    - generic:
+                      - generic:
+                        - generic: IT companies
+                - listitem:
+                  - link "Fintech companies":
+                    - /url: https://www.naukri.com/fintech-and-payments-companies-in-india-cat108?title=Fintech%20%26%20Payments%20companies%20actively%20hiring&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Fintech companies
+                - listitem:
+                  - link "Sponsored companies":
+                    - /url: https://www.naukri.com/allcompanies?searchType=standardLogo&title=Sponsored+companies&branding=%257B%2522pagename%2522%253A%2522ni-desktop-standard-viewAll%2522%257D&pageNo=1&qcount=47&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Sponsored companies
+                - listitem:
+                  - link "Featured companies":
+                    - /url: https://www.naukri.com/allcompanies?searchType=premiumLogo&title=Featured+companies+actively+hiring&branding=%257B%2522pagename%2522%253A%2522ni-desktop-premium-viewAll%2522%257D&pageNo=1&qcount=47&src=gnbCompanies_homepage_srch
+                    - generic:
+                      - generic:
+                        - generic: Featured companies
+              - list:
+                - listitem:
+                  - generic:
+                    - text: Research companies
+                    - generic: by
+                    - img
+                    - generic: Ambitionbox
+                - listitem:
+                  - link "Interview questions":
+                    - /url: https://www.ambitionbox.com/interviews?utm_source=naukri&utm_medium=desktop&utm_campaign=gnb
+                    - generic:
+                      - generic:
+                        - generic: Interview questions
+                - listitem:
+                  - link "Company salaries":
+                    - /url: https://www.ambitionbox.com/salaries?utm_source=naukri&utm_medium=desktop&utm_campaign=gnb
+                    - generic:
+                      - generic:
+                        - generic: Company salaries
+                - listitem:
+                  - link "Company reviews":
+                    - /url: https://www.ambitionbox.com/reviews?utm_source=naukri&utm_medium=desktop&utm_campaign=gnb
+                    - generic:
+                      - generic:
+                        - generic: Company reviews
+                - listitem:
+                  - link "Salary Calculator":
+                    - /url: https://www.ambitionbox.com/salaries/take-home-salary-calculator?utm_campaign=gnb&utm_source=naukri&utm_medium=desktop
+                    - generic:
+                      - generic:
+                        - generic: Salary Calculator
+          - listitem [ref=e16]:
+            - link "Services 1" [ref=e17] [cursor=pointer]:
+              - /url: https://resume.naukri.com/?fftid=100001
+              - generic [ref=e18]: Services
+              - generic [ref=e19]: "1"
+            - generic:
+              - list:
+                - listitem:
+                  - generic: Resume writing
+                - listitem:
+                  - link "Text resume":
+                    - /url: https://resume.naukri.com/resume-writing-services?fftid=101001
+                    - generic:
+                      - generic:
+                        - generic: Text resume
+                - listitem:
+                  - link "Visual resume":
+                    - /url: https://resume.naukri.com/visual-resume-writing-services?fftid=101002
+                    - generic:
+                      - generic:
+                        - generic: Visual resume
+                - listitem:
+                  - link "Resume critique":
+                    - /url: https://resume.naukri.com/resume-critique?fftid=101006
+                    - generic:
+                      - generic:
+                        - generic: Resume critique
+                - listitem:
+                  - generic: Find Jobs
+                - listitem:
+                  - link "Jobs4u":
+                    - /url: https://resume.naukri.com/job-alerts-on-mobile-mail?fftid=101011#jobmail
+                    - generic:
+                      - generic:
+                        - generic: Jobs4u
+                - listitem:
+                  - link "Priority applicant":
+                    - /url: https://resume.naukri.com/priority-job-application?fftid=101019
+                    - generic:
+                      - generic:
+                        - generic: Priority applicant
+                - listitem:
+                  - link "Contact us":
+                    - /url: https://resume.naukri.com/contact-us?fftid=101015
+                    - generic:
+                      - generic:
+                        - generic: Contact us
+              - list:
+                - listitem:
+                  - generic: Get recruiter's attention
+                - listitem:
+                  - link "Resume display":
+                    - /url: https://resume.naukri.com/resume-display?fftid=101009
+                    - generic:
+                      - generic:
+                        - generic: Resume display
+                - listitem:
+                  - generic: Interview Preparation
+                - listitem:
+                  - link "AI Mock Interview":
+                    - /url: https://www.naukri.com/ai-interview-questions?fftid=NaukriGNBAIInterview
+                    - generic:
+                      - generic:
+                        - generic: AI Mock Interview
+                - listitem:
+                  - generic: Monthly subscriptions
+                - listitem:
+                  - link "Basic & premium plans":
+                    - /url: https://resume.naukri.com/subscription-product?fftid=101025
+                    - generic:
+                      - generic:
+                        - generic: Basic & premium plans
+              - list:
+                - listitem:
+                  - generic: Free resume resources
+                - listitem:
+                  - link "Resume maker":
+                    - /url: https://www.naukri.com/resume-maker?utmTerm=ResumePro_Gnb&utmContent=gnbServices
+                    - generic:
+                      - generic:
+                        - generic: Resume maker
+                - listitem:
+                  - link "Resume quality score":
+                    - /url: https://resume.naukri.com/resume-quality-score?fftid=101003
+                    - generic:
+                      - generic:
+                        - generic: Resume quality score
+                - listitem:
+                  - link "Resume samples":
+                    - /url: https://resume.naukri.com/resume-samples?fftid=101004
+                    - generic:
+                      - generic:
+                        - generic: Resume samples
+                - listitem:
+                  - link "Job letter samples":
+                    - /url: https://resume.naukri.com/job-letter-format
+                    - generic:
+                      - generic:
+                        - generic: Job letter samples
+                - listitem:
+                  - generic: Promotional Offer
+                - listitem:
+                  - link "FASTJOB20 20% off on services to help get more callbacks":
+                    - /url: https://resume.naukri.com/resume-display?fftid=notf_nauk_promo_rd
+                    - generic:
+                      - generic:
+                        - generic: FASTJOB20 20% off on services to help get more callbacks
+      - generic [ref=e20] [cursor=pointer]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "Enter keyword / designation / companies"
+          - generic:
+            - generic:
+              - generic:
+                - textbox "Select experience"
+                - generic: 
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - textbox "Enter location"
+        - generic [ref=e21]: Search jobs here
+        - button "" [ref=e22]:
+          - generic [ref=e23]: 
+      - generic [ref=e24]:
+        - link "naukri360-pill naukri360-pill naukri360-pill naukri360-pill naukri360-pill naukri360-pill" [ref=e25] [cursor=pointer]:
+          - /url: /naukri360
+          - generic [ref=e26]:
+            - img "naukri360-pill" [ref=e28]
+            - img "naukri360-pill" [ref=e30]
+            - img "naukri360-pill" [ref=e32]
+            - img "naukri360-pill" [ref=e34]
+            - img "naukri360-pill" [ref=e36]
+            - img "naukri360-pill" [ref=e38]
+        - generic:
+          - list:
+            - listitem:
+              - link "Neo-AI Job Agent ":
+                - /url: https://www.naukri.com/job-apply-agent?utmTerm=JobAgent_gnb&utmContent=gnbV1
+                - generic:
+                  - generic:
+                    - generic: Neo-AI Job Agent
+                  - generic: 
+            - listitem:
+              - link "Naukri Pro ":
+                - /url: https://www.naukri.com/naukri360-pro?utm_term=N360Pro_gnb&utm_content=gnbV1
+                - generic:
+                  - generic:
+                    - generic: Naukri Pro
+                  - generic: 
+            - listitem:
+              - link "Resume Pro ":
+                - /url: https://www.naukri.com/resume-maker?utm_term=ResumePro_gnb&utm_content=gnbV1
+                - generic:
+                  - generic:
+                    - generic: Resume Pro
+                  - generic: 
+            - listitem:
+              - link "Resume Writing Service ":
+                - /url: https://www.naukri.com/resume-writing-service?utmTerm=resume_gnb&utmContent=gnbV1
+                - generic:
+                  - generic:
+                    - generic: Resume Writing Service
+                  - generic: 
+            - listitem:
+              - link "Interview Pro ":
+                - /url: https://www.naukri.com/mock-interview-questions?skipRole=true&utmTerm=InterviewPro_gnb&utmContent=gnbV1
+                - generic:
+                  - generic:
+                    - generic: Interview Pro
+                  - generic: 
+      - img "jobagent-pill" [ref=e41] [cursor=pointer]
+      - generic [ref=e43] [cursor=pointer]:
+        - generic [ref=e44]: 
+        - generic [ref=e45]: "27"
+      - generic [ref=e52] [cursor=pointer]:
+        - img "naukri user profile img" [ref=e53]
+        - generic [ref=e54]: "2"
+    - main [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - generic [ref=e60]: 
+              - generic [ref=e61]: Interest shared successfully!
+            - separator [ref=e62]
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - text: Want callbacks from recruiters? To highlight your profile and increase your chances
+                - generic [ref=e65] [cursor=pointer]: Click here
+              - generic [ref=e66]: Call 1800-3010-5557 now! (Toll-free)
+              - generic [ref=e67]: powered by Naukri Fast Forward
+          - generic [ref=e68]:
+            - generic [ref=e69]: 57 Similar Early access roles
+            - generic [ref=e70]:
+              - generic [ref=e72]:
+                - generic [ref=e73]:
+                  - generic [ref=e74]: What’s unique about these?
+                  - generic [ref=e75]:
+                    - generic [ref=e76]: 
+                    - paragraph [ref=e77]: Roles companies are actively searching for before posting any job on Naukri.
+                  - generic [ref=e78]:
+                    - generic [ref=e79]: 
+                    - paragraph [ref=e80]: You will get to know the company's name once you get shortlisted for the role.
+                - generic [ref=e81]:
+                  - img "S2J background" [ref=e82]
+                  - img "S2J logo" [ref=e83]
+              - article [ref=e84]:
+                - generic [ref=e85]:
+                  - generic [ref=e86]:
+                    - paragraph [ref=e87]: QA Engineer
+                    - generic [ref=e88]: Service based Corporate in B2B IT Services Sector
+                    - generic [ref=e89]:
+                      - generic "Powered by Ambition Box" [ref=e91]:
+                        - generic [ref=e92]: 
+                        - paragraph [ref=e93]: 2.5+
+                      - paragraph [ref=e95]: Corporate
+                      - paragraph [ref=e97]: Service
+                    - list [ref=e98]:
+                      - listitem [ref=e99]:
+                        - generic [ref=e100]: 
+                        - generic "2-6 Yrs" [ref=e101]
+                      - listitem [ref=e102]:
+                        - generic [ref=e103]: 
+                        - generic "4-8 Lacs P.A." [ref=e104]
+                      - listitem [ref=e105]:
+                        - generic [ref=e106]: 
+                        - generic "Noida, Ghaziabad, New Delhi, Gurgaon/Gurugram, Greater Noida" [ref=e107]
+                  - generic [ref=e108]: Today
+                - list [ref=e109]:
+                  - listitem [ref=e110]: SDET
+                  - listitem [ref=e111]: Automation Testing
+                  - listitem [ref=e112]: Java Selenium
+                  - listitem [ref=e113]: Test Scripts
+                  - listitem [ref=e114]: Writing Test Cases
+                  - listitem [ref=e115]: Cd
+                  - listitem [ref=e116]: Automation
+                  - listitem [ref=e117]: Unit Testing
+                - generic [ref=e118]:
+                  - generic [ref=e119]:
+                    - paragraph [ref=e120]: Hiring for one of these companies
+                    - generic [ref=e121]:
+                      - img "comp logo" [ref=e122] [cursor=pointer]
+                      - img "comp logo" [ref=e123] [cursor=pointer]
+                      - img "comp logo" [ref=e124] [cursor=pointer]
+                      - img "comp logo" [ref=e125] [cursor=pointer]
+                      - img "comp logo" [ref=e126] [cursor=pointer]
+                      - img "comp logo" [ref=e127] [cursor=pointer]
+                      - img "comp logo" [ref=e128] [cursor=pointer]
+                  - button "Share Interest" [ref=e130] [cursor=pointer]
+              - article [ref=e131]:
+                - generic [ref=e132]:
+                  - generic [ref=e133]:
+                    - paragraph [ref=e134]: Sr. QA Engineer
+                    - generic [ref=e135]: Firm in IT Services Domain
+                    - generic [ref=e136]:
+                      - generic "Powered by Ambition Box" [ref=e138]:
+                        - generic [ref=e139]: 
+                        - paragraph [ref=e140]: 4.5+
+                      - paragraph [ref=e142]: Foreign MNC
+                      - paragraph [ref=e144]: Service
+                    - list [ref=e145]:
+                      - listitem [ref=e146]:
+                        - generic [ref=e147]: 
+                        - generic "4-9 Yrs" [ref=e148]
+                      - listitem [ref=e149]:
+                        - generic [ref=e150]: 
+                        - generic "4-8 Lacs P.A." [ref=e151]
+                      - listitem [ref=e152]:
+                        - generic [ref=e153]: 
+                        - generic "Indore, Hyderabad/Secunderabad, Pune, Chennai, Bangalore/Bengaluru" [ref=e154]
+                  - generic [ref=e155]: Today
+                - list [ref=e156]:
+                  - listitem [ref=e157]: Java
+                  - listitem [ref=e158]: Java Selenium
+                  - listitem [ref=e159]: JMeter
+                  - listitem [ref=e160]: Performance Testing
+                  - listitem [ref=e161]: Tosca
+                  - listitem [ref=e162]: SDET
+                  - listitem [ref=e163]: API Testing
+                  - listitem [ref=e164]: Automation Testing
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - paragraph [ref=e167]: Hiring for one of these companies
+                    - generic [ref=e168]:
+                      - img "comp logo" [ref=e169] [cursor=pointer]
+                      - img "comp logo" [ref=e170] [cursor=pointer]
+                      - img "comp logo" [ref=e171] [cursor=pointer]
+                      - img "comp logo" [ref=e172] [cursor=pointer]
+                      - img "comp logo" [ref=e173] [cursor=pointer]
+                      - img "comp logo" [ref=e174] [cursor=pointer]
+                      - img "comp logo" [ref=e175] [cursor=pointer]
+                  - button "Share Interest" [ref=e177] [cursor=pointer]
+              - article [ref=e178]:
+                - generic [ref=e179]:
+                  - generic [ref=e180]:
+                    - paragraph [ref=e181]: Sr. QA Engineer
+                    - generic [ref=e182]: Foreign IT Consulting MNC
+                    - generic [ref=e183]:
+                      - generic "Powered by Ambition Box" [ref=e185]:
+                        - generic [ref=e186]: 
+                        - paragraph [ref=e187]: 3.5+
+                      - paragraph [ref=e189]: Foreign MNC
+                      - paragraph [ref=e191]: Service
+                      - paragraph [ref=e193]: Highly Rated by Women
+                    - list [ref=e194]:
+                      - listitem [ref=e195]:
+                        - generic [ref=e196]: 
+                        - generic "4-8 Yrs" [ref=e197]
+                      - listitem [ref=e198]:
+                        - generic [ref=e199]: 
+                        - generic "8-13 Lacs P.A." [ref=e200]
+                      - listitem [ref=e201]:
+                        - generic [ref=e202]: 
+                        - generic "Noida, Mumbai, Bangalore/Bengaluru" [ref=e203]
+                  - generic [ref=e204]: 2 Days Ago
+                - list [ref=e205]:
+                  - listitem [ref=e206]: Java
+                  - listitem [ref=e207]: Automation Testing
+                  - listitem [ref=e208]: Java Selenium
+                  - listitem [ref=e209]: Automation
+                  - listitem [ref=e210]: Cypress
+                  - listitem [ref=e211]: API
+                  - listitem [ref=e212]: QA Automation
+                  - listitem [ref=e213]: SQL
+                - generic [ref=e214]:
+                  - generic [ref=e215]:
+                    - paragraph [ref=e216]: Hiring for one of these companies
+                    - generic [ref=e217]:
+                      - img "comp logo" [ref=e218] [cursor=pointer]
+                      - img "comp logo" [ref=e219] [cursor=pointer]
+                      - img "comp logo" [ref=e220] [cursor=pointer]
+                      - img "comp logo" [ref=e221] [cursor=pointer]
+                      - img "comp logo" [ref=e222] [cursor=pointer]
+                      - img "comp logo" [ref=e223] [cursor=pointer]
+                      - img "comp logo" [ref=e224] [cursor=pointer]
+                  - button "Share Interest" [ref=e226] [cursor=pointer]
+              - article [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e229]:
+                    - paragraph [ref=e230]: Sr. QA Engineer
+                    - generic [ref=e231]: Service based B2B Firm in IT Services Domain
+                    - generic [ref=e232]:
+                      - generic "Powered by Ambition Box" [ref=e234]:
+                        - generic [ref=e235]: 
+                        - paragraph [ref=e236]: 3+
+                      - paragraph [ref=e238]: Corporate
+                      - paragraph [ref=e240]: Service
+                    - list [ref=e241]:
+                      - listitem [ref=e242]:
+                        - generic [ref=e243]: 
+                        - generic "4-9 Yrs" [ref=e244]
+                      - listitem [ref=e245]:
+                        - generic [ref=e246]: 
+                        - generic "12-17 Lacs P.A." [ref=e247]
+                      - listitem [ref=e248]:
+                        - generic [ref=e249]: 
+                        - generic "Mumbai, Hyderabad/Secunderabad, Bangalore/Bengaluru" [ref=e250]
+                  - generic [ref=e251]: 2 Days Ago
+                - list [ref=e252]:
+                  - listitem [ref=e253]: Oracle Fusion Applications
+                  - listitem [ref=e254]: Data Testing
+                  - listitem [ref=e255]: Automation Testing
+                  - listitem [ref=e256]: Java
+                  - listitem [ref=e257]: Testng
+                  - listitem [ref=e258]: Manual Testing
+                  - listitem [ref=e259]: Oracle
+                  - listitem [ref=e260]: JIRA
+                - generic [ref=e261]:
+                  - generic [ref=e262]:
+                    - paragraph [ref=e263]: Hiring for one of these companies
+                    - generic [ref=e264]:
+                      - img "comp logo" [ref=e265] [cursor=pointer]
+                      - img "comp logo" [ref=e266] [cursor=pointer]
+                      - img "comp logo" [ref=e267] [cursor=pointer]
+                      - img "comp logo" [ref=e268] [cursor=pointer]
+                      - img "comp logo" [ref=e269] [cursor=pointer]
+                      - img "comp logo" [ref=e270] [cursor=pointer]
+                      - img "comp logo" [ref=e271] [cursor=pointer]
+                  - button "Share Interest" [ref=e273] [cursor=pointer]
+              - article [ref=e274]:
+                - generic [ref=e275]:
+                  - generic [ref=e276]:
+                    - paragraph [ref=e277]: QA Automation Testing Engineer
+                    - generic [ref=e278]: Top Rated IT MNC
+                    - generic [ref=e279]:
+                      - generic "Powered by Ambition Box" [ref=e281]:
+                        - generic [ref=e282]: 
+                        - paragraph [ref=e283]: 3.5+
+                      - paragraph [ref=e285]: Foreign MNC
+                      - paragraph [ref=e287]: Service
+                      - paragraph [ref=e289]: Highly Rated by Women
+                    - list [ref=e290]:
+                      - listitem [ref=e291]:
+                        - generic [ref=e292]: 
+                        - generic "4-7 Yrs" [ref=e293]
+                      - listitem [ref=e294]:
+                        - generic [ref=e295]: 
+                        - generic "9-13 Lacs P.A." [ref=e296]
+                      - listitem [ref=e297]:
+                        - generic [ref=e298]: 
+                        - generic "Pune, Chennai, Bangalore/Bengaluru" [ref=e299]
+                  - generic [ref=e300]: 2 Days Ago
+                - list [ref=e301]:
+                  - listitem [ref=e302]: Docker
+                  - listitem [ref=e303]: Github
+                  - listitem [ref=e304]: Python
+                  - listitem [ref=e305]: Jenkins
+                  - listitem [ref=e306]: Java
+                  - listitem [ref=e307]: C++
+                  - listitem [ref=e308]: GIT
+                  - listitem [ref=e309]: C
+                - generic [ref=e310]:
+                  - generic [ref=e311]:
+                    - paragraph [ref=e312]: Hiring for one of these companies
+                    - generic [ref=e313]:
+                      - img "comp logo" [ref=e314] [cursor=pointer]
+                      - img "comp logo" [ref=e315] [cursor=pointer]
+                      - img "comp logo" [ref=e316] [cursor=pointer]
+                      - img "comp logo" [ref=e317] [cursor=pointer]
+                      - img "comp logo" [ref=e318] [cursor=pointer]
+                      - img "comp logo" [ref=e319] [cursor=pointer]
+                      - img "comp logo" [ref=e320] [cursor=pointer]
+                  - button "Share Interest" [ref=e322] [cursor=pointer]
+              - article [ref=e323]:
+                - generic [ref=e324]:
+                  - generic [ref=e325]:
+                    - paragraph [ref=e326]: QA Automation Testing Engineer
+                    - generic [ref=e327]: Leading IT MNC
+                    - generic [ref=e328]:
+                      - generic "Powered by Ambition Box" [ref=e330]:
+                        - generic [ref=e331]: 
+                        - paragraph [ref=e332]: 3+
+                      - paragraph [ref=e334]: Corporate
+                      - paragraph [ref=e336]: Service
+                    - list [ref=e337]:
+                      - listitem [ref=e338]:
+                        - generic [ref=e339]: 
+                        - generic "4-8 Yrs" [ref=e340]
+                      - listitem [ref=e341]:
+                        - generic [ref=e342]: 
+                        - generic "9-14 Lacs P.A." [ref=e343]
+                      - listitem [ref=e344]:
+                        - generic [ref=e345]: 
+                        - generic "Hyderabad/Secunderabad, Bangalore/Bengaluru" [ref=e346]
+                  - generic [ref=e347]: 1 Day Ago
+                - list [ref=e348]:
+                  - listitem [ref=e349]: Automation
+                  - listitem [ref=e350]: Linux
+                  - listitem [ref=e351]: Python
+                  - listitem [ref=e352]: Jenkins
+                  - listitem [ref=e353]: Java
+                  - listitem [ref=e354]: Python Testing
+                  - listitem [ref=e355]: Debugging
+                  - listitem [ref=e356]: Pytest
+                - generic [ref=e357]:
+                  - generic [ref=e358]:
+                    - paragraph [ref=e359]: Hiring for one of these companies
+                    - generic [ref=e360]:
+                      - img "comp logo" [ref=e361] [cursor=pointer]
+                      - img "comp logo" [ref=e362] [cursor=pointer]
+                      - img "comp logo" [ref=e363] [cursor=pointer]
+                      - img "comp logo" [ref=e364] [cursor=pointer]
+                      - img "comp logo" [ref=e365] [cursor=pointer]
+                      - img "comp logo" [ref=e366] [cursor=pointer]
+                      - img "comp logo" [ref=e367] [cursor=pointer]
+                  - button "Share Interest" [ref=e369] [cursor=pointer]
+              - article [ref=e370]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]:
+                    - paragraph [ref=e373]: QA Engineer
+                    - generic [ref=e374]: Micro-Sized B2B Firm in IT Services Sector
+                    - generic [ref=e375]:
+                      - generic "Powered by Ambition Box" [ref=e377]:
+                        - generic [ref=e378]: 
+                        - paragraph [ref=e379]: 3.5+
+                      - paragraph [ref=e381]: Corporate
+                      - paragraph [ref=e383]: Service
+                    - list [ref=e384]:
+                      - listitem [ref=e385]:
+                        - generic [ref=e386]: 
+                        - generic "3-6 Yrs" [ref=e387]
+                      - listitem [ref=e388]:
+                        - generic [ref=e389]: 
+                        - generic "5-10 Lacs P.A." [ref=e390]
+                      - listitem [ref=e391]:
+                        - generic [ref=e392]: 
+                        - generic "Pune, Coimbatore, Bangalore/Bengaluru" [ref=e393]
+                  - generic [ref=e394]: Today
+                - list [ref=e395]:
+                  - listitem [ref=e396]: C#
+                  - listitem [ref=e397]: Bdd
+                  - listitem [ref=e398]: Java Selenium
+                  - listitem [ref=e399]: Python
+                  - listitem [ref=e400]: Java
+                  - listitem [ref=e401]: Azure
+                  - listitem [ref=e402]: Agile
+                  - listitem [ref=e403]: Javascript
+                - generic [ref=e404]:
+                  - generic [ref=e405]:
+                    - paragraph [ref=e406]: Hiring for one of these companies
+                    - generic [ref=e407]:
+                      - img "comp logo" [ref=e408] [cursor=pointer]
+                      - img "comp logo" [ref=e409] [cursor=pointer]
+                      - img "comp logo" [ref=e410] [cursor=pointer]
+                      - img "comp logo" [ref=e411] [cursor=pointer]
+                      - img "comp logo" [ref=e412] [cursor=pointer]
+                      - img "comp logo" [ref=e413] [cursor=pointer]
+                      - img "comp logo" [ref=e414] [cursor=pointer]
+                  - button "Share Interest" [ref=e416] [cursor=pointer]
+              - article [ref=e417]:
+                - generic [ref=e418]:
+                  - generic [ref=e419]:
+                    - paragraph [ref=e420]: QA Engineer
+                    - generic [ref=e421]: Leading Company in IT Domain
+                    - generic [ref=e422]:
+                      - generic "Powered by Ambition Box" [ref=e424]:
+                        - generic [ref=e425]: 
+                        - paragraph [ref=e426]: 3.5+
+                      - paragraph [ref=e428]: Indian MNC
+                      - paragraph [ref=e430]: Service
+                      - paragraph [ref=e432]: Fortune India 500 (2023)
+                    - list [ref=e433]:
+                      - listitem [ref=e434]:
+                        - generic [ref=e435]: 
+                        - generic "4-8 Yrs" [ref=e436]
+                      - listitem [ref=e437]:
+                        - generic [ref=e438]: 
+                        - generic "5-8 Lacs P.A." [ref=e439]
+                      - listitem [ref=e440]:
+                        - generic [ref=e441]: 
+                        - generic "Kochi/Cochin, New Delhi, Pune, Gurgaon/Gurugram, Bangalore/Bengaluru" [ref=e442]
+                  - generic [ref=e443]: Today
+                - list [ref=e444]:
+                  - listitem [ref=e445]: Java
+                  - listitem [ref=e446]: Manual Testing
+                  - listitem [ref=e447]: Functional Testing
+                  - listitem [ref=e448]: Agile
+                  - listitem [ref=e449]: Java Selenium
+                  - listitem [ref=e450]: Regression Testing
+                  - listitem [ref=e451]: Automation
+                  - listitem [ref=e452]: SDLC
+                - generic [ref=e453]:
+                  - generic [ref=e454]:
+                    - paragraph [ref=e455]: Hiring for one of these companies
+                    - generic [ref=e456]:
+                      - img "comp logo" [ref=e457] [cursor=pointer]
+                      - img "comp logo" [ref=e458] [cursor=pointer]
+                      - img "comp logo" [ref=e459] [cursor=pointer]
+                      - img "comp logo" [ref=e460] [cursor=pointer]
+                      - img "comp logo" [ref=e461] [cursor=pointer]
+                      - img "comp logo" [ref=e462] [cursor=pointer]
+                      - img "comp logo" [ref=e463] [cursor=pointer]
+                  - button "Share Interest" [ref=e465] [cursor=pointer]
+              - article [ref=e466]:
+                - generic [ref=e467]:
+                  - generic [ref=e468]:
+                    - paragraph [ref=e469]: QA Engineer
+                    - generic [ref=e470]: Leading IT Firm
+                    - generic [ref=e471]:
+                      - generic "Powered by Ambition Box" [ref=e473]:
+                        - generic [ref=e474]: 
+                        - paragraph [ref=e475]: 3+
+                      - paragraph [ref=e477]: Corporate
+                      - paragraph [ref=e479]: Service
+                      - paragraph [ref=e481]: Highly Rated by Women
+                    - list [ref=e482]:
+                      - listitem [ref=e483]:
+                        - generic [ref=e484]: 
+                        - generic "3-6 Yrs" [ref=e485]
+                      - listitem [ref=e486]:
+                        - generic [ref=e487]: 
+                        - generic "5-8 Lacs P.A." [ref=e488]
+                      - listitem [ref=e489]:
+                        - generic [ref=e490]: 
+                        - generic "Mumbai, Mumbai Suburban, Thane, Navi Mumbai, Mumbai (All Areas)" [ref=e491]
+                  - generic [ref=e492]: 1 Day Ago
+                - list [ref=e493]:
+                  - listitem [ref=e494]: Java
+                  - listitem [ref=e495]: Api Automation
+                  - listitem [ref=e496]: Automation Testing
+                  - listitem [ref=e497]: Appium
+                  - listitem [ref=e498]: C#
+                  - listitem [ref=e499]: GIT
+                  - listitem [ref=e500]: Ui Automation Testing
+                  - listitem [ref=e501]: Ui Automation
+                - generic [ref=e502]:
+                  - generic [ref=e503]:
+                    - paragraph [ref=e504]: Hiring for one of these companies
+                    - generic [ref=e505]:
+                      - img "comp logo" [ref=e506] [cursor=pointer]
+                      - img "comp logo" [ref=e507] [cursor=pointer]
+                      - img "comp logo" [ref=e508] [cursor=pointer]
+                      - img "comp logo" [ref=e509] [cursor=pointer]
+                      - img "comp logo" [ref=e510] [cursor=pointer]
+                      - img "comp logo" [ref=e511] [cursor=pointer]
+                      - img "comp logo" [ref=e512] [cursor=pointer]
+                  - button "Share Interest" [ref=e514] [cursor=pointer]
+              - article [ref=e515]:
+                - generic [ref=e516]:
+                  - generic [ref=e517]:
+                    - paragraph [ref=e518]: Software Dev Test Engineer
+                    - generic [ref=e519]: Firm in Emerging Technologies Sector
+                    - generic "Powered by Ambition Box" [ref=e522]:
+                      - generic [ref=e523]: 
+                      - paragraph [ref=e524]: 3+
+                    - list [ref=e525]:
+                      - listitem [ref=e526]:
+                        - generic [ref=e527]: 
+                        - generic "4-7 Yrs" [ref=e528]
+                      - listitem [ref=e529]:
+                        - generic [ref=e530]: 
+                        - generic "11-16 Lacs P.A." [ref=e531]
+                      - listitem [ref=e532]:
+                        - generic [ref=e533]: 
+                        - generic "Noida, Ghaziabad, New Delhi, Pune, Gurgaon/Gurugram" [ref=e534]
+                  - generic [ref=e535]: 1 Day Ago
+                - list [ref=e536]:
+                  - listitem [ref=e537]: Automation
+                  - listitem [ref=e538]: Java Selenium
+                  - listitem [ref=e539]: Ml
+                  - listitem [ref=e540]: Java
+                  - listitem [ref=e541]: Cd
+                  - listitem [ref=e542]: Ops
+                  - listitem [ref=e543]: Typescript
+                  - listitem [ref=e544]: SDET
+                - generic [ref=e545]:
+                  - generic [ref=e546]:
+                    - paragraph [ref=e547]: Hiring for one of these companies
+                    - generic [ref=e548]:
+                      - img "comp logo" [ref=e549] [cursor=pointer]
+                      - img "comp logo" [ref=e550] [cursor=pointer]
+                      - img "comp logo" [ref=e551] [cursor=pointer]
+                      - img "comp logo" [ref=e552] [cursor=pointer]
+                      - img "comp logo" [ref=e553] [cursor=pointer]
+                      - img "comp logo" [ref=e554] [cursor=pointer]
+                      - img "comp logo" [ref=e555] [cursor=pointer]
+                  - button "Share Interest" [ref=e557] [cursor=pointer]
+              - article [ref=e558]:
+                - generic [ref=e559]:
+                  - generic [ref=e560]:
+                    - paragraph [ref=e561]: Sr. QA Engineer
+                    - generic [ref=e562]: Service based Corporate in IT Services Domain
+                    - generic [ref=e563]:
+                      - generic "Powered by Ambition Box" [ref=e565]:
+                        - generic [ref=e566]: 
+                        - paragraph [ref=e567]: 3.5+
+                      - paragraph [ref=e569]: Corporate
+                      - paragraph [ref=e571]: Service
+                    - list [ref=e572]:
+                      - listitem [ref=e573]:
+                        - generic [ref=e574]: 
+                        - generic "4-9 Yrs" [ref=e575]
+                      - listitem [ref=e576]:
+                        - generic [ref=e577]: 
+                        - generic "7-11 Lacs P.A." [ref=e578]
+                      - listitem [ref=e579]:
+                        - generic [ref=e580]: 
+                        - generic "Kolkata, Hyderabad/Secunderabad, Pune, Chennai, Bangalore/Bengaluru" [ref=e581]
+                  - generic [ref=e582]: Today
+                - list [ref=e583]:
+                  - listitem [ref=e584]: Automation
+                  - listitem [ref=e585]: Api Automation
+                  - listitem [ref=e586]: Automation Testing
+                  - listitem [ref=e587]: API
+                  - listitem [ref=e588]: Java Selenium
+                  - listitem [ref=e589]: C#
+                  - listitem [ref=e590]: Java
+                  - listitem [ref=e591]: JMeter
+                - generic [ref=e592]:
+                  - generic [ref=e593]:
+                    - paragraph [ref=e594]: Hiring for one of these companies
+                    - generic [ref=e595]:
+                      - img "comp logo" [ref=e596] [cursor=pointer]
+                      - img "comp logo" [ref=e597] [cursor=pointer]
+                      - img "comp logo" [ref=e598] [cursor=pointer]
+                      - img "comp logo" [ref=e599] [cursor=pointer]
+                      - img "comp logo" [ref=e600] [cursor=pointer]
+                      - img "comp logo" [ref=e601] [cursor=pointer]
+                      - img "comp logo" [ref=e602] [cursor=pointer]
+                  - button "Share Interest" [ref=e604] [cursor=pointer]
+              - article [ref=e605]:
+                - generic [ref=e606]:
+                  - generic [ref=e607]:
+                    - paragraph [ref=e608]: QA Engineer
+                    - generic [ref=e609]: Firm in IT Services Domain
+                    - generic "Powered by Ambition Box" [ref=e612]:
+                      - generic [ref=e613]: 
+                      - paragraph [ref=e614]: 4+
+                    - list [ref=e615]:
+                      - listitem [ref=e616]:
+                        - generic [ref=e617]: 
+                        - generic "3-6 Yrs" [ref=e618]
+                      - listitem [ref=e619]:
+                        - generic [ref=e620]: 
+                        - generic "7-11 Lacs P.A." [ref=e621]
+                      - listitem [ref=e622]:
+                        - generic [ref=e623]: 
+                        - generic "Hyderabad/Secunderabad, Pune, Bangalore/Bengaluru" [ref=e624]
+                  - generic [ref=e625]: Today
+                - list [ref=e626]:
+                  - listitem [ref=e627]: Jenkins
+                  - listitem [ref=e628]: Java
+                  - listitem [ref=e629]: Continuous Integration
+                  - listitem [ref=e630]: API Testing
+                  - listitem [ref=e631]: Restassured
+                  - listitem [ref=e632]: Cd
+                  - listitem [ref=e633]: QA Testing
+                  - listitem [ref=e634]: Docker
+                - generic [ref=e635]:
+                  - generic [ref=e636]:
+                    - paragraph [ref=e637]: Hiring for one of these companies
+                    - generic [ref=e638]:
+                      - img "comp logo" [ref=e639] [cursor=pointer]
+                      - img "comp logo" [ref=e640] [cursor=pointer]
+                      - img "comp logo" [ref=e641] [cursor=pointer]
+                      - img "comp logo" [ref=e642] [cursor=pointer]
+                      - img "comp logo" [ref=e643] [cursor=pointer]
+                      - img "comp logo" [ref=e644] [cursor=pointer]
+                      - img "comp logo" [ref=e645] [cursor=pointer]
+                  - button "Share Interest" [ref=e647] [cursor=pointer]
+              - article [ref=e648]:
+                - generic [ref=e649]:
+                  - generic [ref=e650]:
+                    - paragraph [ref=e651]: Sr. QA Engineer
+                    - generic [ref=e652]: Foreign MNC in BPO
+                    - generic [ref=e653]:
+                      - generic "Powered by Ambition Box" [ref=e655]:
+                        - generic [ref=e656]: 
+                        - paragraph [ref=e657]: 3+
+                      - paragraph [ref=e659]: Foreign MNC
+                      - paragraph [ref=e661]: Service
+                    - list [ref=e662]:
+                      - listitem [ref=e663]:
+                        - generic [ref=e664]: 
+                        - generic "4-7 Yrs" [ref=e665]
+                      - listitem [ref=e666]:
+                        - generic [ref=e667]: 
+                        - generic "4-9 Lacs P.A." [ref=e668]
+                      - listitem [ref=e669]:
+                        - generic [ref=e670]: 
+                        - generic "Mumbai, Mumbai Suburban" [ref=e671]
+                  - generic [ref=e672]: Today
+                - list [ref=e673]:
+                  - listitem [ref=e674]: Manual Testing
+                  - listitem [ref=e675]: Java Selenium
+                  - listitem [ref=e676]: SDLC
+                  - listitem [ref=e677]: STLC
+                  - listitem [ref=e678]: Bug Life Cycle
+                  - listitem [ref=e679]: Agile Methodology
+                  - listitem [ref=e680]: Web Technologies
+                  - listitem [ref=e681]: API Testing
+                - generic [ref=e682]:
+                  - generic [ref=e683]:
+                    - paragraph [ref=e684]: Hiring for one of these companies
+                    - generic [ref=e685]:
+                      - img "comp logo" [ref=e686] [cursor=pointer]
+                      - img "comp logo" [ref=e687] [cursor=pointer]
+                      - img "comp logo" [ref=e688] [cursor=pointer]
+                      - img "comp logo" [ref=e689] [cursor=pointer]
+                      - img "comp logo" [ref=e690] [cursor=pointer]
+                      - img "comp logo" [ref=e691] [cursor=pointer]
+                      - img "comp logo" [ref=e692] [cursor=pointer]
+                  - button "Share Interest" [ref=e694] [cursor=pointer]
+              - article [ref=e695]:
+                - generic [ref=e696]:
+                  - generic [ref=e697]:
+                    - paragraph [ref=e698]: Sr. QA Engineer
+                    - generic [ref=e699]: Mid-Sized Firm in IT Services Sector
+                    - generic [ref=e700]:
+                      - generic "Powered by Ambition Box" [ref=e702]:
+                        - generic [ref=e703]: 
+                        - paragraph [ref=e704]: 3.5+
+                      - paragraph [ref=e706]: Corporate
+                    - list [ref=e707]:
+                      - listitem [ref=e708]:
+                        - generic [ref=e709]: 
+                        - generic "4-8 Yrs" [ref=e710]
+                      - listitem [ref=e711]:
+                        - generic [ref=e712]: 
+                        - generic "5-8 Lacs P.A." [ref=e713]
+                      - listitem [ref=e714]:
+                        - generic [ref=e715]: 
+                        - generic "Kolkata, Mumbai, Pune, Chennai, Bangalore/Bengaluru" [ref=e716]
+                  - generic [ref=e717]: 2 Days Ago
+                - list [ref=e718]:
+                  - listitem [ref=e719]: Telecom
+                  - listitem [ref=e720]: Automation
+                  - listitem [ref=e721]: Manual Testing
+                  - listitem [ref=e722]: QA Automation
+                  - listitem [ref=e723]: Java Selenium
+                  - listitem [ref=e724]: Performance Testing
+                  - listitem [ref=e725]: Bdd Test Automation
+                  - listitem [ref=e726]: Stress Testing
+                - generic [ref=e727]:
+                  - generic [ref=e728]:
+                    - paragraph [ref=e729]: Hiring for one of these companies
+                    - generic [ref=e730]:
+                      - img "comp logo" [ref=e731] [cursor=pointer]
+                      - img "comp logo" [ref=e732] [cursor=pointer]
+                      - img "comp logo" [ref=e733] [cursor=pointer]
+                      - img "comp logo" [ref=e734] [cursor=pointer]
+                      - img "comp logo" [ref=e735] [cursor=pointer]
+                  - button "Share Interest" [ref=e737] [cursor=pointer]
+              - article [ref=e738]:
+                - generic [ref=e739]:
+                  - generic [ref=e740]:
+                    - paragraph [ref=e741]: Sr. QA Engineer
+                    - generic [ref=e742]: Large IT Services & Consulting Firm
+                    - generic [ref=e743]:
+                      - generic "Powered by Ambition Box" [ref=e745]:
+                        - generic [ref=e746]: 
+                        - paragraph [ref=e747]: 3+
+                      - paragraph [ref=e749]: Corporate
+                      - paragraph [ref=e751]: Service
+                    - list [ref=e752]:
+                      - listitem [ref=e753]:
+                        - generic [ref=e754]: 
+                        - generic "4-7 Yrs" [ref=e755]
+                      - listitem [ref=e756]:
+                        - generic [ref=e757]: 
+                        - generic "4-9 Lacs P.A." [ref=e758]
+                      - listitem [ref=e759]:
+                        - generic [ref=e760]: 
+                        - generic "Kolkata, Hyderabad/Secunderabad, Pune, Chennai, Bangalore/Bengaluru" [ref=e761]
+                  - generic [ref=e762]: Today
+                - list [ref=e763]:
+                  - listitem [ref=e764]: C#
+                  - listitem [ref=e765]: Java
+                  - listitem [ref=e766]: Automation
+                  - listitem [ref=e767]: Automation Testing
+                  - listitem [ref=e768]: Java Selenium
+                  - listitem [ref=e769]: Uft
+                  - listitem [ref=e770]: Tosca
+                  - listitem [ref=e771]: SDET
+                - generic [ref=e772]:
+                  - generic [ref=e773]:
+                    - paragraph [ref=e774]: Hiring for one of these companies
+                    - generic [ref=e775]:
+                      - img "comp logo" [ref=e776] [cursor=pointer]
+                      - img "comp logo" [ref=e777] [cursor=pointer]
+                      - img "comp logo" [ref=e778] [cursor=pointer]
+                      - img "comp logo" [ref=e779] [cursor=pointer]
+                      - img "comp logo" [ref=e780] [cursor=pointer]
+                      - img "comp logo" [ref=e781] [cursor=pointer]
+                      - img "comp logo" [ref=e782] [cursor=pointer]
+                  - button "Share Interest" [ref=e784] [cursor=pointer]
+              - article [ref=e785]:
+                - generic [ref=e786]:
+                  - generic [ref=e787]:
+                    - paragraph [ref=e788]: Sr. QA Engineer
+                    - generic [ref=e789]: Mid-sized B2B IT & digital transformation firms
+                    - generic [ref=e790]:
+                      - generic "Powered by Ambition Box" [ref=e792]:
+                        - generic [ref=e793]: 
+                        - paragraph [ref=e794]: 3.5+
+                      - paragraph [ref=e796]: Foreign MNC
+                    - list [ref=e797]:
+                      - listitem [ref=e798]:
+                        - generic [ref=e799]: 
+                        - generic "4-8 Yrs" [ref=e800]
+                      - listitem [ref=e801]:
+                        - generic [ref=e802]: 
+                        - generic "9-14 Lacs P.A." [ref=e803]
+                      - listitem [ref=e804]:
+                        - generic [ref=e805]: 
+                        - generic "Noida, Pune, Gurgaon/Gurugram, Bangalore/Bengaluru" [ref=e806]
+                  - generic [ref=e807]: 5 Days Ago
+                - list [ref=e808]:
+                  - listitem [ref=e809]: Python Testing
+                  - listitem [ref=e810]: Cypress
+                  - listitem [ref=e811]: Robot Framework
+                  - listitem [ref=e812]: Automation Testing
+                  - listitem [ref=e813]: QA Automation
+                  - listitem [ref=e814]: Artificial Intelligence
+                  - listitem [ref=e815]: Manual Testing
+                  - listitem [ref=e816]: Pytest Framework
+                - generic [ref=e817]:
+                  - generic [ref=e818]:
+                    - paragraph [ref=e819]: Hiring for one of these companies
+                    - generic [ref=e820]:
+                      - img "comp logo" [ref=e821] [cursor=pointer]
+                      - img "comp logo" [ref=e822] [cursor=pointer]
+                      - img "comp logo" [ref=e823] [cursor=pointer]
+                      - img "comp logo" [ref=e824] [cursor=pointer]
+                      - img "comp logo" [ref=e825] [cursor=pointer]
+                      - img "comp logo" [ref=e826] [cursor=pointer]
+                      - img "comp logo" [ref=e827] [cursor=pointer]
+                  - button "Share Interest" [ref=e829] [cursor=pointer]
+              - article [ref=e830]:
+                - generic [ref=e831]:
+                  - generic [ref=e832]:
+                    - paragraph [ref=e833]: Sr. Test Automation Engineer
+                    - generic [ref=e834]: Leading B2C/B2B digital payments platforms
+                    - generic "Powered by Ambition Box" [ref=e837]:
+                      - generic [ref=e838]: 
+                      - paragraph [ref=e839]: 2.5+
+                    - list [ref=e840]:
+                      - listitem [ref=e841]:
+                        - generic [ref=e842]: 
+                        - generic "4-8 Yrs" [ref=e843]
+                      - listitem [ref=e844]:
+                        - generic [ref=e845]: 
+                        - generic "15-24 Lacs P.A." [ref=e846]
+                      - listitem [ref=e847]:
+                        - generic [ref=e848]: 
+                        - generic "Noida, New Delhi, Faridabad, Gurgaon/Gurugram, Greater Noida" [ref=e849]
+                  - generic [ref=e850]: 2 Days Ago
+                - list [ref=e851]:
+                  - listitem [ref=e852]: Backend
+                  - listitem [ref=e853]: API Testing
+                  - listitem [ref=e854]: API
+                  - listitem [ref=e855]: Qa
+                  - listitem [ref=e856]: Api Automation
+                  - listitem [ref=e857]: Java
+                  - listitem [ref=e858]: Automation
+                  - listitem [ref=e859]: Backend Testing
+                - generic [ref=e860]:
+                  - generic [ref=e861]:
+                    - paragraph [ref=e862]: Hiring for one of these companies
+                    - generic [ref=e863]:
+                      - img "comp logo" [ref=e864] [cursor=pointer]
+                      - img "comp logo" [ref=e865] [cursor=pointer]
+                      - img "comp logo" [ref=e866] [cursor=pointer]
+                      - img "comp logo" [ref=e867] [cursor=pointer]
+                      - img "comp logo" [ref=e868] [cursor=pointer]
+                      - img "comp logo" [ref=e869] [cursor=pointer]
+                      - img "comp logo" [ref=e870] [cursor=pointer]
+                  - button "Share Interest" [ref=e872] [cursor=pointer]
+              - article [ref=e873]:
+                - generic [ref=e874]:
+                  - generic [ref=e875]:
+                    - paragraph [ref=e876]: QA Engineer
+                    - generic [ref=e877]: Large IT Services & Consulting Firm
+                    - generic [ref=e878]:
+                      - generic "Powered by Ambition Box" [ref=e880]:
+                        - generic [ref=e881]: 
+                        - paragraph [ref=e882]: 3+
+                      - paragraph [ref=e884]: Foreign MNC
+                      - paragraph [ref=e886]: Service
+                    - list [ref=e887]:
+                      - listitem [ref=e888]:
+                        - generic [ref=e889]: 
+                        - generic "3-6 Yrs" [ref=e890]
+                      - listitem [ref=e891]:
+                        - generic [ref=e892]: 
+                        - generic "5-10 Lacs P.A." [ref=e893]
+                      - listitem [ref=e894]:
+                        - generic [ref=e895]: 
+                        - generic "Pune, Chennai, Bangalore/Bengaluru" [ref=e896]
+                  - generic [ref=e897]: Today
+                - list [ref=e898]:
+                  - listitem [ref=e899]: Cypress
+                  - listitem [ref=e900]: Javascript
+                  - listitem [ref=e901]: Automation Testing
+                  - listitem [ref=e902]: JIRA
+                  - listitem [ref=e903]: Typescript
+                  - listitem [ref=e904]: SDET
+                  - listitem [ref=e905]: API Testing
+                  - listitem [ref=e906]: Rational Team Concert
+                - generic [ref=e907]:
+                  - generic [ref=e908]:
+                    - paragraph [ref=e909]: Hiring for one of these companies
+                    - generic [ref=e910]:
+                      - img "comp logo" [ref=e911] [cursor=pointer]
+                      - img "comp logo" [ref=e912] [cursor=pointer]
+                      - img "comp logo" [ref=e913] [cursor=pointer]
+                      - img "comp logo" [ref=e914] [cursor=pointer]
+                      - img "comp logo" [ref=e915] [cursor=pointer]
+                      - img "comp logo" [ref=e916] [cursor=pointer]
+                      - img "comp logo" [ref=e917] [cursor=pointer]
+                  - button "Share Interest" [ref=e919] [cursor=pointer]
+              - article [ref=e920]:
+                - generic [ref=e921]:
+                  - generic [ref=e922]:
+                    - paragraph [ref=e923]: Sr. QA Engineer
+                    - generic [ref=e924]: Global leader in Electronics & consumer appliance
+                    - generic [ref=e925]:
+                      - generic "Powered by Ambition Box" [ref=e927]:
+                        - generic [ref=e928]: 
+                        - paragraph [ref=e929]: 4+
+                      - paragraph [ref=e931]: Foreign MNC
+                      - paragraph [ref=e933]: Work-Life Balance
+                    - list [ref=e934]:
+                      - listitem [ref=e935]:
+                        - generic [ref=e936]: 
+                        - generic "4-8 Yrs" [ref=e937]
+                      - listitem [ref=e938]:
+                        - generic [ref=e939]: 
+                        - generic "13-16 Lacs P.A." [ref=e940]
+                      - listitem [ref=e941]:
+                        - generic [ref=e942]: 
+                        - generic "Noida, Ghaziabad, New Delhi, Gurgaon/Gurugram, Greater Noida" [ref=e943]
+                  - generic [ref=e944]: Today
+                - list [ref=e945]:
+                  - listitem [ref=e946]: QA Testing
+                  - listitem [ref=e947]: Java Selenium
+                  - listitem [ref=e948]: Python
+                  - listitem [ref=e949]: Java
+                  - listitem [ref=e950]: Automation
+                  - listitem [ref=e951]: API Testing
+                  - listitem [ref=e952]: Automation Testing
+                  - listitem [ref=e953]: Selenium
+                - generic [ref=e954]:
+                  - generic [ref=e955]:
+                    - paragraph [ref=e956]: Hiring for one of these companies
+                    - generic [ref=e957]:
+                      - img "comp logo" [ref=e958] [cursor=pointer]
+                      - img "comp logo" [ref=e959] [cursor=pointer]
+                      - img "comp logo" [ref=e960] [cursor=pointer]
+                      - img "comp logo" [ref=e961] [cursor=pointer]
+                      - img "comp logo" [ref=e962] [cursor=pointer]
+                      - img "comp logo" [ref=e963] [cursor=pointer]
+                      - img "comp logo" [ref=e964] [cursor=pointer]
+                  - button "Share Interest" [ref=e966] [cursor=pointer]
+              - article [ref=e967]:
+                - generic [ref=e968]:
+                  - generic [ref=e969]:
+                    - paragraph [ref=e970]: QA Automation Testing Engineer
+                    - generic [ref=e971]: Mid-Sized Firm in Engg. & Construction Sector
+                    - generic "Powered by Ambition Box" [ref=e974]:
+                      - generic [ref=e975]: 
+                      - paragraph [ref=e976]: 4+
+                    - list [ref=e977]:
+                      - listitem [ref=e978]:
+                        - generic [ref=e979]: 
+                        - generic "2-4 Yrs" [ref=e980]
+                      - listitem [ref=e981]:
+                        - generic [ref=e982]: 
+                        - generic "6-10 Lacs P.A." [ref=e983]
+                      - listitem [ref=e984]:
+                        - generic [ref=e985]: 
+                        - generic "Bangalore/Bengaluru" [ref=e986]
+                  - generic [ref=e987]: 1 Day Ago
+                - list [ref=e988]:
+                  - listitem [ref=e989]: API Testing
+                  - listitem [ref=e990]: Automation Testing
+                  - listitem [ref=e991]: Manual Testing
+                  - listitem [ref=e992]: Java Selenium
+                  - listitem [ref=e993]: Postman
+                  - listitem [ref=e994]: Qa
+                  - listitem [ref=e995]: Cd
+                  - listitem [ref=e996]: Continuous Integration
+                - generic [ref=e997]:
+                  - generic [ref=e998]:
+                    - paragraph [ref=e999]: Hiring for one of these companies
+                    - generic [ref=e1000]:
+                      - img "comp logo" [ref=e1001] [cursor=pointer]
+                      - img "comp logo" [ref=e1002] [cursor=pointer]
+                      - img "comp logo" [ref=e1003] [cursor=pointer]
+                      - img "comp logo" [ref=e1004] [cursor=pointer]
+                      - img "comp logo" [ref=e1005] [cursor=pointer]
+                      - img "comp logo" [ref=e1006] [cursor=pointer]
+                  - button "Share Interest" [ref=e1008] [cursor=pointer]
+              - article [ref=e1009]:
+                - generic [ref=e1010]:
+                  - generic [ref=e1011]:
+                    - paragraph [ref=e1012]: QA Engineer
+                    - generic [ref=e1013]: Large IT MNC
+                    - generic [ref=e1014]:
+                      - generic "Powered by Ambition Box" [ref=e1016]:
+                        - generic [ref=e1017]: 
+                        - paragraph [ref=e1018]: 3.5+
+                      - paragraph [ref=e1020]: Foreign MNC
+                      - paragraph [ref=e1022]: Service
+                      - paragraph [ref=e1024]: Highly Rated by Women
+                    - list [ref=e1025]:
+                      - listitem [ref=e1026]:
+                        - generic [ref=e1027]: 
+                        - generic "4-8 Yrs" [ref=e1028]
+                      - listitem [ref=e1029]:
+                        - generic [ref=e1030]: 
+                        - generic "5-10 Lacs P.A." [ref=e1031]
+                      - listitem [ref=e1032]:
+                        - generic [ref=e1033]: 
+                        - generic "Madurai, Hyderabad/Secunderabad, Pune, Chennai, Coimbatore" [ref=e1034]
+                  - generic [ref=e1035]: 3 Days Ago
+                - list [ref=e1036]:
+                  - listitem [ref=e1037]: Java
+                  - listitem [ref=e1038]: Automation
+                  - listitem [ref=e1039]: Java Selenium
+                  - listitem [ref=e1040]: ETL Testing
+                  - listitem [ref=e1041]: Python
+                  - listitem [ref=e1042]: Performance Testing
+                  - listitem [ref=e1043]: Loadrunner
+                  - listitem [ref=e1044]: Python Testing
+                - generic [ref=e1045]:
+                  - generic [ref=e1046]:
+                    - paragraph [ref=e1047]: Hiring for one of these companies
+                    - generic [ref=e1048]:
+                      - img "comp logo" [ref=e1049] [cursor=pointer]
+                      - img "comp logo" [ref=e1050] [cursor=pointer]
+                      - img "comp logo" [ref=e1051] [cursor=pointer]
+                      - img "comp logo" [ref=e1052] [cursor=pointer]
+                      - img "comp logo" [ref=e1053] [cursor=pointer]
+                      - img "comp logo" [ref=e1054] [cursor=pointer]
+                  - button "Share Interest" [ref=e1056] [cursor=pointer]
+              - article [ref=e1057]:
+                - generic [ref=e1058]:
+                  - generic [ref=e1059]:
+                    - paragraph [ref=e1060]: QA Engineer
+                    - generic [ref=e1061]: IT and software services firm
+                    - generic "Powered by Ambition Box" [ref=e1064]:
+                      - generic [ref=e1065]: 
+                      - paragraph [ref=e1066]: 2.5+
+                    - list [ref=e1067]:
+                      - listitem [ref=e1068]:
+                        - generic [ref=e1069]: 
+                        - generic "4-6 Yrs" [ref=e1070]
+                      - listitem [ref=e1071]:
+                        - generic [ref=e1072]: 
+                        - generic "3-8 Lacs P.A." [ref=e1073]
+                      - listitem [ref=e1074]:
+                        - generic [ref=e1075]: 
+                        - generic "Kochi/Cochin, Mumbai, Hyderabad/Secunderabad, Chennai, Bangalore/Bengaluru" [ref=e1076]
+                  - generic [ref=e1077]: 5 Days Ago
+                - list [ref=e1078]:
+                  - listitem [ref=e1079]: Tosca
+                  - listitem [ref=e1080]: JUnit
+                  - listitem [ref=e1081]: Automation Testing
+                  - listitem [ref=e1082]: Mobile Application Testing
+                  - listitem [ref=e1083]: Java Selenium
+                  - listitem [ref=e1084]: Java
+                  - listitem [ref=e1085]: Open Source
+                  - listitem [ref=e1086]: Bss
+                - generic [ref=e1087]:
+                  - generic [ref=e1088]:
+                    - paragraph [ref=e1089]: Hiring for one of these companies
+                    - generic [ref=e1090]:
+                      - img "comp logo" [ref=e1091] [cursor=pointer]
+                      - img "comp logo" [ref=e1092] [cursor=pointer]
+                      - img "comp logo" [ref=e1093] [cursor=pointer]
+                      - img "comp logo" [ref=e1094] [cursor=pointer]
+                      - img "comp logo" [ref=e1095] [cursor=pointer]
+                      - img "comp logo" [ref=e1096] [cursor=pointer]
+                      - img "comp logo" [ref=e1097] [cursor=pointer]
+                  - button "Share Interest" [ref=e1099] [cursor=pointer]
+              - article [ref=e1100]:
+                - generic [ref=e1101]:
+                  - generic [ref=e1102]:
+                    - paragraph [ref=e1103]: QA Engineer
+                    - generic [ref=e1104]: B2B Firm in Emerging Technologies Domain
+                    - generic [ref=e1105]:
+                      - generic "Powered by Ambition Box" [ref=e1107]:
+                        - generic [ref=e1108]: 
+                        - paragraph [ref=e1109]: 3.5+
+                      - paragraph [ref=e1111]: Service
+                    - list [ref=e1112]:
+                      - listitem [ref=e1113]:
+                        - generic [ref=e1114]: 
+                        - generic "2-6 Yrs" [ref=e1115]
+                      - listitem [ref=e1116]:
+                        - generic [ref=e1117]: 
+                        - generic "6-10 Lacs P.A." [ref=e1118]
+                      - listitem [ref=e1119]:
+                        - generic [ref=e1120]: 
+                        - generic "Noida, New Delhi, Faridabad, Gurgaon/Gurugram, Manesar" [ref=e1121]
+                  - generic [ref=e1122]: 2 Days Ago
+                - list [ref=e1123]:
+                  - listitem [ref=e1124]: Cd
+                  - listitem [ref=e1125]: Continuous Integration
+                  - listitem [ref=e1126]: QA Automation
+                  - listitem [ref=e1127]: Qa
+                  - listitem [ref=e1128]: SDET
+                  - listitem [ref=e1129]: API Testing
+                  - listitem [ref=e1130]: Selenium With Java
+                  - listitem [ref=e1131]: Automation Testing
+                - generic [ref=e1132]:
+                  - generic [ref=e1133]:
+                    - paragraph [ref=e1134]: Hiring for one of these companies
+                    - generic [ref=e1135]:
+                      - img "comp logo" [ref=e1136] [cursor=pointer]
+                      - img "comp logo" [ref=e1137] [cursor=pointer]
+                      - img "comp logo" [ref=e1138] [cursor=pointer]
+                      - img "comp logo" [ref=e1139] [cursor=pointer]
+                      - img "comp logo" [ref=e1140] [cursor=pointer]
+                      - img "comp logo" [ref=e1141] [cursor=pointer]
+                      - img "comp logo" [ref=e1142] [cursor=pointer]
+                  - button "Share Interest" [ref=e1144] [cursor=pointer]
+              - article [ref=e1145]:
+                - generic [ref=e1146]:
+                  - generic [ref=e1147]:
+                    - paragraph [ref=e1148]: Software Dev Test Engineer
+                    - generic [ref=e1149]: Leading IT Consulting MNC
+                    - generic [ref=e1150]:
+                      - generic "Powered by Ambition Box" [ref=e1152]:
+                        - generic [ref=e1153]: 
+                        - paragraph [ref=e1154]: 3+
+                      - paragraph [ref=e1156]: Indian MNC
+                      - paragraph [ref=e1158]: Service
+                      - paragraph [ref=e1160]: Fortune India 500 (2023)
+                    - list [ref=e1161]:
+                      - listitem [ref=e1162]:
+                        - generic [ref=e1163]: 
+                        - generic "4-8 Yrs" [ref=e1164]
+                      - listitem [ref=e1165]:
+                        - generic [ref=e1166]: 
+                        - generic "12-17 Lacs P.A." [ref=e1167]
+                      - listitem [ref=e1168]:
+                        - generic [ref=e1169]: 
+                        - generic "Kolkata, Hyderabad/Secunderabad, Pune, Chennai, Bangalore/Bengaluru" [ref=e1170]
+                  - generic [ref=e1171]: Today
+                - list [ref=e1172]:
+                  - listitem [ref=e1173]: Java
+                  - listitem [ref=e1174]: GCP
+                  - listitem [ref=e1175]: Automation Testing
+                  - listitem [ref=e1176]: AWS
+                  - listitem [ref=e1177]: Python
+                  - listitem [ref=e1178]: Automation Selenium
+                  - listitem [ref=e1179]: Artificial Intelligence
+                  - listitem [ref=e1180]: SDET
+                - generic [ref=e1181]:
+                  - generic [ref=e1182]:
+                    - paragraph [ref=e1183]: Hiring for one of these companies
+                    - generic [ref=e1184]:
+                      - img "comp logo" [ref=e1185] [cursor=pointer]
+                      - img "comp logo" [ref=e1186] [cursor=pointer]
+                      - img "comp logo" [ref=e1187] [cursor=pointer]
+                      - img "comp logo" [ref=e1188] [cursor=pointer]
+                      - img "comp logo" [ref=e1189] [cursor=pointer]
+                      - img "comp logo" [ref=e1190] [cursor=pointer]
+                  - button "Share Interest" [ref=e1192] [cursor=pointer]
+              - article [ref=e1193]:
+                - generic [ref=e1194]:
+                  - generic [ref=e1195]:
+                    - paragraph [ref=e1196]: QA Engineer
+                    - generic [ref=e1197]: Firm in IT Services Sector
+                    - generic "Powered by Ambition Box" [ref=e1200]:
+                      - generic [ref=e1201]: 
+                      - paragraph [ref=e1202]: 4+
+                    - list [ref=e1203]:
+                      - listitem [ref=e1204]:
+                        - generic [ref=e1205]: 
+                        - generic "3-6 Yrs" [ref=e1206]
+                      - listitem [ref=e1207]:
+                        - generic [ref=e1208]: 
+                        - generic "11 Lacs P.A." [ref=e1209]
+                      - listitem [ref=e1210]:
+                        - generic [ref=e1211]: 
+                        - generic "Mumbai, Hyderabad/Secunderabad, Navi Mumbai, Chennai, Bangalore/Bengaluru" [ref=e1212]
+                  - generic [ref=e1213]: 5 Days Ago
+                - list [ref=e1214]:
+                  - listitem [ref=e1215]: API Testing
+                  - listitem [ref=e1216]: Pytest
+                  - listitem [ref=e1217]: Java Selenium
+                  - listitem [ref=e1218]: Python
+                  - listitem [ref=e1219]: C#
+                  - listitem [ref=e1220]: Qa
+                  - listitem [ref=e1221]: Java
+                  - listitem [ref=e1222]: Automation
+                - generic [ref=e1223]:
+                  - generic [ref=e1224]:
+                    - paragraph [ref=e1225]: Hiring for one of these companies
+                    - generic [ref=e1226]:
+                      - img "comp logo" [ref=e1227] [cursor=pointer]
+                      - img "comp logo" [ref=e1228] [cursor=pointer]
+                      - img "comp logo" [ref=e1229] [cursor=pointer]
+                      - img "comp logo" [ref=e1230] [cursor=pointer]
+                      - img "comp logo" [ref=e1231] [cursor=pointer]
+                  - button "Share Interest" [ref=e1233] [cursor=pointer]
+              - article [ref=e1234]:
+                - generic [ref=e1235]:
+                  - generic [ref=e1236]:
+                    - paragraph [ref=e1237]: QA Automation Testing Engineer
+                    - generic [ref=e1238]: B2B automotive engineering & IT firms
+                    - generic [ref=e1239]:
+                      - generic "Powered by Ambition Box" [ref=e1241]:
+                        - generic [ref=e1242]: 
+                        - paragraph [ref=e1243]: 3+
+                      - paragraph [ref=e1245]: Corporate
+                      - paragraph [ref=e1247]: Service
+                    - list [ref=e1248]:
+                      - listitem [ref=e1249]:
+                        - generic [ref=e1250]: 
+                        - generic "3-5 Yrs" [ref=e1251]
+                      - listitem [ref=e1252]:
+                        - generic [ref=e1253]: 
+                        - generic "7-9 Lacs P.A." [ref=e1254]
+                      - listitem [ref=e1255]:
+                        - generic [ref=e1256]: 
+                        - generic "Noida, Hyderabad/Secunderabad, Chennai, Bangalore/Bengaluru" [ref=e1257]
+                  - generic [ref=e1258]: Today
+                - list [ref=e1259]:
+                  - listitem [ref=e1260]: Java
+                  - listitem [ref=e1261]: AWS
+                  - listitem [ref=e1262]: Python
+                  - listitem [ref=e1263]: Cd
+                  - listitem [ref=e1264]: Lambda Expressions
+                  - listitem [ref=e1265]: Agile Methodology
+                  - listitem [ref=e1266]: Aws Cloud
+                  - listitem [ref=e1267]: Continuous Integration
+                - generic [ref=e1268]:
+                  - generic [ref=e1269]:
+                    - paragraph [ref=e1270]: Hiring for one of these companies
+                    - generic [ref=e1271]:
+                      - img "comp logo" [ref=e1272] [cursor=pointer]
+                      - img "comp logo" [ref=e1273] [cursor=pointer]
+                      - img "comp logo" [ref=e1274] [cursor=pointer]
+                      - img "comp logo" [ref=e1275] [cursor=pointer]
+                      - img "comp logo" [ref=e1276] [cursor=pointer]
+                      - img "comp logo" [ref=e1277] [cursor=pointer]
+                      - img "comp logo" [ref=e1278] [cursor=pointer]
+                  - button "Share Interest" [ref=e1280] [cursor=pointer]
+              - article [ref=e1281]:
+                - generic [ref=e1282]:
+                  - generic [ref=e1283]:
+                    - paragraph [ref=e1284]: QA Automation Testing Engineer
+                    - generic [ref=e1285]: Corporate in B2B IT Services Domain
+                    - generic [ref=e1286]:
+                      - generic "Powered by Ambition Box" [ref=e1288]:
+                        - generic [ref=e1289]: 
+                        - paragraph [ref=e1290]: 3.5+
+                      - paragraph [ref=e1292]: Corporate
+                      - paragraph [ref=e1294]: Service
+                    - list [ref=e1295]:
+                      - listitem [ref=e1296]:
+                        - generic [ref=e1297]: 
+                        - generic "4-7 Yrs" [ref=e1298]
+                      - listitem [ref=e1299]:
+                        - generic [ref=e1300]: 
+                        - generic "7-12 Lacs P.A." [ref=e1301]
+                      - listitem [ref=e1302]:
+                        - generic [ref=e1303]: 
+                        - generic "Noida, Hyderabad/Secunderabad, Pune, Gurgaon/Gurugram, Chennai" [ref=e1304]
+                  - generic [ref=e1305]: 1 Day Ago
+                - list [ref=e1306]:
+                  - listitem [ref=e1307]: Playwright
+                  - listitem [ref=e1308]: API Testing
+                  - listitem [ref=e1309]: Automation Testing
+                  - listitem [ref=e1310]: Selenium
+                  - listitem [ref=e1311]: Python
+                  - listitem [ref=e1312]: Java
+                  - listitem [ref=e1313]: Manual Testing
+                  - listitem [ref=e1314]: JIRA
+                - generic [ref=e1315]:
+                  - generic [ref=e1316]:
+                    - paragraph [ref=e1317]: Hiring for one of these companies
+                    - generic [ref=e1318]:
+                      - img "comp logo" [ref=e1319] [cursor=pointer]
+                      - img "comp logo" [ref=e1320] [cursor=pointer]
+                      - img "comp logo" [ref=e1321] [cursor=pointer]
+                      - img "comp logo" [ref=e1322] [cursor=pointer]
+                      - img "comp logo" [ref=e1323] [cursor=pointer]
+                      - img "comp logo" [ref=e1324] [cursor=pointer]
+                      - img "comp logo" [ref=e1325] [cursor=pointer]
+                  - button "Share Interest" [ref=e1327] [cursor=pointer]
+              - article [ref=e1328]:
+                - generic [ref=e1329]:
+                  - generic [ref=e1330]:
+                    - paragraph [ref=e1331]: Sr. QA Engineer
+                    - generic [ref=e1332]: Leading e-commerce and digital platform
+                    - generic "Powered by Ambition Box" [ref=e1335]:
+                      - generic [ref=e1336]: 
+                      - paragraph [ref=e1337]: 2.5+
+                    - list [ref=e1338]:
+                      - listitem [ref=e1339]:
+                        - generic [ref=e1340]: 
+                        - generic "4-8 Yrs" [ref=e1341]
+                      - listitem [ref=e1342]:
+                        - generic [ref=e1343]: 
+                        - generic "6-10 Lacs P.A." [ref=e1344]
+                      - listitem [ref=e1345]:
+                        - generic [ref=e1346]: 
+                        - generic "Mumbai, Hyderabad/Secunderabad, Pune, Chennai, Bangalore/Bengaluru" [ref=e1347]
+                  - generic [ref=e1348]: Today
+                - list [ref=e1349]:
+                  - listitem [ref=e1350]: Java
+                  - listitem [ref=e1351]: Java Selenium
+                  - listitem [ref=e1352]: Python
+                  - listitem [ref=e1353]: Testing
+                  - listitem [ref=e1354]: Jenkins
+                  - listitem [ref=e1355]: Api Automation
+                  - listitem [ref=e1356]: Automation
+                  - listitem [ref=e1357]: Tosca
+                - generic [ref=e1358]:
+                  - generic [ref=e1359]:
+                    - paragraph [ref=e1360]: Hiring for one of these companies
+                    - generic [ref=e1361]:
+                      - img "comp logo" [ref=e1362] [cursor=pointer]
+                      - img "comp logo" [ref=e1363] [cursor=pointer]
+                      - img "comp logo" [ref=e1364] [cursor=pointer]
+                      - img "comp logo" [ref=e1365] [cursor=pointer]
+                      - img "comp logo" [ref=e1366] [cursor=pointer]
+                      - img "comp logo" [ref=e1367] [cursor=pointer]
+                  - button "Share Interest" [ref=e1369] [cursor=pointer]
+              - article [ref=e1370]:
+                - generic [ref=e1371]:
+                  - generic [ref=e1372]:
+                    - paragraph [ref=e1373]: Sr. QA Engineer
+                    - generic [ref=e1374]: Service based Corporate in B2B IT Services Sector
+                    - generic [ref=e1375]:
+                      - generic "Powered by Ambition Box" [ref=e1377]:
+                        - generic [ref=e1378]: 
+                        - paragraph [ref=e1379]: 3+
+                      - paragraph [ref=e1381]: Corporate
+                      - paragraph [ref=e1383]: Service
+                    - list [ref=e1384]:
+                      - listitem [ref=e1385]:
+                        - generic [ref=e1386]: 
+                        - generic "4-9 Yrs" [ref=e1387]
+                      - listitem [ref=e1388]:
+                        - generic [ref=e1389]: 
+                        - generic "9-13 Lacs P.A." [ref=e1390]
+                      - listitem [ref=e1391]:
+                        - generic [ref=e1392]: 
+                        - generic "Mumbai, Hyderabad/Secunderabad, Pune, Chennai, Bangalore/Bengaluru" [ref=e1393]
+                  - generic [ref=e1394]: Today
+                - list [ref=e1395]:
+                  - listitem [ref=e1396]: Java
+                  - listitem [ref=e1397]: Automation Testing
+                  - listitem [ref=e1398]: Java Selenium
+                  - listitem [ref=e1399]: Rest
+                  - listitem [ref=e1400]: Bdd
+                  - listitem [ref=e1401]: API
+                  - listitem [ref=e1402]: Finacle
+                  - listitem [ref=e1403]: Cucumber
+                - generic [ref=e1404]:
+                  - generic [ref=e1405]:
+                    - paragraph [ref=e1406]: Hiring for one of these companies
+                    - generic [ref=e1407]:
+                      - img "comp logo" [ref=e1408] [cursor=pointer]
+                      - img "comp logo" [ref=e1409] [cursor=pointer]
+                      - img "comp logo" [ref=e1410] [cursor=pointer]
+                      - img "comp logo" [ref=e1411] [cursor=pointer]
+                      - img "comp logo" [ref=e1412] [cursor=pointer]
+                      - img "comp logo" [ref=e1413] [cursor=pointer]
+                      - img "comp logo" [ref=e1414] [cursor=pointer]
+                  - button "Share Interest" [ref=e1416] [cursor=pointer]
+              - article [ref=e1417]:
+                - generic [ref=e1418]:
+                  - generic [ref=e1419]:
+                    - paragraph [ref=e1420]: QA Engineer
+                    - generic [ref=e1421]: Large IT Services & Consulting Firm
+                    - generic [ref=e1422]:
+                      - generic "Powered by Ambition Box" [ref=e1424]:
+                        - generic [ref=e1425]: 
+                        - paragraph [ref=e1426]: 3+
+                      - paragraph [ref=e1428]: Corporate
+                      - paragraph [ref=e1430]: Service
+                    - list [ref=e1431]:
+                      - listitem [ref=e1432]:
+                        - generic [ref=e1433]: 
+                        - generic "4-6 Yrs" [ref=e1434]
+                      - listitem [ref=e1435]:
+                        - generic [ref=e1436]: 
+                        - generic "4-9 Lacs P.A." [ref=e1437]
+                      - listitem [ref=e1438]:
+                        - generic [ref=e1439]: 
+                        - generic "Bhubaneswar, Hyderabad/Secunderabad, Pune, Chennai, Bangalore/Bengaluru" [ref=e1440]
+                  - generic [ref=e1441]: Today
+                - list [ref=e1442]:
+                  - listitem [ref=e1443]: Bdd
+                  - listitem [ref=e1444]: Automation Testing
+                  - listitem [ref=e1445]: QA Automation
+                  - listitem [ref=e1446]: Java Selenium
+                  - listitem [ref=e1447]: Cucumber
+                  - listitem [ref=e1448]: Java
+                  - listitem [ref=e1449]: Unit Testing
+                  - listitem [ref=e1450]: UNIT
+                - generic [ref=e1451]:
+                  - generic [ref=e1452]:
+                    - paragraph [ref=e1453]: Hiring for one of these companies
+                    - generic [ref=e1454]:
+                      - img "comp logo" [ref=e1455] [cursor=pointer]
+                      - img "comp logo" [ref=e1456] [cursor=pointer]
+                      - img "comp logo" [ref=e1457] [cursor=pointer]
+                      - img "comp logo" [ref=e1458] [cursor=pointer]
+                      - img "comp logo" [ref=e1459] [cursor=pointer]
+                      - img "comp logo" [ref=e1460] [cursor=pointer]
+                      - img "comp logo" [ref=e1461] [cursor=pointer]
+                  - button "Share Interest" [ref=e1463] [cursor=pointer]
+              - article [ref=e1464]:
+                - generic [ref=e1465]:
+                  - generic [ref=e1466]:
+                    - paragraph [ref=e1467]: Sr. QA Engineer
+                    - generic [ref=e1468]: Firm in Internet Sector
+                    - generic "Powered by Ambition Box" [ref=e1471]:
+                      - generic [ref=e1472]: 
+                      - paragraph [ref=e1473]: 3+
+                    - list [ref=e1474]:
+                      - listitem [ref=e1475]:
+                        - generic [ref=e1476]: 
+                        - generic "4-9 Yrs" [ref=e1477]
+                      - listitem [ref=e1478]:
+                        - generic [ref=e1479]: 
+                        - generic "11-13 Lacs P.A." [ref=e1480]
+                      - listitem [ref=e1481]:
+                        - generic [ref=e1482]: 
+                        - generic "Mumbai, Thane, Navi Mumbai" [ref=e1483]
+                  - generic [ref=e1484]: 1 Day Ago
+                - list [ref=e1485]:
+                  - listitem [ref=e1486]: Appium
+                  - listitem [ref=e1487]: Automation Testing
+                  - listitem [ref=e1488]: Python
+                  - listitem [ref=e1489]: Qa
+                  - listitem [ref=e1490]: Java
+                  - listitem [ref=e1491]: Automation
+                  - listitem [ref=e1492]: API Testing
+                  - listitem [ref=e1493]: Ble
+                - generic [ref=e1494]:
+                  - generic [ref=e1495]:
+                    - paragraph [ref=e1496]: Hiring for one of these companies
+                    - generic [ref=e1497]:
+                      - img "comp logo" [ref=e1498] [cursor=pointer]
+                      - img "comp logo" [ref=e1499] [cursor=pointer]
+                      - img "comp logo" [ref=e1500] [cursor=pointer]
+                      - img "comp logo" [ref=e1501] [cursor=pointer]
+                      - img "comp logo" [ref=e1502] [cursor=pointer]
+                      - img "comp logo" [ref=e1503] [cursor=pointer]
+                      - img "comp logo" [ref=e1504] [cursor=pointer]
+                  - button "Share Interest" [ref=e1506] [cursor=pointer]
+              - article [ref=e1507]:
+                - generic [ref=e1508]:
+                  - generic [ref=e1509]:
+                    - paragraph [ref=e1510]: Sr. QA Engineer
+                    - generic [ref=e1511]: Firm in IT Services Sector
+                    - generic [ref=e1512]:
+                      - generic "Powered by Ambition Box" [ref=e1514]:
+                        - generic [ref=e1515]: 
+                        - paragraph [ref=e1516]: 3+
+                      - paragraph [ref=e1518]: Foreign MNC
+                    - list [ref=e1519]:
+                      - listitem [ref=e1520]:
+                        - generic [ref=e1521]: 
+                        - generic "4-7 Yrs" [ref=e1522]
+                      - listitem [ref=e1523]:
+                        - generic [ref=e1524]: 
+                        - generic "10-15 Lacs P.A." [ref=e1525]
+                      - listitem [ref=e1526]:
+                        - generic [ref=e1527]: 
+                        - generic "Hyderabad/Secunderabad, Bangalore/Bengaluru" [ref=e1528]
+                  - generic [ref=e1529]: Today
+                - list [ref=e1530]:
+                  - listitem [ref=e1531]: Web Services Testing
+                  - listitem [ref=e1532]: Automation Testing
+                  - listitem [ref=e1533]: Manual Testing
+                  - listitem [ref=e1534]: Java
+                  - listitem [ref=e1535]: Automation
+                  - listitem [ref=e1536]: Full Stack
+                  - listitem [ref=e1537]: Java Selenium
+                  - listitem [ref=e1538]: JMeter
+                - generic [ref=e1539]:
+                  - generic [ref=e1540]:
+                    - paragraph [ref=e1541]: Hiring for one of these companies
+                    - generic [ref=e1542]:
+                      - img "comp logo" [ref=e1543] [cursor=pointer]
+                      - img "comp logo" [ref=e1544] [cursor=pointer]
+                      - img "comp logo" [ref=e1545] [cursor=pointer]
+                      - img "comp logo" [ref=e1546] [cursor=pointer]
+                      - img "comp logo" [ref=e1547] [cursor=pointer]
+                      - img "comp logo" [ref=e1548] [cursor=pointer]
+                      - img "comp logo" [ref=e1549] [cursor=pointer]
+                  - button "Share Interest" [ref=e1551] [cursor=pointer]
+              - article [ref=e1552]:
+                - generic [ref=e1553]:
+                  - generic [ref=e1554]:
+                    - paragraph [ref=e1555]: Sr. QA Engineer
+                    - generic [ref=e1556]: Top Rated IT Firm
+                    - generic [ref=e1557]:
+                      - generic "Powered by Ambition Box" [ref=e1559]:
+                        - generic [ref=e1560]: 
+                        - paragraph [ref=e1561]: 4+
+                      - paragraph [ref=e1563]: Foreign MNC
+                      - paragraph [ref=e1565]: Service
+                      - paragraph [ref=e1567]: Salary & Benefits
+                    - list [ref=e1568]:
+                      - listitem [ref=e1569]:
+                        - generic [ref=e1570]: 
+                        - generic "4-7 Yrs" [ref=e1571]
+                      - listitem [ref=e1572]:
+                        - generic [ref=e1573]: 
+                        - generic "6-10 Lacs P.A." [ref=e1574]
+                      - listitem [ref=e1575]:
+                        - generic [ref=e1576]: 
+                        - generic "Hyderabad/Secunderabad, Pune, Chennai, Bangalore/Bengaluru" [ref=e1577]
+                  - generic [ref=e1578]: 2 Days Ago
+                - list [ref=e1579]:
+                  - listitem [ref=e1580]: JIRA
+                  - listitem [ref=e1581]: Restassured
+                  - listitem [ref=e1582]: Payment
+                  - listitem [ref=e1583]: Cypress
+                  - listitem [ref=e1584]: Python
+                  - listitem [ref=e1585]: Java
+                  - listitem [ref=e1586]: Readyapi
+                  - listitem [ref=e1587]: SQL
+                - generic [ref=e1588]:
+                  - generic [ref=e1589]:
+                    - paragraph [ref=e1590]: Hiring for one of these companies
+                    - generic [ref=e1591]:
+                      - img "comp logo" [ref=e1592] [cursor=pointer]
+                      - img "comp logo" [ref=e1593] [cursor=pointer]
+                      - img "comp logo" [ref=e1594] [cursor=pointer]
+                      - img "comp logo" [ref=e1595] [cursor=pointer]
+                      - img "comp logo" [ref=e1596] [cursor=pointer]
+                      - img "comp logo" [ref=e1597] [cursor=pointer]
+                      - img "comp logo" [ref=e1598] [cursor=pointer]
+                  - button "Share Interest" [ref=e1600] [cursor=pointer]
+              - article [ref=e1601]:
+                - generic [ref=e1602]:
+                  - generic [ref=e1603]:
+                    - paragraph [ref=e1604]: Software Dev Test Engineer
+                    - generic [ref=e1605]: Large IT Services & Consulting Firm
+                    - generic [ref=e1606]:
+                      - generic "Powered by Ambition Box" [ref=e1608]:
+                        - generic [ref=e1609]: 
+                        - paragraph [ref=e1610]: 3+
+                      - paragraph [ref=e1612]: Foreign MNC
+                      - paragraph [ref=e1614]: Service
+                    - list [ref=e1615]:
+                      - listitem [ref=e1616]:
+                        - generic [ref=e1617]: 
+                        - generic "3-8 Yrs" [ref=e1618]
+                      - listitem [ref=e1619]:
+                        - generic [ref=e1620]: 
+                        - generic "7-12 Lacs P.A." [ref=e1621]
+                      - listitem [ref=e1622]:
+                        - generic [ref=e1623]: 
+                        - generic "Mumbai, Pune, Gurgaon/Gurugram, Chennai, Bangalore/Bengaluru" [ref=e1624]
+                  - generic [ref=e1625]: 1 Day Ago
+                - list [ref=e1626]:
+                  - listitem [ref=e1627]: API Testing
+                  - listitem [ref=e1628]: Testing
+                  - listitem [ref=e1629]: Python
+                  - listitem [ref=e1630]: Validation
+                  - listitem [ref=e1631]: C#
+                  - listitem [ref=e1632]: Typescript
+                  - listitem [ref=e1633]: Data
+                  - listitem [ref=e1634]: Java Selenium
+                - generic [ref=e1635]:
+                  - generic [ref=e1636]:
+                    - paragraph [ref=e1637]: Hiring for one of these companies
+                    - generic [ref=e1638]:
+                      - img "comp logo" [ref=e1639] [cursor=pointer]
+                      - img "comp logo" [ref=e1640] [cursor=pointer]
+                      - img "comp logo" [ref=e1641] [cursor=pointer]
+                      - img "comp logo" [ref=e1642] [cursor=pointer]
+                      - img "comp logo" [ref=e1643] [cursor=pointer]
+                      - img "comp logo" [ref=e1644] [cursor=pointer]
+                      - img "comp logo" [ref=e1645] [cursor=pointer]
+                  - button "Share Interest" [ref=e1647] [cursor=pointer]
+              - article [ref=e1648]:
+                - generic [ref=e1649]:
+                  - generic [ref=e1650]:
+                    - paragraph [ref=e1651]: Salesforce Tester
+                    - generic [ref=e1652]: Big 4 Consulting Firm
+                    - generic [ref=e1653]:
+                      - generic "Powered by Ambition Box" [ref=e1655]:
+                        - generic [ref=e1656]: 
+                        - paragraph [ref=e1657]: 3.5+
+                      - paragraph [ref=e1659]: Foreign MNC
+                      - paragraph [ref=e1661]: Service
+                      - paragraph [ref=e1663]: Highly Rated by Women
+                    - list [ref=e1664]:
+                      - listitem [ref=e1665]:
+                        - generic [ref=e1666]: 
+                        - generic "3-8 Yrs" [ref=e1667]
+                      - listitem [ref=e1668]:
+                        - generic [ref=e1669]: 
+                        - generic "7-12 Lacs P.A." [ref=e1670]
+                      - listitem [ref=e1671]:
+                        - generic [ref=e1672]: 
+                        - generic "Hyderabad/Secunderabad, Pune, Chennai, Bangalore/Bengaluru" [ref=e1673]
+                  - generic [ref=e1674]: 1 Day Ago
+                - list [ref=e1675]:
+                  - listitem [ref=e1676]: Documentation
+                  - listitem [ref=e1677]: Functional
+                  - listitem [ref=e1678]: Automation Testing
+                  - listitem [ref=e1679]: Web Applications
+                  - listitem [ref=e1680]: Salesforce
+                  - listitem [ref=e1681]: Integration
+                  - listitem [ref=e1682]: Automation
+                  - listitem [ref=e1683]: Manual Testing
+                - generic [ref=e1684]:
+                  - generic [ref=e1685]:
+                    - paragraph [ref=e1686]: Hiring for one of these companies
+                    - generic [ref=e1687]:
+                      - img "comp logo" [ref=e1688] [cursor=pointer]
+                      - img "comp logo" [ref=e1689] [cursor=pointer]
+                      - img "comp logo" [ref=e1690] [cursor=pointer]
+                      - img "comp logo" [ref=e1691] [cursor=pointer]
+                  - button "Share Interest" [ref=e1693] [cursor=pointer]
+              - article [ref=e1694]:
+                - generic [ref=e1695]:
+                  - generic [ref=e1696]:
+                    - paragraph [ref=e1697]: Sr. QA Engineer
+                    - generic [ref=e1698]: Top Rated IT Firm
+                    - generic [ref=e1699]:
+                      - generic "Powered by Ambition Box" [ref=e1701]:
+                        - generic [ref=e1702]: 
+                        - paragraph [ref=e1703]: 2.5+
+                      - paragraph [ref=e1705]: Foreign MNC
+                      - paragraph [ref=e1707]: Service
+                    - list [ref=e1708]:
+                      - listitem [ref=e1709]:
+                        - generic [ref=e1710]: 
+                        - generic "4-9 Yrs" [ref=e1711]
+                      - listitem [ref=e1712]:
+                        - generic [ref=e1713]: 
+                        - generic "7-11 Lacs P.A." [ref=e1714]
+                      - listitem [ref=e1715]:
+                        - generic [ref=e1716]: 
+                        - generic "Hosur, Kolkata, Tumkur, Gurgaon/Gurugram, Bangalore/Bengaluru" [ref=e1717]
+                  - generic [ref=e1718]: 1 Day Ago
+                - list [ref=e1719]:
+                  - listitem [ref=e1720]: Automation
+                  - listitem [ref=e1721]: Automation Testing
+                  - listitem [ref=e1722]: QA Automation
+                  - listitem [ref=e1723]: Java Selenium
+                  - listitem [ref=e1724]: Testing
+                  - listitem [ref=e1725]: Java
+                  - listitem [ref=e1726]: Bdd
+                  - listitem [ref=e1727]: Servicenow
+                - generic [ref=e1728]:
+                  - generic [ref=e1729]:
+                    - paragraph [ref=e1730]: Hiring for one of these companies
+                    - generic [ref=e1731]:
+                      - img "comp logo" [ref=e1732] [cursor=pointer]
+                      - img "comp logo" [ref=e1733] [cursor=pointer]
+                      - img "comp logo" [ref=e1734] [cursor=pointer]
+                      - img "comp logo" [ref=e1735] [cursor=pointer]
+                      - img "comp logo" [ref=e1736] [cursor=pointer]
+                      - img "comp logo" [ref=e1737] [cursor=pointer]
+                      - img "comp logo" [ref=e1738] [cursor=pointer]
+                  - button "Share Interest" [ref=e1740] [cursor=pointer]
+              - article [ref=e1741]:
+                - generic [ref=e1742]:
+                  - generic [ref=e1743]:
+                    - paragraph [ref=e1744]: QA Engineer
+                    - generic [ref=e1745]: Leading Indian IT Firm
+                    - generic [ref=e1746]:
+                      - generic "Powered by Ambition Box" [ref=e1748]:
+                        - generic [ref=e1749]: 
+                        - paragraph [ref=e1750]: 3.5+
+                      - paragraph [ref=e1752]: Indian MNC
+                      - paragraph [ref=e1754]: Service
+                    - list [ref=e1755]:
+                      - listitem [ref=e1756]:
+                        - generic [ref=e1757]: 
+                        - generic "3-6 Yrs" [ref=e1758]
+                      - listitem [ref=e1759]:
+                        - generic [ref=e1760]: 
+                        - generic "7-12 Lacs P.A." [ref=e1761]
+                      - listitem [ref=e1762]:
+                        - generic [ref=e1763]: 
+                        - generic "Hyderabad/Secunderabad, Pune, Coimbatore, Bangalore/Bengaluru" [ref=e1764]
+                  - generic [ref=e1765]: 2 Days Ago
+                - list [ref=e1766]:
+                  - listitem [ref=e1767]: Test Complete
+                  - listitem [ref=e1768]: VB SCRIPT
+                  - listitem [ref=e1769]: API Testing
+                  - listitem [ref=e1770]: Javascript
+                  - listitem [ref=e1771]: Automation Testing
+                  - listitem [ref=e1772]: Java
+                  - listitem [ref=e1773]: Insurance
+                  - listitem [ref=e1774]: Selenium Webdriver
+                - generic [ref=e1775]:
+                  - generic [ref=e1776]:
+                    - paragraph [ref=e1777]: Hiring for one of these companies
+                    - generic [ref=e1778]:
+                      - img "comp logo" [ref=e1779] [cursor=pointer]
+                      - img "comp logo" [ref=e1780] [cursor=pointer]
+                      - img "comp logo" [ref=e1781] [cursor=pointer]
+                      - img "comp logo" [ref=e1782] [cursor=pointer]
+                      - img "comp logo" [ref=e1783] [cursor=pointer]
+                      - img "comp logo" [ref=e1784] [cursor=pointer]
+                      - img "comp logo" [ref=e1785] [cursor=pointer]
+                  - button "Share Interest" [ref=e1787] [cursor=pointer]
+              - article [ref=e1788]:
+                - generic [ref=e1789]:
+                  - generic [ref=e1790]:
+                    - paragraph [ref=e1791]: Software Dev Test Engineer
+                    - generic [ref=e1792]: Top Rated IT Enterprise
+                    - generic [ref=e1793]:
+                      - generic "Powered by Ambition Box" [ref=e1795]:
+                        - generic [ref=e1796]: 
+                        - paragraph [ref=e1797]: 3.5+
+                      - paragraph [ref=e1799]: Foreign MNC
+                      - paragraph [ref=e1801]: Service
+                      - paragraph [ref=e1803]: Highly Rated by Women
+                    - list [ref=e1804]:
+                      - listitem [ref=e1805]:
+                        - generic [ref=e1806]: 
+                        - generic "4-7 Yrs" [ref=e1807]
+                      - listitem [ref=e1808]:
+                        - generic [ref=e1809]: 
+                        - generic "8-13 Lacs P.A." [ref=e1810]
+                      - listitem [ref=e1811]:
+                        - generic [ref=e1812]: 
+                        - generic "Hosur, Mysore/Mysuru, Bangalore/Bengaluru" [ref=e1813]
+                  - generic [ref=e1814]: Today
+                - list [ref=e1815]:
+                  - listitem [ref=e1816]: Validation
+                  - listitem [ref=e1817]: Automation
+                  - listitem [ref=e1818]: Python
+                  - listitem [ref=e1819]: BIOS
+                  - listitem [ref=e1820]: Server
+                  - listitem [ref=e1821]: Artificial Intelligence
+                  - listitem [ref=e1822]: Bmc
+                  - listitem [ref=e1823]: Firmware
+                - generic [ref=e1824]:
+                  - generic [ref=e1825]:
+                    - paragraph [ref=e1826]: Hiring for one of these companies
+                    - generic [ref=e1827]:
+                      - img "comp logo" [ref=e1828] [cursor=pointer]
+                      - img "comp logo" [ref=e1829] [cursor=pointer]
+                      - img "comp logo" [ref=e1830] [cursor=pointer]
+                      - img "comp logo" [ref=e1831] [cursor=pointer]
+                      - img "comp logo" [ref=e1832] [cursor=pointer]
+                      - img "comp logo" [ref=e1833] [cursor=pointer]
+                      - img "comp logo" [ref=e1834] [cursor=pointer]
+                  - button "Share Interest" [ref=e1836] [cursor=pointer]
+              - article [ref=e1837]:
+                - generic [ref=e1838]:
+                  - generic [ref=e1839]:
+                    - paragraph [ref=e1840]: Software Dev Test Engineer
+                    - generic [ref=e1841]: Leading company in IT & technology services
+                    - generic "Powered by Ambition Box" [ref=e1844]:
+                      - generic [ref=e1845]: 
+                      - paragraph [ref=e1846]: 3+
+                    - list [ref=e1847]:
+                      - listitem [ref=e1848]:
+                        - generic [ref=e1849]: 
+                        - generic "4-7 Yrs" [ref=e1850]
+                      - listitem [ref=e1851]:
+                        - generic [ref=e1852]: 
+                        - generic "8-13 Lacs P.A." [ref=e1853]
+                      - listitem [ref=e1854]:
+                        - generic [ref=e1855]: 
+                        - generic "Hyderabad/Secunderabad, New Delhi, Pune, Gurgaon/Gurugram, Bangalore/Bengaluru" [ref=e1856]
+                  - generic [ref=e1857]: Today
+                - list [ref=e1858]:
+                  - listitem [ref=e1859]: Cypress
+                  - listitem [ref=e1860]: Javascript
+                  - listitem [ref=e1861]: QA Automation
+                  - listitem [ref=e1862]: Qa
+                  - listitem [ref=e1863]: Java
+                  - listitem [ref=e1864]: Automation
+                  - listitem [ref=e1865]: Automation Testing
+                  - listitem [ref=e1866]: Automation Engineering
+                - generic [ref=e1867]:
+                  - generic [ref=e1868]:
+                    - paragraph [ref=e1869]: Hiring for one of these companies
+                    - generic [ref=e1870]:
+                      - img "comp logo" [ref=e1871] [cursor=pointer]
+                      - img "comp logo" [ref=e1872] [cursor=pointer]
+                      - img "comp logo" [ref=e1873] [cursor=pointer]
+                      - img "comp logo" [ref=e1874] [cursor=pointer]
+                      - img "comp logo" [ref=e1875] [cursor=pointer]
+                      - img "comp logo" [ref=e1876] [cursor=pointer]
+                  - button "Share Interest" [ref=e1878] [cursor=pointer]
+              - article [ref=e1879]:
+                - generic [ref=e1880]:
+                  - generic [ref=e1881]:
+                    - paragraph [ref=e1882]: Software Dev Test Engineer
+                    - generic [ref=e1883]: Large IT MNC
+                    - generic [ref=e1884]:
+                      - generic "Powered by Ambition Box" [ref=e1886]:
+                        - generic [ref=e1887]: 
+                        - paragraph [ref=e1888]: 3.5+
+                      - paragraph [ref=e1890]: Foreign MNC
+                      - paragraph [ref=e1892]: Service
+                      - paragraph [ref=e1894]: Highly Rated by Women
+                    - list [ref=e1895]:
+                      - listitem [ref=e1896]:
+                        - generic [ref=e1897]: 
+                        - generic "4-9 Yrs" [ref=e1898]
+                      - listitem [ref=e1899]:
+                        - generic [ref=e1900]: 
+                        - generic "8-13 Lacs P.A." [ref=e1901]
+                      - listitem [ref=e1902]:
+                        - generic [ref=e1903]: 
+                        - generic "Pune, Mysore/Mysuru, Chennai, Coimbatore, Bangalore/Bengaluru" [ref=e1904]
+                  - generic [ref=e1905]: Today
+                - list [ref=e1906]:
+                  - listitem [ref=e1907]: Automation
+                  - listitem [ref=e1908]: C++
+                  - listitem [ref=e1909]: Linux
+                  - listitem [ref=e1910]: Java Selenium
+                  - listitem [ref=e1911]: Python
+                  - listitem [ref=e1912]: C#
+                  - listitem [ref=e1913]: Java
+                  - listitem [ref=e1914]: Bdd
+                - generic [ref=e1915]:
+                  - generic [ref=e1916]:
+                    - paragraph [ref=e1917]: Hiring for one of these companies
+                    - generic [ref=e1918]:
+                      - img "comp logo" [ref=e1919] [cursor=pointer]
+                      - img "comp logo" [ref=e1920] [cursor=pointer]
+                      - img "comp logo" [ref=e1921] [cursor=pointer]
+                      - img "comp logo" [ref=e1922] [cursor=pointer]
+                      - img "comp logo" [ref=e1923] [cursor=pointer]
+                      - img "comp logo" [ref=e1924] [cursor=pointer]
+                  - button "Share Interest" [ref=e1926] [cursor=pointer]
+              - article [ref=e1927]:
+                - generic [ref=e1928]:
+                  - generic [ref=e1929]:
+                    - paragraph [ref=e1930]: Software Dev Test Engineer
+                    - generic [ref=e1931]: Leading Company in IT Domain
+                    - generic [ref=e1932]:
+                      - generic "Powered by Ambition Box" [ref=e1934]:
+                        - generic [ref=e1935]: 
+                        - paragraph [ref=e1936]: 3.5+
+                      - paragraph [ref=e1938]: Indian MNC
+                      - paragraph [ref=e1940]: Service
+                      - paragraph [ref=e1942]: Fortune India 500 (2023)
+                    - list [ref=e1943]:
+                      - listitem [ref=e1944]:
+                        - generic [ref=e1945]: 
+                        - generic "3-7 Yrs" [ref=e1946]
+                      - listitem [ref=e1947]:
+                        - generic [ref=e1948]: 
+                        - generic "7-11 Lacs P.A." [ref=e1949]
+                      - listitem [ref=e1950]:
+                        - generic [ref=e1951]: 
+                        - generic "Pune, Bangalore/Bengaluru" [ref=e1952]
+                  - generic [ref=e1953]: 1 Day Ago
+                - list [ref=e1954]:
+                  - listitem [ref=e1955]: Java
+                  - listitem [ref=e1956]: SDET
+                  - listitem [ref=e1957]: Restassured
+                  - listitem [ref=e1958]: Azure
+                  - listitem [ref=e1959]: Rest
+                  - listitem [ref=e1960]: API Testing
+                  - listitem [ref=e1961]: Java Selenium
+                  - listitem [ref=e1962]: AWS
+                - generic [ref=e1963]:
+                  - generic [ref=e1964]:
+                    - paragraph [ref=e1965]: Hiring for one of these companies
+                    - generic [ref=e1966]:
+                      - img "comp logo" [ref=e1967] [cursor=pointer]
+                      - img "comp logo" [ref=e1968] [cursor=pointer]
+                      - img "comp logo" [ref=e1969] [cursor=pointer]
+                      - img "comp logo" [ref=e1970] [cursor=pointer]
+                      - img "comp logo" [ref=e1971] [cursor=pointer]
+                      - img "comp logo" [ref=e1972] [cursor=pointer]
+                      - img "comp logo" [ref=e1973] [cursor=pointer]
+                  - button "Share Interest" [ref=e1975] [cursor=pointer]
+              - article [ref=e1976]:
+                - generic [ref=e1977]:
+                  - generic [ref=e1978]:
+                    - paragraph [ref=e1979]: Software Dev Test Engineer
+                    - generic [ref=e1980]: Large IT Services & Consulting Firm
+                    - generic [ref=e1981]:
+                      - generic "Powered by Ambition Box" [ref=e1983]:
+                        - generic [ref=e1984]: 
+                        - paragraph [ref=e1985]: 3.5+
+                      - paragraph [ref=e1987]: Corporate
+                    - list [ref=e1988]:
+                      - listitem [ref=e1989]:
+                        - generic [ref=e1990]: 
+                        - generic "4-9 Yrs" [ref=e1991]
+                      - listitem [ref=e1992]:
+                        - generic [ref=e1993]: 
+                        - generic "7-12 Lacs P.A." [ref=e1994]
+                      - listitem [ref=e1995]:
+                        - generic [ref=e1996]: 
+                        - generic "Mumbai, Navi Mumbai, Chennai, Gurgaon/Gurugram, Bangalore/Bengaluru" [ref=e1997]
+                  - generic [ref=e1998]: Today
+                - list [ref=e1999]:
+                  - listitem [ref=e2000]: Java
+                  - listitem [ref=e2001]: Javascript
+                  - listitem [ref=e2002]: Java Selenium
+                  - listitem [ref=e2003]: C#
+                  - listitem [ref=e2004]: Automation
+                  - listitem [ref=e2005]: Github
+                  - listitem [ref=e2006]: Typescript
+                  - listitem [ref=e2007]: API
+                - generic [ref=e2008]:
+                  - generic [ref=e2009]:
+                    - paragraph [ref=e2010]: Hiring for one of these companies
+                    - generic [ref=e2011]:
+                      - img "comp logo" [ref=e2012] [cursor=pointer]
+                      - img "comp logo" [ref=e2013] [cursor=pointer]
+                      - img "comp logo" [ref=e2014] [cursor=pointer]
+                      - img "comp logo" [ref=e2015] [cursor=pointer]
+                      - img "comp logo" [ref=e2016] [cursor=pointer]
+                      - img "comp logo" [ref=e2017] [cursor=pointer]
+                      - img "comp logo" [ref=e2018] [cursor=pointer]
+                  - button "Share Interest" [ref=e2020] [cursor=pointer]
+              - article [ref=e2021]:
+                - generic [ref=e2022]:
+                  - generic [ref=e2023]:
+                    - paragraph [ref=e2024]: QA Engineer
+                    - generic [ref=e2025]: Mid-sized B2B infra & EPC firms
+                    - generic "Powered by Ambition Box" [ref=e2028]:
+                      - generic [ref=e2029]: 
+                      - paragraph [ref=e2030]: 3.5+
+                    - list [ref=e2031]:
+                      - listitem [ref=e2032]:
+                        - generic [ref=e2033]: 
+                        - generic "4-6 Yrs" [ref=e2034]
+                      - listitem [ref=e2035]:
+                        - generic [ref=e2036]: 
+                        - generic "6-11 Lacs P.A." [ref=e2037]
+                      - listitem [ref=e2038]:
+                        - generic [ref=e2039]: 
+                        - generic "Kolkata, Navi Mumbai, Pune, Chennai, Bangalore/Bengaluru" [ref=e2040]
+                  - generic [ref=e2041]: 5 Days Ago
+                - list [ref=e2042]:
+                  - listitem [ref=e2043]: Java
+                  - listitem [ref=e2044]: SDET
+                  - listitem [ref=e2045]: Automation Testing
+                  - listitem [ref=e2046]: Automation
+                  - listitem [ref=e2047]: API Testing
+                  - listitem [ref=e2048]: Manual Testing
+                  - listitem [ref=e2049]: Microservices Api Testing
+                  - listitem [ref=e2050]: Web Architecture
+                - generic [ref=e2051]:
+                  - generic [ref=e2052]:
+                    - paragraph [ref=e2053]: Hiring for one of these companies
+                    - generic [ref=e2054]:
+                      - img "comp logo" [ref=e2055] [cursor=pointer]
+                      - img "comp logo" [ref=e2056] [cursor=pointer]
+                      - img "comp logo" [ref=e2057] [cursor=pointer]
+                      - img "comp logo" [ref=e2058] [cursor=pointer]
+                      - img "comp logo" [ref=e2059] [cursor=pointer]
+                      - img "comp logo" [ref=e2060] [cursor=pointer]
+                      - img "comp logo" [ref=e2061] [cursor=pointer]
+                  - button "Share Interest" [ref=e2063] [cursor=pointer]
+              - article [ref=e2064]:
+                - generic [ref=e2065]:
+                  - generic [ref=e2066]:
+                    - paragraph [ref=e2067]: Sr. QA Engineer
+                    - generic [ref=e2068]: Firm in Pharmaceutical & Life Sciences Sector
+                    - generic [ref=e2069]:
+                      - generic "Powered by Ambition Box" [ref=e2071]:
+                        - generic [ref=e2072]: 
+                        - paragraph [ref=e2073]: 3.5+
+                      - paragraph [ref=e2075]: Corporate
+                    - list [ref=e2076]:
+                      - listitem [ref=e2077]:
+                        - generic [ref=e2078]: 
+                        - generic "4-9 Yrs" [ref=e2079]
+                      - listitem [ref=e2080]:
+                        - generic [ref=e2081]: 
+                        - generic "7-12 Lacs P.A." [ref=e2082]
+                      - listitem [ref=e2083]:
+                        - generic [ref=e2084]: 
+                        - generic "Kolkata, Hyderabad/Secunderabad, Pune, Chennai, Bangalore/Bengaluru" [ref=e2085]
+                  - generic [ref=e2086]: Today
+                - list [ref=e2087]:
+                  - listitem [ref=e2088]: Automation
+                  - listitem [ref=e2089]: API Testing
+                  - listitem [ref=e2090]: Java Selenium
+                  - listitem [ref=e2091]: Performance Testing
+                  - listitem [ref=e2092]: Typescript
+                  - listitem [ref=e2093]: Cypress
+                  - listitem [ref=e2094]: Javascript
+                  - listitem [ref=e2095]: Automation Testing
+                - generic [ref=e2096]:
+                  - generic [ref=e2097]:
+                    - paragraph [ref=e2098]: Hiring for one of these companies
+                    - generic [ref=e2099]:
+                      - img "comp logo" [ref=e2100] [cursor=pointer]
+                      - img "comp logo" [ref=e2101] [cursor=pointer]
+                      - img "comp logo" [ref=e2102] [cursor=pointer]
+                      - img "comp logo" [ref=e2103] [cursor=pointer]
+                      - img "comp logo" [ref=e2104] [cursor=pointer]
+                      - img "comp logo" [ref=e2105] [cursor=pointer]
+                      - img "comp logo" [ref=e2106] [cursor=pointer]
+                  - button "Share Interest" [ref=e2108] [cursor=pointer]
+              - article [ref=e2109]:
+                - generic [ref=e2110]:
+                  - generic [ref=e2111]:
+                    - paragraph [ref=e2112]: Sr. QA Engineer
+                    - generic [ref=e2113]: Top Rated IT MNC
+                    - generic [ref=e2114]:
+                      - generic "Powered by Ambition Box" [ref=e2116]:
+                        - generic [ref=e2117]: 
+                        - paragraph [ref=e2118]: 4+
+                      - paragraph [ref=e2120]: Foreign MNC
+                      - paragraph [ref=e2122]: Service
+                      - paragraph [ref=e2124]: Work Satisfaction
+                    - list [ref=e2125]:
+                      - listitem [ref=e2126]:
+                        - generic [ref=e2127]: 
+                        - generic "4-7 Yrs" [ref=e2128]
+                      - listitem [ref=e2129]:
+                        - generic [ref=e2130]: 
+                        - generic "6-10 Lacs P.A." [ref=e2131]
+                      - listitem [ref=e2132]:
+                        - generic [ref=e2133]: 
+                        - generic "Mumbai, Indore, Nagpur, Pune" [ref=e2134]
+                  - generic [ref=e2135]: 1 Day Ago
+                - list [ref=e2136]:
+                  - listitem [ref=e2137]: Manual Testing
+                  - listitem [ref=e2138]: Security Testing
+                  - listitem [ref=e2139]: API Testing
+                  - listitem [ref=e2140]: Automation Testing
+                  - listitem [ref=e2141]: Postman
+                  - listitem [ref=e2142]: Java
+                  - listitem [ref=e2143]: Investment Banking
+                  - listitem [ref=e2144]: Fintech
+                - generic [ref=e2145]:
+                  - generic [ref=e2146]:
+                    - paragraph [ref=e2147]: Hiring for one of these companies
+                    - generic [ref=e2148]:
+                      - img "comp logo" [ref=e2149] [cursor=pointer]
+                      - img "comp logo" [ref=e2150] [cursor=pointer]
+                      - img "comp logo" [ref=e2151] [cursor=pointer]
+                      - img "comp logo" [ref=e2152] [cursor=pointer]
+                      - img "comp logo" [ref=e2153] [cursor=pointer]
+                      - img "comp logo" [ref=e2154] [cursor=pointer]
+                  - button "Share Interest" [ref=e2156] [cursor=pointer]
+              - article [ref=e2157]:
+                - generic [ref=e2158]:
+                  - generic [ref=e2159]:
+                    - paragraph [ref=e2160]: QA Automation Testing Engineer
+                    - generic [ref=e2161]: Fortune 500 IT Services Company
+                    - generic [ref=e2162]:
+                      - generic "Powered by Ambition Box" [ref=e2164]:
+                        - generic [ref=e2165]: 
+                        - paragraph [ref=e2166]: 3.5+
+                      - paragraph [ref=e2168]: Foreign MNC
+                      - paragraph [ref=e2170]: Service
+                      - paragraph [ref=e2172]: Highly Rated by Women
+                    - list [ref=e2173]:
+                      - listitem [ref=e2174]:
+                        - generic [ref=e2175]: 
+                        - generic "4-8 Yrs" [ref=e2176]
+                      - listitem [ref=e2177]:
+                        - generic [ref=e2178]: 
+                        - generic "7-12 Lacs P.A." [ref=e2179]
+                      - listitem [ref=e2180]:
+                        - generic [ref=e2181]: 
+                        - generic "Hyderabad/Secunderabad, Bangalore/Bengaluru" [ref=e2182]
+                  - generic [ref=e2183]: 2 Days Ago
+                - list [ref=e2184]:
+                  - listitem [ref=e2185]: Automation
+                  - listitem [ref=e2186]: Core Banking
+                  - listitem [ref=e2187]: Automation Testing
+                  - listitem [ref=e2188]: Oracle Flexcube
+                  - listitem [ref=e2189]: Testing
+                  - listitem [ref=e2190]: Capital Market
+                  - listitem [ref=e2191]: Trade
+                  - listitem [ref=e2192]: Bfsi
+                - generic [ref=e2193]:
+                  - generic [ref=e2194]:
+                    - paragraph [ref=e2195]: Hiring for one of these companies
+                    - generic [ref=e2196]:
+                      - img "comp logo" [ref=e2197] [cursor=pointer]
+                      - img "comp logo" [ref=e2198] [cursor=pointer]
+                      - img "comp logo" [ref=e2199] [cursor=pointer]
+                      - img "comp logo" [ref=e2200] [cursor=pointer]
+                      - img "comp logo" [ref=e2201] [cursor=pointer]
+                      - img "comp logo" [ref=e2202] [cursor=pointer]
+                  - button "Share Interest" [ref=e2204] [cursor=pointer]
+              - article [ref=e2205]:
+                - generic [ref=e2206]:
+                  - generic [ref=e2207]:
+                    - paragraph [ref=e2208]: Sr. Performance Test Engineer
+                    - generic [ref=e2209]: Leading IT Consulting MNC
+                    - generic [ref=e2210]:
+                      - generic "Powered by Ambition Box" [ref=e2212]:
+                        - generic [ref=e2213]: 
+                        - paragraph [ref=e2214]: 3+
+                      - paragraph [ref=e2216]: Indian MNC
+                      - paragraph [ref=e2218]: Service
+                      - paragraph [ref=e2220]: Fortune India 500 (2023)
+                    - list [ref=e2221]:
+                      - listitem [ref=e2222]:
+                        - generic [ref=e2223]: 
+                        - generic "4-8 Yrs" [ref=e2224]
+                      - listitem [ref=e2225]:
+                        - generic [ref=e2226]: 
+                        - generic "9-14 Lacs P.A." [ref=e2227]
+                      - listitem [ref=e2228]:
+                        - generic [ref=e2229]: 
+                        - generic "Kolkata, Mumbai, Hyderabad/Secunderabad, Chennai, Bangalore/Bengaluru" [ref=e2230]
+                  - generic [ref=e2231]: 2 Days Ago
+                - list [ref=e2232]:
+                  - listitem [ref=e2233]: Performance Testing
+                  - listitem [ref=e2234]: Loadrunner
+                  - listitem [ref=e2235]: Automation Testing
+                  - listitem [ref=e2236]: Java Selenium
+                  - listitem [ref=e2237]: Testing
+                  - listitem [ref=e2238]: Engineering
+                  - listitem [ref=e2239]: Performance Engineering
+                  - listitem [ref=e2240]: Dynatrace
+                - generic [ref=e2241]:
+                  - generic [ref=e2242]:
+                    - paragraph [ref=e2243]: Hiring for one of these companies
+                    - generic [ref=e2244]:
+                      - img "comp logo" [ref=e2245] [cursor=pointer]
+                      - img "comp logo" [ref=e2246] [cursor=pointer]
+                      - img "comp logo" [ref=e2247] [cursor=pointer]
+                      - img "comp logo" [ref=e2248] [cursor=pointer]
+                      - img "comp logo" [ref=e2249] [cursor=pointer]
+                      - img "comp logo" [ref=e2250] [cursor=pointer]
+                  - button "Share Interest" [ref=e2252] [cursor=pointer]
+              - article [ref=e2253]:
+                - generic [ref=e2254]:
+                  - generic [ref=e2255]:
+                    - paragraph [ref=e2256]: Sr. QA Engineer
+                    - generic [ref=e2257]: Firm in IT Services Sector
+                    - generic [ref=e2258]:
+                      - generic "Powered by Ambition Box" [ref=e2260]:
+                        - generic [ref=e2261]: 
+                        - paragraph [ref=e2262]: 3+
+                      - paragraph [ref=e2264]: Indian MNC
+                      - paragraph [ref=e2266]: Service
+                    - list [ref=e2267]:
+                      - listitem [ref=e2268]:
+                        - generic [ref=e2269]: 
+                        - generic "4-9 Yrs" [ref=e2270]
+                      - listitem [ref=e2271]:
+                        - generic [ref=e2272]: 
+                        - generic "8-13 Lacs P.A." [ref=e2273]
+                      - listitem [ref=e2274]:
+                        - generic [ref=e2275]: 
+                        - generic "Hyderabad/Secunderabad" [ref=e2276]
+                  - generic [ref=e2277]: 1 Day Ago
+                - list [ref=e2278]:
+                  - listitem [ref=e2279]: Java
+                  - listitem [ref=e2280]: SDET
+                  - listitem [ref=e2281]: Restassured
+                  - listitem [ref=e2282]: Api Automation
+                  - listitem [ref=e2283]: Java Selenium
+                  - listitem [ref=e2284]: Automation
+                  - listitem [ref=e2285]: Rest
+                  - listitem [ref=e2286]: Typescript
+                - generic [ref=e2287]:
+                  - generic [ref=e2288]:
+                    - paragraph [ref=e2289]: Hiring for one of these companies
+                    - generic [ref=e2290]:
+                      - img "comp logo" [ref=e2291] [cursor=pointer]
+                      - img "comp logo" [ref=e2292] [cursor=pointer]
+                      - img "comp logo" [ref=e2293] [cursor=pointer]
+                      - img "comp logo" [ref=e2294] [cursor=pointer]
+                      - img "comp logo" [ref=e2295] [cursor=pointer]
+                  - button "Share Interest" [ref=e2297] [cursor=pointer]
+              - article [ref=e2298]:
+                - generic [ref=e2299]:
+                  - generic [ref=e2300]:
+                    - paragraph [ref=e2301]: Software Dev Test Engineer
+                    - generic [ref=e2302]: Foreign IT Consulting MNC
+                    - generic [ref=e2303]:
+                      - generic "Powered by Ambition Box" [ref=e2305]:
+                        - generic [ref=e2306]: 
+                        - paragraph [ref=e2307]: 3.5+
+                      - paragraph [ref=e2309]: Foreign MNC
+                      - paragraph [ref=e2311]: Service
+                      - paragraph [ref=e2313]: Highly Rated by Women
+                    - list [ref=e2314]:
+                      - listitem [ref=e2315]:
+                        - generic [ref=e2316]: 
+                        - generic "4-7 Yrs" [ref=e2317]
+                      - listitem [ref=e2318]:
+                        - generic [ref=e2319]: 
+                        - generic "8-12 Lacs P.A." [ref=e2320]
+                      - listitem [ref=e2321]:
+                        - generic [ref=e2322]: 
+                        - generic "Noida, Mumbai, Pune, Gurgaon/Gurugram, Bangalore/Bengaluru" [ref=e2323]
+                  - generic [ref=e2324]: Today
+                - list [ref=e2325]:
+                  - listitem [ref=e2326]: Java
+                  - listitem [ref=e2327]: API Testing
+                  - listitem [ref=e2328]: Automation Testing
+                  - listitem [ref=e2329]: Java Selenium
+                  - listitem [ref=e2330]: Cucumber
+                  - listitem [ref=e2331]: Bdd
+                  - listitem [ref=e2332]: SDET
+                  - listitem [ref=e2333]: SQL
+                - generic [ref=e2334]:
+                  - generic [ref=e2335]:
+                    - paragraph [ref=e2336]: Hiring for one of these companies
+                    - generic [ref=e2337]:
+                      - img "comp logo" [ref=e2338] [cursor=pointer]
+                      - img "comp logo" [ref=e2339] [cursor=pointer]
+                      - img "comp logo" [ref=e2340] [cursor=pointer]
+                      - img "comp logo" [ref=e2341] [cursor=pointer]
+                      - img "comp logo" [ref=e2342] [cursor=pointer]
+                      - img "comp logo" [ref=e2343] [cursor=pointer]
+                      - img "comp logo" [ref=e2344] [cursor=pointer]
+                  - button "Share Interest" [ref=e2346] [cursor=pointer]
+              - article [ref=e2347]:
+                - generic [ref=e2348]:
+                  - generic [ref=e2349]:
+                    - paragraph [ref=e2350]: Sr. QA Engineer
+                    - generic [ref=e2351]: Software Product Development Company
+                    - generic [ref=e2352]:
+                      - generic "Powered by Ambition Box" [ref=e2354]:
+                        - generic [ref=e2355]: 
+                        - paragraph [ref=e2356]: 3+
+                      - paragraph [ref=e2358]: Corporate
+                    - list [ref=e2359]:
+                      - listitem [ref=e2360]:
+                        - generic [ref=e2361]: 
+                        - generic "4-9 Yrs" [ref=e2362]
+                      - listitem [ref=e2363]:
+                        - generic [ref=e2364]: 
+                        - generic "9-12 Lacs P.A." [ref=e2365]
+                      - listitem [ref=e2366]:
+                        - generic [ref=e2367]: 
+                        - generic "Noida, New Delhi, Gurgaon/Gurugram, Chennai, Bangalore/Bengaluru" [ref=e2368]
+                  - generic [ref=e2369]: 1 Day Ago
+                - list [ref=e2370]:
+                  - listitem [ref=e2371]: Java
+                  - listitem [ref=e2372]: Automation Testing
+                  - listitem [ref=e2373]: Java Selenium
+                  - listitem [ref=e2374]: API Testing
+                  - listitem [ref=e2375]: QA Automation
+                  - listitem [ref=e2376]: Cucumber
+                  - listitem [ref=e2377]: SQL
+                  - listitem [ref=e2378]: Testing
+                - generic [ref=e2379]:
+                  - generic [ref=e2380]:
+                    - paragraph [ref=e2381]: Hiring for one of these companies
+                    - generic [ref=e2382]:
+                      - img "comp logo" [ref=e2383] [cursor=pointer]
+                      - img "comp logo" [ref=e2384] [cursor=pointer]
+                      - img "comp logo" [ref=e2385] [cursor=pointer]
+                      - img "comp logo" [ref=e2386] [cursor=pointer]
+                      - img "comp logo" [ref=e2387] [cursor=pointer]
+                      - img "comp logo" [ref=e2388] [cursor=pointer]
+                      - img "comp logo" [ref=e2389] [cursor=pointer]
+                  - button "Share Interest" [ref=e2391] [cursor=pointer]
+              - article [ref=e2392]:
+                - generic [ref=e2393]:
+                  - generic [ref=e2394]:
+                    - paragraph [ref=e2395]: Automation Test Engineer
+                    - generic [ref=e2396]: Leading firm in media, broadcasting & advertising
+                    - generic [ref=e2397]:
+                      - generic "Powered by Ambition Box" [ref=e2399]:
+                        - generic [ref=e2400]: 
+                        - paragraph [ref=e2401]: 3+
+                      - paragraph [ref=e2403]: Corporate
+                    - list [ref=e2404]:
+                      - listitem [ref=e2405]:
+                        - generic [ref=e2406]: 
+                        - generic "2-5 Yrs" [ref=e2407]
+                      - listitem [ref=e2408]:
+                        - generic [ref=e2409]: 
+                        - generic "3-8 Lacs P.A." [ref=e2410]
+                      - listitem [ref=e2411]:
+                        - generic [ref=e2412]: 
+                        - generic "Mumbai, Mumbai Suburban, Navi Mumbai" [ref=e2413]
+                  - generic [ref=e2414]: 5 Days Ago
+                - list [ref=e2415]:
+                  - listitem [ref=e2416]: Qa
+                  - listitem [ref=e2417]: Backend Testing
+                  - listitem [ref=e2418]: API Testing
+                  - listitem [ref=e2419]: MongoDB
+                  - listitem [ref=e2420]: Postman
+                  - listitem [ref=e2421]: Loadrunner
+                  - listitem [ref=e2422]: Content Management
+                  - listitem [ref=e2423]: Cypress
+                - generic [ref=e2424]:
+                  - generic [ref=e2425]:
+                    - paragraph [ref=e2426]: Hiring for one of these companies
+                    - generic [ref=e2427]:
+                      - img "comp logo" [ref=e2428] [cursor=pointer]
+                      - img "comp logo" [ref=e2429] [cursor=pointer]
+                      - img "comp logo" [ref=e2430] [cursor=pointer]
+                      - img "comp logo" [ref=e2431] [cursor=pointer]
+                      - img "comp logo" [ref=e2432] [cursor=pointer]
+                      - img "comp logo" [ref=e2433] [cursor=pointer]
+                  - button "Share Interest" [ref=e2435] [cursor=pointer]
+              - article [ref=e2436]:
+                - generic [ref=e2437]:
+                  - generic [ref=e2438]:
+                    - paragraph [ref=e2439]: QA Engineer
+                    - generic [ref=e2440]: IT services & software global Firm
+                    - generic [ref=e2441]:
+                      - generic "Powered by Ambition Box" [ref=e2443]:
+                        - generic [ref=e2444]: 
+                        - paragraph [ref=e2445]: 2+
+                      - paragraph [ref=e2447]: Corporate
+                    - list [ref=e2448]:
+                      - listitem [ref=e2449]:
+                        - generic [ref=e2450]: 
+                        - generic "4-6 Yrs" [ref=e2451]
+                      - listitem [ref=e2452]:
+                        - generic [ref=e2453]: 
+                        - generic "5-9 Lacs P.A." [ref=e2454]
+                      - listitem [ref=e2455]:
+                        - generic [ref=e2456]: 
+                        - generic "Hyderabad/Secunderabad, Pune, Chennai, Coimbatore" [ref=e2457]
+                  - generic [ref=e2458]: 5 Days Ago
+                - list [ref=e2459]:
+                  - listitem [ref=e2460]: Automation
+                  - listitem [ref=e2461]: Ui Automation Testing
+                  - listitem [ref=e2462]: Javascript
+                  - listitem [ref=e2463]: Ui Automation
+                  - listitem [ref=e2464]: API
+                  - listitem [ref=e2465]: Java
+                  - listitem [ref=e2466]: Azure
+                  - listitem [ref=e2467]: Azure Cloud
+                - generic [ref=e2468]:
+                  - generic [ref=e2469]:
+                    - paragraph [ref=e2470]: Hiring for one of these companies
+                    - generic [ref=e2471]:
+                      - img "comp logo" [ref=e2472] [cursor=pointer]
+                      - img "comp logo" [ref=e2473] [cursor=pointer]
+                      - img "comp logo" [ref=e2474] [cursor=pointer]
+                      - img "comp logo" [ref=e2475] [cursor=pointer]
+                      - img "comp logo" [ref=e2476] [cursor=pointer]
+                      - img "comp logo" [ref=e2477] [cursor=pointer]
+                  - button "Share Interest" [ref=e2479] [cursor=pointer]
+              - article [ref=e2480]:
+                - generic [ref=e2481]:
+                  - generic [ref=e2482]:
+                    - paragraph [ref=e2483]: QA Automation Testing Engineer
+                    - generic [ref=e2484]: Leading B2B healthcare IT & software solutions
+                    - generic [ref=e2485]:
+                      - generic "Powered by Ambition Box" [ref=e2487]:
+                        - generic [ref=e2488]: 
+                        - paragraph [ref=e2489]: 3+
+                      - paragraph [ref=e2491]: Corporate
+                      - paragraph [ref=e2493]: Product
+                    - list [ref=e2494]:
+                      - listitem [ref=e2495]:
+                        - generic [ref=e2496]: 
+                        - generic "2-4 Yrs" [ref=e2497]
+                      - listitem [ref=e2498]:
+                        - generic [ref=e2499]: 
+                        - generic "5-8 Lacs P.A." [ref=e2500]
+                      - listitem [ref=e2501]:
+                        - generic [ref=e2502]: 
+                        - generic "Bangalore/Bengaluru" [ref=e2503]
+                  - generic [ref=e2504]: 5 Days Ago
+                - list [ref=e2505]:
+                  - listitem [ref=e2506]: Cd
+                  - listitem [ref=e2507]: Automation
+                  - listitem [ref=e2508]: Cypress
+                  - listitem [ref=e2509]: Continuous Integration
+                  - listitem [ref=e2510]: Jenkins
+                  - listitem [ref=e2511]: Java
+                  - listitem [ref=e2512]: API Testing
+                  - listitem [ref=e2513]: Javascript
+                - generic [ref=e2514]:
+                  - generic [ref=e2515]:
+                    - paragraph [ref=e2516]: Hiring for one of these companies
+                    - generic [ref=e2517]:
+                      - img "comp logo" [ref=e2518] [cursor=pointer]
+                      - img "comp logo" [ref=e2519] [cursor=pointer]
+                      - img "comp logo" [ref=e2520] [cursor=pointer]
+                      - img "comp logo" [ref=e2521] [cursor=pointer]
+                      - img "comp logo" [ref=e2522] [cursor=pointer]
+                      - img "comp logo" [ref=e2523] [cursor=pointer]
+                      - img "comp logo" [ref=e2524] [cursor=pointer]
+                  - button "Share Interest" [ref=e2526] [cursor=pointer]
+              - article [ref=e2527]:
+                - generic [ref=e2528]:
+                  - generic [ref=e2529]:
+                    - paragraph [ref=e2530]: Software Dev Test Engineer
+                    - generic [ref=e2531]: Firm in IT Services Sector
+                    - generic "Powered by Ambition Box" [ref=e2534]:
+                      - generic [ref=e2535]: 
+                      - paragraph [ref=e2536]: 3+
+                    - list [ref=e2537]:
+                      - listitem [ref=e2538]:
+                        - generic [ref=e2539]: 
+                        - generic "4-7 Yrs" [ref=e2540]
+                      - listitem [ref=e2541]:
+                        - generic [ref=e2542]: 
+                        - generic "6-11 Lacs P.A." [ref=e2543]
+                      - listitem [ref=e2544]:
+                        - generic [ref=e2545]: 
+                        - generic "Noida, Pune, Mysore/Mysuru, Chennai, Bangalore/Bengaluru" [ref=e2546]
+                  - generic [ref=e2547]: 1 Day Ago
+                - list [ref=e2548]:
+                  - listitem [ref=e2549]: Java
+                  - listitem [ref=e2550]: Automation Testing
+                  - listitem [ref=e2551]: Java Selenium
+                  - listitem [ref=e2552]: Python
+                  - listitem [ref=e2553]: Cd
+                  - listitem [ref=e2554]: Bdd
+                  - listitem [ref=e2555]: Linux
+                  - listitem [ref=e2556]: Squish
+                - generic [ref=e2557]:
+                  - generic [ref=e2558]:
+                    - paragraph [ref=e2559]: Hiring for one of these companies
+                    - generic [ref=e2560]:
+                      - img "comp logo" [ref=e2561] [cursor=pointer]
+                      - img "comp logo" [ref=e2562] [cursor=pointer]
+                      - img "comp logo" [ref=e2563] [cursor=pointer]
+                      - img "comp logo" [ref=e2564] [cursor=pointer]
+                      - img "comp logo" [ref=e2565] [cursor=pointer]
+                      - img "comp logo" [ref=e2566] [cursor=pointer]
+                      - img "comp logo" [ref=e2567] [cursor=pointer]
+                  - button "Share Interest" [ref=e2569] [cursor=pointer]
+              - article [ref=e2570]:
+                - generic [ref=e2571]:
+                  - generic [ref=e2572]:
+                    - paragraph [ref=e2573]: Software Dev Test Engineer
+                    - generic [ref=e2574]: Firm in IT Services Domain
+                    - generic [ref=e2575]:
+                      - generic "Powered by Ambition Box" [ref=e2577]:
+                        - generic [ref=e2578]: 
+                        - paragraph [ref=e2579]: 4.5+
+                      - paragraph [ref=e2581]: Foreign MNC
+                      - paragraph [ref=e2583]: Service
+                    - list [ref=e2584]:
+                      - listitem [ref=e2585]:
+                        - generic [ref=e2586]: 
+                        - generic "4-7 Yrs" [ref=e2587]
+                      - listitem [ref=e2588]:
+                        - generic [ref=e2589]: 
+                        - generic "4-6 Lacs P.A." [ref=e2590]
+                      - listitem [ref=e2591]:
+                        - generic [ref=e2592]: 
+                        - generic "Navi Mumbai, Hyderabad/Secunderabad, Chennai, Bangalore/Bengaluru" [ref=e2593]
+                  - generic [ref=e2594]: Today
+                - list [ref=e2595]:
+                  - listitem [ref=e2596]: C#
+                  - listitem [ref=e2597]: .Net
+                  - listitem [ref=e2598]: Java Selenium
+                  - listitem [ref=e2599]: Cucumber
+                  - listitem [ref=e2600]: Cd
+                  - listitem [ref=e2601]: Java
+                  - listitem [ref=e2602]: Continuous Integration
+                  - listitem [ref=e2603]: API Testing
+                - generic [ref=e2604]:
+                  - generic [ref=e2605]:
+                    - paragraph [ref=e2606]: Hiring for one of these companies
+                    - generic [ref=e2607]:
+                      - img "comp logo" [ref=e2608] [cursor=pointer]
+                      - img "comp logo" [ref=e2609] [cursor=pointer]
+                      - img "comp logo" [ref=e2610] [cursor=pointer]
+                      - img "comp logo" [ref=e2611] [cursor=pointer]
+                      - img "comp logo" [ref=e2612] [cursor=pointer]
+                      - img "comp logo" [ref=e2613] [cursor=pointer]
+                      - img "comp logo" [ref=e2614] [cursor=pointer]
+                  - button "Share Interest" [ref=e2616] [cursor=pointer]
+              - article [ref=e2617]:
+                - generic [ref=e2618]:
+                  - generic [ref=e2619]:
+                    - paragraph [ref=e2620]: QA Engineer
+                    - generic [ref=e2621]: Service based Top Rated B2B IT Services Firm
+                    - generic [ref=e2622]:
+                      - generic "Powered by Ambition Box" [ref=e2624]:
+                        - generic [ref=e2625]: 
+                        - paragraph [ref=e2626]: 3.5+
+                      - paragraph [ref=e2628]: Corporate
+                      - paragraph [ref=e2630]: Service
+                    - list [ref=e2631]:
+                      - listitem [ref=e2632]:
+                        - generic [ref=e2633]: 
+                        - generic "1-5 Yrs" [ref=e2634]
+                      - listitem [ref=e2635]:
+                        - generic [ref=e2636]: 
+                        - generic "4-9 Lacs P.A." [ref=e2637]
+                      - listitem [ref=e2638]:
+                        - generic [ref=e2639]: 
+                        - generic "Noida, Ghaziabad, New Delhi, Faridabad, Greater Noida" [ref=e2640]
+                  - generic [ref=e2641]: Today
+                - list [ref=e2642]:
+                  - listitem [ref=e2643]: Java
+                  - listitem [ref=e2644]: Manual Testing
+                  - listitem [ref=e2645]: JIRA
+                  - listitem [ref=e2646]: SQL
+                  - listitem [ref=e2647]: Qa
+                  - listitem [ref=e2648]: Backend Testing
+                  - listitem [ref=e2649]: Functional Testing
+                  - listitem [ref=e2650]: API Testing
+                - generic [ref=e2651]:
+                  - generic [ref=e2652]:
+                    - paragraph [ref=e2653]: Hiring for one of these companies
+                    - generic [ref=e2654]:
+                      - img "comp logo" [ref=e2655] [cursor=pointer]
+                      - img "comp logo" [ref=e2656] [cursor=pointer]
+                      - img "comp logo" [ref=e2657] [cursor=pointer]
+                      - img "comp logo" [ref=e2658] [cursor=pointer]
+                      - img "comp logo" [ref=e2659] [cursor=pointer]
+                      - img "comp logo" [ref=e2660] [cursor=pointer]
+                      - img "comp logo" [ref=e2661] [cursor=pointer]
+                  - button "Share Interest" [ref=e2663] [cursor=pointer]
+              - article [ref=e2664]:
+                - generic [ref=e2665]:
+                  - generic [ref=e2666]:
+                    - paragraph [ref=e2667]: Sr. QA Engineer
+                    - generic [ref=e2668]: Fortune 500 Product-based MNC
+                    - generic [ref=e2669]:
+                      - generic "Powered by Ambition Box" [ref=e2671]:
+                        - generic [ref=e2672]: 
+                        - paragraph [ref=e2673]: 3.5+
+                      - paragraph [ref=e2675]: Foreign MNC
+                      - paragraph [ref=e2677]: Service
+                      - paragraph [ref=e2679]: Highly Rated by Women
+                    - list [ref=e2680]:
+                      - listitem [ref=e2681]:
+                        - generic [ref=e2682]: 
+                        - generic "4-9 Yrs" [ref=e2683]
+                      - listitem [ref=e2684]:
+                        - generic [ref=e2685]: 
+                        - generic "8-13 Lacs P.A." [ref=e2686]
+                      - listitem [ref=e2687]:
+                        - generic [ref=e2688]: 
+                        - generic "Noida, Hyderabad/Secunderabad, Pune, Chennai, Bangalore/Bengaluru" [ref=e2689]
+                  - generic [ref=e2690]: 1 Day Ago
+                - list [ref=e2691]:
+                  - listitem [ref=e2692]: Java
+                  - listitem [ref=e2693]: API Testing
+                  - listitem [ref=e2694]: Java Selenium
+                  - listitem [ref=e2695]: Automation
+                  - listitem [ref=e2696]: Javascript
+                  - listitem [ref=e2697]: Automation Testing
+                  - listitem [ref=e2698]: QA Automation
+                  - listitem [ref=e2699]: Functional Testing
+                - generic [ref=e2700]:
+                  - generic [ref=e2701]:
+                    - paragraph [ref=e2702]: Hiring for one of these companies
+                    - generic [ref=e2703]:
+                      - img "comp logo" [ref=e2704] [cursor=pointer]
+                      - img "comp logo" [ref=e2705] [cursor=pointer]
+                      - img "comp logo" [ref=e2706] [cursor=pointer]
+                      - img "comp logo" [ref=e2707] [cursor=pointer]
+                      - img "comp logo" [ref=e2708] [cursor=pointer]
+                      - img "comp logo" [ref=e2709] [cursor=pointer]
+                  - button "Share Interest" [ref=e2711] [cursor=pointer]
+        - generic [ref=e2717]:
+          - generic [ref=e2718]: Join webinar for career growth
+          - generic [ref=e2719]:
+            - text: Powered by
+            - img "company logo" [ref=e2720]
+          - generic [ref=e2721] [cursor=pointer]:
+            - generic [ref=e2722]:
+              - img "feature-card" [ref=e2724]
+              - generic [ref=e2726]: Entry closes in 2h
+              - paragraph [ref=e2728]: Webinar
+              - text: 
+            - generic [ref=e2729]:
+              - generic [ref=e2730]:
+                - img "company logo" [ref=e2732]
+                - generic [ref=e2733]:
+                  - paragraph [ref=e2734]: "PowerBI + AI for Data Analytics: Secure 30L+ CTC at Netflix"
+                  - paragraph [ref=e2735]: Coding Ninjas
+              - generic [ref=e2736]:
+                - paragraph [ref=e2738]: Interview Preparation
+                - paragraph [ref=e2740]: Career Guidance
+                - paragraph [ref=e2742]: Data Analytics
+              - generic [ref=e2743]:
+                - generic [ref=e2744]:
+                  - img "User icon" [ref=e2745]: 
+                  - paragraph [ref=e2746]: 23 Apr, 5:00 PM
+                - generic [ref=e2747]:
+                  - img "User icon" [ref=e2748]
+                  - paragraph [ref=e2749]: 305 Enrolled
+            - generic [ref=e2751]:
+              - generic [ref=e2752]:
+                - img "feature-card-type-icon" [ref=e2754]
+                - paragraph [ref=e2756]: Learn from experts
+              - link "View details" [ref=e2758]:
+                - /url: https://www.naukri.com/code360/events/powerbi-ai-for-data-analytics-secure-30l-ctc-at-netflix-11?source=naukri&medium=desktop&campaign=masterclass
+      - paragraph [ref=e2760]:
+        - text: IEIL has taken all reasonable steps to ensure that information on this site is authentic. Applicants are advised to research bonafides of advertisers independently. IEIL shall not have any responsibility in this regard. We also recommend that you visit
+        - link "Security Guidelines" [ref=e2761] [cursor=pointer]:
+          - /url: https://my.naukri.com/faq/faq.php?pgid=9
+        - text: and
+        - link "Terms and Conditions" [ref=e2762] [cursor=pointer]:
+          - /url: https://www.naukri.com/termsconditions
+        - text: for more comprehensive information on this aspect.
+    - contentinfo [ref=e2763]:
+      - generic [ref=e2766]:
+        - generic [ref=e2767]:
+          - link "Naukri Logo" [ref=e2768] [cursor=pointer]:
+            - /url: https://www.naukri.com
+            - img "Naukri Logo" [ref=e2769]
+          - generic [ref=e2770]:
+            - generic "Connect with us" [ref=e2771] [cursor=pointer]
+            - link "naukri social icons" [ref=e2772] [cursor=pointer]:
+              - /url: https://www.facebook.com/Naukri
+              - img "naukri social icons" [ref=e2773]
+            - link "naukri social icons" [ref=e2774] [cursor=pointer]:
+              - /url: https://instagram.com/naukridotcom/
+              - img "naukri social icons" [ref=e2775]
+            - link "naukri social icons" [ref=e2776] [cursor=pointer]:
+              - /url: https://twitter.com/naukri
+              - img "naukri social icons" [ref=e2777]
+            - link "naukri social icons" [ref=e2778] [cursor=pointer]:
+              - /url: http://www.linkedin.com/company/naukri.com
+              - img "naukri social icons" [ref=e2779]
+        - list [ref=e2781]:
+          - listitem [ref=e2782]:
+            - link "About us" [ref=e2783] [cursor=pointer]:
+              - /url: https://infoedge.in
+          - listitem [ref=e2784]:
+            - link "Careers" [ref=e2785] [cursor=pointer]:
+              - /url: https://careers.infoedge.com/
+          - listitem [ref=e2786]:
+            - link "Employer home" [ref=e2787] [cursor=pointer]:
+              - /url: https://www.naukri.com/recruit/login
+          - listitem [ref=e2788]:
+            - link "Sitemap" [ref=e2789] [cursor=pointer]:
+              - /url: https://www.naukri.com/sitemap/sitemap.php
+          - listitem [ref=e2790]:
+            - link "Credits" [ref=e2791] [cursor=pointer]:
+              - /url: https://www.naukri.com/credits
+        - list [ref=e2793]:
+          - listitem [ref=e2794]:
+            - link "Help center" [ref=e2795] [cursor=pointer]:
+              - /url: https://www.naukri.com/faq/job-seeker?utm_source=footer
+          - listitem [ref=e2796]:
+            - link "Summons/Notices" [ref=e2797] [cursor=pointer]:
+              - /url: https://w5.naukri.com/summons-notices-form/
+          - listitem [ref=e2798]:
+            - link "Grievances" [ref=e2799] [cursor=pointer]:
+              - /url: https://w5.naukri.com/grievances-form/
+          - listitem [ref=e2800]:
+            - link "Report issue" [ref=e2801] [cursor=pointer]:
+              - /url: https://w5.naukri.com/fdbck/main/feedback.php?app_id=15
+        - list [ref=e2803]:
+          - listitem [ref=e2804]:
+            - link "Privacy policy" [ref=e2805] [cursor=pointer]:
+              - /url: https://www.naukri.com/privacypolicy
+          - listitem [ref=e2806]:
+            - link "Terms & conditions" [ref=e2807] [cursor=pointer]:
+              - /url: https://www.naukri.com/termsconditions
+          - listitem [ref=e2808]:
+            - link "Fraud alert" [ref=e2809] [cursor=pointer]:
+              - /url: https://www.naukri.com/imposter/report-fake-job-recruiter
+          - listitem [ref=e2810]:
+            - link "Trust & safety" [ref=e2811] [cursor=pointer]:
+              - /url: https://www.naukri.com/jobsearch/trust-safety
+        - generic [ref=e2812]:
+          - generic [ref=e2813]: Apply on the go
+          - generic [ref=e2814]: Get real-time job updates on our App
+          - generic [ref=e2815]:
+            - link "naukri app download" [ref=e2816] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=naukriApp.appModules.login&hl=en&utm_source=naukri&utm_medium=footer
+              - img "naukri app download" [ref=e2817]
+            - link "naukri app download" [ref=e2818] [cursor=pointer]:
+              - /url: https://itunes.apple.com/in/app/naukri.com-job-search/id482877505?mt=8
+              - img "naukri app download" [ref=e2819]
+      - generic [ref=e2821]:
+        - generic [ref=e2822]:
+          - link "naukri social logos" [ref=e2824] [cursor=pointer]:
+            - /url: http://infoedge.in
+            - img "naukri social logos" [ref=e2825]
+          - generic [ref=e2826]:
+            - generic [ref=e2827]: All trademarks are the property of their respective owners
+            - generic [ref=e2828]: All rights reserved © 2025 Info Edge (India) Ltd.
+        - generic [ref=e2829]: Our businesses
+        - list [ref=e2832]:
+          - listitem [ref=e2833]:
+            - link "nnacres" [ref=e2835] [cursor=pointer]:
+              - /url: https://www.99acres.com/
+              - img "nnacres" [ref=e2836]
+          - listitem [ref=e2837]:
+            - link "jeevansathi" [ref=e2839] [cursor=pointer]:
+              - /url: https://www.jeevansathi.com/
+              - img "jeevansathi" [ref=e2840]
+          - listitem [ref=e2841]:
+            - link "ng" [ref=e2843] [cursor=pointer]:
+              - /url: https://www.naukrigulf.com/
+              - img "ng" [ref=e2844]
+          - listitem [ref=e2845]:
+            - link "shiksha" [ref=e2847] [cursor=pointer]:
+              - /url: https://www.shiksha.com/
+              - img "shiksha" [ref=e2848]
+          - listitem [ref=e2849]:
+            - link "iimjobs" [ref=e2851] [cursor=pointer]:
+              - /url: https://www.iimjobs.com
+              - img "iimjobs" [ref=e2852]
+          - listitem [ref=e2853]:
+            - link "hirist" [ref=e2855] [cursor=pointer]:
+              - /url: https://www.hirist.tech/
+              - img "hirist" [ref=e2856]
+          - listitem [ref=e2857]:
+            - link "jobhai" [ref=e2859] [cursor=pointer]:
+              - /url: https://www.jobhai.com
+              - img "jobhai" [ref=e2860]
+          - listitem [ref=e2861]:
+            - link "doselect" [ref=e2863] [cursor=pointer]:
+              - /url: https://doselect.com/
+              - img "doselect" [ref=e2864]
+          - listitem [ref=e2865]:
+            - link "minis" [ref=e2867] [cursor=pointer]:
+              - /url: https://www.naukri.com/minis
+              - img "minis" [ref=e2868]
+          - listitem [ref=e2869]:
+            - link "codingninjas" [ref=e2871] [cursor=pointer]:
+              - /url: https://www.codingninjas.com/?utm_source=naukri&utm_medium=desktop-footer
+              - img "codingninjas" [ref=e2872]
+```

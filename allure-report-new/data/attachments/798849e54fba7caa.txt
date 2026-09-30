@@ -1,0 +1,6 @@
+alert
+I am an alert box!
+confirm
+Press a button!
+confirm
+Press a button!

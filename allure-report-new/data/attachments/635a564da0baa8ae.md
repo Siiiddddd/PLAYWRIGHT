@@ -1,0 +1,138 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "PMP Practice" [ref=e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Software testing jobs" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Software testing jobs
+  - banner [ref=e10]:
+    - navigation "Main navigation" [ref=e11]:
+      - link "SUT" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e13]'
+        - text: Practice
+      - generic [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - button "Demos" [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - link "Tools" [ref=e19] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e20]:
+            - link "Tips" [ref=e21] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e22]:
+            - link "Test Cases" [ref=e23] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e24]:
+            - link "API Testing" [ref=e25] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e26]:
+            - link "About" [ref=e27] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e28] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e29]:
+    - insertion [ref=e33]:
+      - iframe [ref=e35]:
+        - generic [active] [ref=f3e1]:
+          - generic [ref=f3e6]:
+            - link [ref=f3e7] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CeRn3wLAMat-MJJzO4-EPxoajsAi01sWLhwG5v9LcqRWb_pm6lg4QASCVlJmjAWDlyuWDtA6gAYjL2Z4pyAEJqQI-MAWKHbGDPqgDAcgDywSqBPsBT9Dc-MEYJ0YUK1VNqOjbek6tD8cOe3N3Q0Tzm0QToMOkLZVtO5ToRpIrV7Qk6-xdu12I6gD-lhxAM9HBI32C182ul-wx8okIpRbrYhIziiUaaVvssgIxgTLArq29LMHTXXldsdl_qFg5EcJ_vPEjGRGMSSdIzYi2Bw9PQJAJ_9NKa3uj7VFC5C1DO2hQNznpyIYppwZVXZ1x4uGyZH6fpb5_fDSq7Ebzk4jBEwS4B33bj0wBCG8qQesISZwIFalK1algpxUfdWlb_D5UkuVWk4BdtIMiDsUqhakCnXRBKb7DAO4dR9SMVhop5TsKet1MuaeaLjmgB4E0Et7ABPWcgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggxCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljO1JqggsaUA7EJyXFhkzXY5zuACgGYCwHICwGADAGqDQJJTsgNAeoNEwjG8pqggsaUAxUc5zgGHUbDCIbwDQKIDgmwDo3t_vkY2BMM0BUByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOiYAEESCjQ5NzAyMTIyMjEYAbIYCRIC6FgYLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE&num=1&cid=CAQSoAIABaugfZhjWbSlS-P0l7raz07zcJ2Q4Q5bN76O2D1rBAxx31DlRgd_YZXZXR0duZ8gYihiXUU44GUFEK2MheeYyuSKjmh9MqfF1n0cQNxUPrVAtiScqLtBpDUiZkuBvkH9Lkn6osgkDg98ICxpO-td8pOIWxQv70Wa8hkQC2CFhdcf9-H5P9BJKkE3Ozr28r8Xqek99MTTYlEfUNsgGQfy6JJUN6BUSskCkaVWSSlJeD4SptSPpRSfPDxJVWhw9QPdGzP6YxAC_j4Mcqax6_TVW-RZHY-caAaQ9fDOtcRQLtIzV8QcfSSjvjK2GRPMCuEsSb1Fmsyz1nXLcIRNoam_yhd1P-6y-Ss2zIjeMdRqU-1fOdbaC3Jpim-pkCEQ_1AYAQ&sig=AOD64_0w5cHCRY7284D8N1LswHE8I0ahxA&client=ca-pub-1056034821646296&rf=1&nb=9&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE
+              - img [ref=f3e8]
+            - generic [ref=f3e10]:
+              - generic [ref=f3e13]:
+                - 'link "Meshy: #1 AI 3D Modeling Tool" [ref=f3e17] [cursor=pointer]':
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CeRn3wLAMat-MJJzO4-EPxoajsAi01sWLhwG5v9LcqRWb_pm6lg4QASCVlJmjAWDlyuWDtA6gAYjL2Z4pyAEJqQI-MAWKHbGDPqgDAcgDywSqBPsBT9Dc-MEYJ0YUK1VNqOjbek6tD8cOe3N3Q0Tzm0QToMOkLZVtO5ToRpIrV7Qk6-xdu12I6gD-lhxAM9HBI32C182ul-wx8okIpRbrYhIziiUaaVvssgIxgTLArq29LMHTXXldsdl_qFg5EcJ_vPEjGRGMSSdIzYi2Bw9PQJAJ_9NKa3uj7VFC5C1DO2hQNznpyIYppwZVXZ1x4uGyZH6fpb5_fDSq7Ebzk4jBEwS4B33bj0wBCG8qQesISZwIFalK1algpxUfdWlb_D5UkuVWk4BdtIMiDsUqhakCnXRBKb7DAO4dR9SMVhop5TsKet1MuaeaLjmgB4E0Et7ABPWcgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggxCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljO1JqggsaUA7EJyXFhkzXY5zuACgGYCwHICwGADAGqDQJJTsgNAeoNEwjG8pqggsaUAxUc5zgGHUbDCIbwDQKIDgmwDo3t_vkY2BMM0BUByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOiYAEESCjQ5NzAyMTIyMjEYAbIYCRIC6FgYLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE&num=1&cid=CAQSoAIABaugfZhjWbSlS-P0l7raz07zcJ2Q4Q5bN76O2D1rBAxx31DlRgd_YZXZXR0duZ8gYihiXUU44GUFEK2MheeYyuSKjmh9MqfF1n0cQNxUPrVAtiScqLtBpDUiZkuBvkH9Lkn6osgkDg98ICxpO-td8pOIWxQv70Wa8hkQC2CFhdcf9-H5P9BJKkE3Ozr28r8Xqek99MTTYlEfUNsgGQfy6JJUN6BUSskCkaVWSSlJeD4SptSPpRSfPDxJVWhw9QPdGzP6YxAC_j4Mcqax6_TVW-RZHY-caAaQ9fDOtcRQLtIzV8QcfSSjvjK2GRPMCuEsSb1Fmsyz1nXLcIRNoam_yhd1P-6y-Ss2zIjeMdRqU-1fOdbaC3Jpim-pkCEQ_1AYAQ&sig=AOD64_0w5cHCRY7284D8N1LswHE8I0ahxA&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE
+                - link "Turn text and images into 3D models in minutes using AI. Fast, easy, and accurate results." [ref=f3e21] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CeRn3wLAMat-MJJzO4-EPxoajsAi01sWLhwG5v9LcqRWb_pm6lg4QASCVlJmjAWDlyuWDtA6gAYjL2Z4pyAEJqQI-MAWKHbGDPqgDAcgDywSqBPsBT9Dc-MEYJ0YUK1VNqOjbek6tD8cOe3N3Q0Tzm0QToMOkLZVtO5ToRpIrV7Qk6-xdu12I6gD-lhxAM9HBI32C182ul-wx8okIpRbrYhIziiUaaVvssgIxgTLArq29LMHTXXldsdl_qFg5EcJ_vPEjGRGMSSdIzYi2Bw9PQJAJ_9NKa3uj7VFC5C1DO2hQNznpyIYppwZVXZ1x4uGyZH6fpb5_fDSq7Ebzk4jBEwS4B33bj0wBCG8qQesISZwIFalK1algpxUfdWlb_D5UkuVWk4BdtIMiDsUqhakCnXRBKb7DAO4dR9SMVhop5TsKet1MuaeaLjmgB4E0Et7ABPWcgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggxCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljO1JqggsaUA7EJyXFhkzXY5zuACgGYCwHICwGADAGqDQJJTsgNAeoNEwjG8pqggsaUAxUc5zgGHUbDCIbwDQKIDgmwDo3t_vkY2BMM0BUByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOiYAEESCjQ5NzAyMTIyMjEYAbIYCRIC6FgYLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE&num=1&cid=CAQSoAIABaugfZhjWbSlS-P0l7raz07zcJ2Q4Q5bN76O2D1rBAxx31DlRgd_YZXZXR0duZ8gYihiXUU44GUFEK2MheeYyuSKjmh9MqfF1n0cQNxUPrVAtiScqLtBpDUiZkuBvkH9Lkn6osgkDg98ICxpO-td8pOIWxQv70Wa8hkQC2CFhdcf9-H5P9BJKkE3Ozr28r8Xqek99MTTYlEfUNsgGQfy6JJUN6BUSskCkaVWSSlJeD4SptSPpRSfPDxJVWhw9QPdGzP6YxAC_j4Mcqax6_TVW-RZHY-caAaQ9fDOtcRQLtIzV8QcfSSjvjK2GRPMCuEsSb1Fmsyz1nXLcIRNoam_yhd1P-6y-Ss2zIjeMdRqU-1fOdbaC3Jpim-pkCEQ_1AYAQ&sig=AOD64_0w5cHCRY7284D8N1LswHE8I0ahxA&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE
+                  - text: Turn text and images into 3D models in minutes using AI.
+                  - generic [ref=f3e22]:
+                    - text: Fast, easy, and
+                    - text: accurate
+                  - text: results.
+              - generic [ref=f3e25]:
+                - link:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CeRn3wLAMat-MJJzO4-EPxoajsAi01sWLhwG5v9LcqRWb_pm6lg4QASCVlJmjAWDlyuWDtA6gAYjL2Z4pyAEJqQI-MAWKHbGDPqgDAcgDywSqBPsBT9Dc-MEYJ0YUK1VNqOjbek6tD8cOe3N3Q0Tzm0QToMOkLZVtO5ToRpIrV7Qk6-xdu12I6gD-lhxAM9HBI32C182ul-wx8okIpRbrYhIziiUaaVvssgIxgTLArq29LMHTXXldsdl_qFg5EcJ_vPEjGRGMSSdIzYi2Bw9PQJAJ_9NKa3uj7VFC5C1DO2hQNznpyIYppwZVXZ1x4uGyZH6fpb5_fDSq7Ebzk4jBEwS4B33bj0wBCG8qQesISZwIFalK1algpxUfdWlb_D5UkuVWk4BdtIMiDsUqhakCnXRBKb7DAO4dR9SMVhop5TsKet1MuaeaLjmgB4E0Et7ABPWcgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggxCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljO1JqggsaUA7EJyXFhkzXY5zuACgGYCwHICwGADAGqDQJJTsgNAeoNEwjG8pqggsaUAxUc5zgGHUbDCIbwDQKIDgmwDo3t_vkY2BMM0BUByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOiYAEESCjQ5NzAyMTIyMjEYAbIYCRIC6FgYLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE&num=1&cid=CAQSoAIABaugfZhjWbSlS-P0l7raz07zcJ2Q4Q5bN76O2D1rBAxx31DlRgd_YZXZXR0duZ8gYihiXUU44GUFEK2MheeYyuSKjmh9MqfF1n0cQNxUPrVAtiScqLtBpDUiZkuBvkH9Lkn6osgkDg98ICxpO-td8pOIWxQv70Wa8hkQC2CFhdcf9-H5P9BJKkE3Ozr28r8Xqek99MTTYlEfUNsgGQfy6JJUN6BUSskCkaVWSSlJeD4SptSPpRSfPDxJVWhw9QPdGzP6YxAC_j4Mcqax6_TVW-RZHY-caAaQ9fDOtcRQLtIzV8QcfSSjvjK2GRPMCuEsSb1Fmsyz1nXLcIRNoam_yhd1P-6y-Ss2zIjeMdRqU-1fOdbaC3Jpim-pkCEQ_1AYAQ&sig=AOD64_0w5cHCRY7284D8N1LswHE8I0ahxA&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE
+                - link "Meshy.AI" [ref=f3e27] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CeRn3wLAMat-MJJzO4-EPxoajsAi01sWLhwG5v9LcqRWb_pm6lg4QASCVlJmjAWDlyuWDtA6gAYjL2Z4pyAEJqQI-MAWKHbGDPqgDAcgDywSqBPsBT9Dc-MEYJ0YUK1VNqOjbek6tD8cOe3N3Q0Tzm0QToMOkLZVtO5ToRpIrV7Qk6-xdu12I6gD-lhxAM9HBI32C182ul-wx8okIpRbrYhIziiUaaVvssgIxgTLArq29LMHTXXldsdl_qFg5EcJ_vPEjGRGMSSdIzYi2Bw9PQJAJ_9NKa3uj7VFC5C1DO2hQNznpyIYppwZVXZ1x4uGyZH6fpb5_fDSq7Ebzk4jBEwS4B33bj0wBCG8qQesISZwIFalK1algpxUfdWlb_D5UkuVWk4BdtIMiDsUqhakCnXRBKb7DAO4dR9SMVhop5TsKet1MuaeaLjmgB4E0Et7ABPWcgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggxCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljO1JqggsaUA7EJyXFhkzXY5zuACgGYCwHICwGADAGqDQJJTsgNAeoNEwjG8pqggsaUAxUc5zgGHUbDCIbwDQKIDgmwDo3t_vkY2BMM0BUByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOiYAEESCjQ5NzAyMTIyMjEYAbIYCRIC6FgYLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE&num=1&cid=CAQSoAIABaugfZhjWbSlS-P0l7raz07zcJ2Q4Q5bN76O2D1rBAxx31DlRgd_YZXZXR0duZ8gYihiXUU44GUFEK2MheeYyuSKjmh9MqfF1n0cQNxUPrVAtiScqLtBpDUiZkuBvkH9Lkn6osgkDg98ICxpO-td8pOIWxQv70Wa8hkQC2CFhdcf9-H5P9BJKkE3Ozr28r8Xqek99MTTYlEfUNsgGQfy6JJUN6BUSskCkaVWSSlJeD4SptSPpRSfPDxJVWhw9QPdGzP6YxAC_j4Mcqax6_TVW-RZHY-caAaQ9fDOtcRQLtIzV8QcfSSjvjK2GRPMCuEsSb1Fmsyz1nXLcIRNoam_yhd1P-6y-Ss2zIjeMdRqU-1fOdbaC3Jpim-pkCEQ_1AYAQ&sig=AOD64_0w5cHCRY7284D8N1LswHE8I0ahxA&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE
+                - link "Learn More" [ref=f3e29] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CeRn3wLAMat-MJJzO4-EPxoajsAi01sWLhwG5v9LcqRWb_pm6lg4QASCVlJmjAWDlyuWDtA6gAYjL2Z4pyAEJqQI-MAWKHbGDPqgDAcgDywSqBPsBT9Dc-MEYJ0YUK1VNqOjbek6tD8cOe3N3Q0Tzm0QToMOkLZVtO5ToRpIrV7Qk6-xdu12I6gD-lhxAM9HBI32C182ul-wx8okIpRbrYhIziiUaaVvssgIxgTLArq29LMHTXXldsdl_qFg5EcJ_vPEjGRGMSSdIzYi2Bw9PQJAJ_9NKa3uj7VFC5C1DO2hQNznpyIYppwZVXZ1x4uGyZH6fpb5_fDSq7Ebzk4jBEwS4B33bj0wBCG8qQesISZwIFalK1algpxUfdWlb_D5UkuVWk4BdtIMiDsUqhakCnXRBKb7DAO4dR9SMVhop5TsKet1MuaeaLjmgB4E0Et7ABPWcgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggxCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljO1JqggsaUA7EJyXFhkzXY5zuACgGYCwHICwGADAGqDQJJTsgNAeoNEwjG8pqggsaUAxUc5zgGHUbDCIbwDQKIDgmwDo3t_vkY2BMM0BUByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOiYAEESCjQ5NzAyMTIyMjEYAbIYCRIC6FgYLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE&num=1&cid=CAQSoAIABaugfZhjWbSlS-P0l7raz07zcJ2Q4Q5bN76O2D1rBAxx31DlRgd_YZXZXR0duZ8gYihiXUU44GUFEK2MheeYyuSKjmh9MqfF1n0cQNxUPrVAtiScqLtBpDUiZkuBvkH9Lkn6osgkDg98ICxpO-td8pOIWxQv70Wa8hkQC2CFhdcf9-H5P9BJKkE3Ozr28r8Xqek99MTTYlEfUNsgGQfy6JJUN6BUSskCkaVWSSlJeD4SptSPpRSfPDxJVWhw9QPdGzP6YxAC_j4Mcqax6_TVW-RZHY-caAaQ9fDOtcRQLtIzV8QcfSSjvjK2GRPMCuEsSb1Fmsyz1nXLcIRNoam_yhd1P-6y-Ss2zIjeMdRqU-1fOdbaC3Jpim-pkCEQ_1AYAQ&sig=AOD64_0w5cHCRY7284D8N1LswHE8I0ahxA&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE
+                - link [ref=f3e30] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CeRn3wLAMat-MJJzO4-EPxoajsAi01sWLhwG5v9LcqRWb_pm6lg4QASCVlJmjAWDlyuWDtA6gAYjL2Z4pyAEJqQI-MAWKHbGDPqgDAcgDywSqBPsBT9Dc-MEYJ0YUK1VNqOjbek6tD8cOe3N3Q0Tzm0QToMOkLZVtO5ToRpIrV7Qk6-xdu12I6gD-lhxAM9HBI32C182ul-wx8okIpRbrYhIziiUaaVvssgIxgTLArq29LMHTXXldsdl_qFg5EcJ_vPEjGRGMSSdIzYi2Bw9PQJAJ_9NKa3uj7VFC5C1DO2hQNznpyIYppwZVXZ1x4uGyZH6fpb5_fDSq7Ebzk4jBEwS4B33bj0wBCG8qQesISZwIFalK1algpxUfdWlb_D5UkuVWk4BdtIMiDsUqhakCnXRBKb7DAO4dR9SMVhop5TsKet1MuaeaLjmgB4E0Et7ABPWcgLTXBYgF9cvytFigBi6AB4iDqv4DqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggxCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljO1JqggsaUA7EJyXFhkzXY5zuACgGYCwHICwGADAGqDQJJTsgNAeoNEwjG8pqggsaUAxUc5zgGHUbDCIbwDQKIDgmwDo3t_vkY2BMM0BUByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOiYAEESCjQ5NzAyMTIyMjEYAbIYCRIC6FgYLiIBANAYAegYAcIZAggB&ae=1&gclid=EAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE&num=1&cid=CAQSoAIABaugfZhjWbSlS-P0l7raz07zcJ2Q4Q5bN76O2D1rBAxx31DlRgd_YZXZXR0duZ8gYihiXUU44GUFEK2MheeYyuSKjmh9MqfF1n0cQNxUPrVAtiScqLtBpDUiZkuBvkH9Lkn6osgkDg98ICxpO-td8pOIWxQv70Wa8hkQC2CFhdcf9-H5P9BJKkE3Ozr28r8Xqek99MTTYlEfUNsgGQfy6JJUN6BUSskCkaVWSSlJeD4SptSPpRSfPDxJVWhw9QPdGzP6YxAC_j4Mcqax6_TVW-RZHY-caAaQ9fDOtcRQLtIzV8QcfSSjvjK2GRPMCuEsSb1Fmsyz1nXLcIRNoam_yhd1P-6y-Ss2zIjeMdRqU-1fOdbaC3Jpim-pkCEQ_1AYAQ&sig=AOD64_0w5cHCRY7284D8N1LswHE8I0ahxA&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://www.meshy.ai/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_content%3DROW%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPerformance-Max-ROW-Traffic%26utm_term%3D%26gad_source%3D5%26gad_campaignid%3D23733249525%26gclid%3DEAIaIQobChMI3-yaoILGlAMVHOc4Bh1GwwiGEAEYASAAEgI0w_D_BwE
+                  - generic [ref=f3e32]:
+                    - img [ref=f3e33]
+                    - img [ref=f3e35]
+          - img [ref=f3e43] [cursor=pointer]
+          - button [ref=f3e45] [cursor=pointer]:
+            - img [ref=f3e46]
+          - iframe
+    - paragraph [ref=e37]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e38] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e39]:
+      - insertion [ref=e41]:
+        - generic [ref=e44]:
+          - heading "These are topics related to the article that might interest you" [level=2] [ref=e46]: Discover more
+          - link "Development Tools" [ref=e47] [cursor=pointer]:
+            - generic "Development Tools" [ref=e48]
+            - img [ref=e50]
+          - link "Software" [ref=e52] [cursor=pointer]:
+            - generic "Software" [ref=e53]
+            - img [ref=e55]
+          - link "Programming" [ref=e57] [cursor=pointer]:
+            - generic "Programming" [ref=e58]
+            - img [ref=e60]
+          - link "Computer Science" [ref=e62] [cursor=pointer]:
+            - generic "Computer Science" [ref=e63]
+            - img [ref=e65]
+          - link "Networking" [ref=e67] [cursor=pointer]:
+            - generic "Networking" [ref=e68]
+            - img [ref=e70]
+          - link "API development consultation" [ref=e72] [cursor=pointer]:
+            - generic "API development consultation" [ref=e73]
+            - img [ref=e75]
+          - link "API integration support" [ref=e77] [cursor=pointer]:
+            - generic "API integration support" [ref=e78]
+            - img [ref=e80]
+          - link "QA developer resources" [ref=e82] [cursor=pointer]:
+            - generic "QA developer resources" [ref=e83]
+            - img [ref=e85]
+      - generic [ref=e89]:
+        - navigation "breadcrumb mb-2" [ref=e90]:
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - link "Home" [ref=e93] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e94]: / Shadow DOM
+        - heading "Shadow DOM page for Automation Testing Practice" [level=1] [ref=e95]
+        - generic [ref=e97]:
+          - paragraph [ref=e98]: Shadow DOM is a web standard that allows developers to encapsulate HTML markup, CSS styles, and JavaScript code within a custom HTML element, known as a Shadow DOM element.
+          - button "Here's a basic button example." [ref=e99] [cursor=pointer]
+          - button "This button is inside a Shadow DOM." [ref=e101] [cursor=pointer]
+      - insertion [ref=e103]:
+        - iframe [ref=e105]:
+          - generic [active] [ref=f5e1]:
+            - generic [ref=f5e3]:
+              - link:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CMPvHwLAMavWlJPeVjuMP27nXwAT44oOJhwH4l63EuxXNicDTkQ4QASCVlJmjAWDlyuWDtA6gAZWnltoDyAECqQKnImlvGz9GPqgDAcgDyQSqBPgBT9D52qD5IXk4p9voZbp_cBQ1pJUh8hvLqpw8zdrhX-T5TsCFzG23EzGV-7nGastgR0HmdlaEGQ3ZYoYi_BS2EgHOg6YhBMcPed51QKmI6vSEpVqeAz9jtpDq8QvWNSl5hyG4KmalPnVKnbGE75woW9_Swo_ht4QRpDYu0Njvnn01bKru4VQ7owY0Zm7f5kk4KjRrU-m3ZQGe5P_9D0TjtYMHIFq8XllJWjN3rYVpztixIqrbjj6TX8q5xG_gIMJ9SrFmja6OjxHK9OZZ8SPi_0L69EhF52Q9cQqcNuq4Qq3Zb3UJCNP9BNrQ6BFxBLb8LmYCL5p0GAfABNSYrLv7BYgF3-n461igBgKAB67N1l-oB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCDEIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOAEEi9_cE6WJrrmqCCxpQDsQk_xHZRC27e5YAKAZgLAcgLAaIMA5ABAaoNAklOyA0B6g0TCP2Lm6CCxpQDFfeKYwYd29wVSPANAogOCdgTA9AVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI0MDYzMzU3NDNQBroXAjgBqhgXCQAAAAAAEs5AEgoyNDA2MzM1NzQzGAGyGAkSApNOGAIiAQDQGAHoGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI9YWboILGlAMV94pjBh3b3BVIEAEYASAAEgJ5tvD_BwE&num=1&cid=CAQSoAIABaugfbN7xU7a_iJDNP_PC72cDm-JJyjcyG1Bx2g2_VVlHz11gmLZUHqJElvVrzvLExOVI7UToaFjrjEhQhM9s4yLAAu0DqDwziyn8CRg3DZ1CPyO_WOtKJr1r187G71oo_uFEgEDoz9JEpQYZpQ9LbjqjugttBfwGoZDWs7mxHShcW_9CAAEFV_9CjQdz4rYLj8jU_1ylMfhIa4_-Hpc-wiTqNDoq2KIW1dJ8g7y6LQp1dhBDkKw2zCaJkFic2lR3TDZwd3SsZo7u45jMu6gLjr0jjw_8xODFZJaGxwOrR9CrBCE06L5_Fu69rgMLmfpyx3fbjw8iRYYJj6LUJPb5iU0TdL_a-0PppK9We4LzbCI9YUVSwwTjDuIOyNKOcoYAQ&sig=AOD64_1S6zaq4bi_Yuv_itm5ACfmHkBZOA&client=ca-pub-1056034821646296&rf=2&nb=2&adurl=https://www.magicbricks.com/propertyDetails/3-BHK-1700-Sq-ft-Residential-House-FOR-Rent-Phase-1st-JP-Nagar-in-Bangalore%26id%3D4d423834343631373133%3Fgad_source%3D5%26gad_campaignid%3D23848695007%26gclid%3DEAIaIQobChMI9YWboILGlAMV94pjBh3b3BVIEAEYASAAEgJ5tvD_BwE
+              - img [ref=f5e7] [cursor=pointer]
+              - button [ref=f5e9] [cursor=pointer]:
+                - img [ref=f5e10]
+            - iframe
+  - contentinfo [ref=e106]:
+    - generic [ref=e111]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e112]
+      - paragraph [ref=e113]:
+        - text: "Version: e64cd80e | Copyright"
+        - link "Expand Testing" [ref=e114] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2026"
+  - img [ref=e116] [cursor=pointer]
+```

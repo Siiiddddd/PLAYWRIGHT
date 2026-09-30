@@ -31,3 +31,20 @@ expect(errormsg==="Invalid credentials").toBeTruthy(); // complete match
 
  
 });
+
+test.describe("al",async()=>{
+
+test("alert" , async({page}) =>{
+
+    page.on("dialog" , async(dialog)=>{
+
+        dialog.accept();
+        console.log(dialog.message())
+    
+    })
+
+    page.evaluate(()=>{
+        alert("HII");
+    })
+})
+})

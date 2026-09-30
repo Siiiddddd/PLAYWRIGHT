@@ -1,0 +1,17 @@
+{
+  data: {
+    '3': 'c',
+    a: 1,
+    b: 2,
+    array: [ 1, 2, 3, 4, 5, [Array], [Object] ],
+    obj: { oobj: [Object] }
+  },
+  data2: {
+    '3': 'c',
+    a: 1,
+    b: 2,
+    array: [ 1, 2, 3, 4, 5, [Array], [Object] ],
+    obj: { oobj: [Object] }
+  }
+}
+[ 1, 2, 3, 4, 5, [ 1, 4, 5 ], { z: 1, y: 2 } ]

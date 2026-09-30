@@ -1,0 +1,7 @@
+[
+  { TEST_ID: 1, Username: 'A', Password: 'a', Valid: 'Valid' },
+  { TEST_ID: 2, Username: 'B', Password: 'b', Valid: 'Valid' },
+  { TEST_ID: 3, Username: 'C', Password: 'c', Valid: 'Valid' },
+  { TEST_ID: 4, Username: 'D', Password: 'd', Valid: 'Invalid' },
+  { TEST_ID: 5, Username: 'E', Password: 'e', Valid: 'Invalid' }
+]

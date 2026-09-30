@@ -1,0 +1,14 @@
+[
+  {
+    emp_id: 3,
+    emp_name: 'Arun',
+    age: 30,
+    gender: 'Male',
+    department: 'Finance',
+    job_title: 'Accountant',
+    salary: '55000.00',
+    hire_date: 2020-06-19T18:30:00.000Z,
+    email: 'arun@email.com',
+    city: 'Mumbai'
+  }
+]

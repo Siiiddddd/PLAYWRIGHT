@@ -19,8 +19,10 @@ test("open dropdown page",async ({}) =>{
     await p.locator("//a[text()='DropDown Checkbox Radio']").click();
     await expect(p.locator("//h2[text()='Dropdown Menus, Radio Buttons & Checkboxes']")).toHaveText("Dropdown Menus, Radio Buttons & Checkboxes");
 });
+
 test("select value from dropdown",async ({}) =>{
 
+await p.goto("https://automationtesting.co.uk");
     await p.locator("#cars").selectOption("Ford"); 
     await p.waitForTimeout(2000);
     await p.locator("#cars").selectOption({ value: "mercedes" } ); // via attribute value
