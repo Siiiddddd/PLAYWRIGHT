@@ -1,0 +1,965 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [pressed] [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]:
+              - img
+          - generic [ref=e20]: IN
+        - button "Skip navigation" [ref=e24] [cursor=pointer]:
+          - generic: Skip navigation
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Search" [expanded] [ref=e34]: Valorant
+              - button "Clear search query" [ref=e36] [cursor=pointer]
+            - button "Search" [ref=e41] [cursor=pointer]:
+              - generic [ref=e44]:
+                - img
+        - generic [ref=e46]:
+          - button "Search with your voice" [ref=e48] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e53]:
+        - button "Settings" [ref=e58] [cursor=pointer]
+        - link "Sign in" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DValorant&hl=en&ec=65620
+          - generic: Sign in
+  - navigation [ref=e66]:
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e75]:
+          - link "Home" [ref=e77] [cursor=pointer]:
+            - /url: /
+            - link "Home" [ref=e78]:
+              - generic [ref=e80]: Home
+          - link "Shorts" [ref=e82] [cursor=pointer]:
+            - link "Shorts" [ref=e83]:
+              - generic [ref=e85]: Shorts
+          - link "Subscriptions" [ref=e87] [cursor=pointer]:
+            - /url: /feed/subscriptions
+            - link "Subscriptions" [ref=e88]:
+              - generic [ref=e90]: Subscriptions
+          - link "You" [ref=e92] [cursor=pointer]:
+            - /url: /feed/you
+            - link "You" [ref=e93]:
+              - generic [ref=e95]: You
+          - link "History" [ref=e97] [cursor=pointer]:
+            - /url: /feed/history
+            - link "History" [ref=e98]:
+              - generic [ref=e100]: History
+        - generic [ref=e101]:
+          - generic [ref=e102]: Sign in to like videos, comment, and subscribe.
+          - link "Sign in" [ref=e105] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en
+            - generic: Sign in
+        - generic [ref=e109]:
+          - heading "Explore" [level=3] [ref=e110]:
+            - generic [ref=e111]: Explore
+          - generic [ref=e112]:
+            - link "Shopping" [ref=e114] [cursor=pointer]:
+              - /url: /channel/UCkYQyvc_i9hXEo4xic9Hh2g
+              - link "Shopping" [ref=e115]:
+                - generic [ref=e117]: Shopping
+            - link "Music" [ref=e119] [cursor=pointer]:
+              - /url: /channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+              - link "Music" [ref=e120]:
+                - generic [ref=e122]: Music
+            - link "Movies & TV" [ref=e124] [cursor=pointer]:
+              - /url: /feed/storefront?bp=ogUCKAU%3D
+              - link "Movies & TV" [ref=e125]:
+                - generic [ref=e127]: Movies & TV
+            - button "Show more" [ref=e129]:
+              - link "Show more" [ref=e130] [cursor=pointer]:
+                - link "Show more" [ref=e131]:
+                  - generic [ref=e133]: Show more
+        - generic [ref=e134]:
+          - heading "More from YouTube" [level=3] [ref=e135]:
+            - generic [ref=e136]: More from YouTube
+          - generic [ref=e137]:
+            - link "YouTube Premium" [ref=e139] [cursor=pointer]:
+              - /url: /premium
+              - link "YouTube Premium" [ref=e140]:
+                - generic [ref=e142]: YouTube Premium
+            - link "YouTube Music" [ref=e144] [cursor=pointer]:
+              - /url: https://music.youtube.com/
+              - link "YouTube Music" [ref=e145]:
+                - generic [ref=e147]: YouTube Music
+            - link "YouTube Kids" [ref=e149] [cursor=pointer]:
+              - /url: https://www.youtubekids.com/?source=youtube_web
+              - link "YouTube Kids" [ref=e150]:
+                - generic [ref=e152]: YouTube Kids
+        - link "Report history" [ref=e156] [cursor=pointer]:
+          - /url: /reporthistory
+          - link "Report history" [ref=e157]:
+            - generic [ref=e159]: Report history
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - link "About" [ref=e162] [cursor=pointer]:
+            - /url: https://www.youtube.com/about/
+          - link "Press" [ref=e163] [cursor=pointer]:
+            - /url: https://www.youtube.com/about/press/
+          - link "Copyright" [ref=e164] [cursor=pointer]:
+            - /url: https://www.youtube.com/about/copyright/
+          - link "Contact us" [ref=e165] [cursor=pointer]:
+            - /url: /t/contact_us/
+          - link "Creators" [ref=e166] [cursor=pointer]:
+            - /url: https://www.youtube.com/creators/
+          - link "Advertise" [ref=e167] [cursor=pointer]:
+            - /url: https://www.youtube.com/ads/
+          - link "Developers" [ref=e168] [cursor=pointer]:
+            - /url: https://developers.google.com/youtube
+        - generic [ref=e169]:
+          - link "Terms" [ref=e170] [cursor=pointer]:
+            - /url: /t/terms
+          - link "Privacy" [ref=e171] [cursor=pointer]:
+            - /url: /t/privacy
+          - link "Policy & Safety" [ref=e172] [cursor=pointer]:
+            - /url: https://www.youtube.com/about/policies/
+          - link "How YouTube works" [ref=e173] [cursor=pointer]:
+            - /url: https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen
+          - link "Test new features" [ref=e174] [cursor=pointer]:
+            - /url: /new
+        - generic [ref=e175]: © 2026 Google LLC
+  - generic [ref=e176]:
+    - main [ref=e177]:
+      - generic [ref=e178]:
+        - generic [ref=e180]:
+          - tablist [ref=e185]:
+            - tab "All" [selected] [ref=e189] [cursor=pointer]:
+              - generic [ref=e191]: All
+            - tab "Shorts" [ref=e195] [cursor=pointer]:
+              - generic [ref=e197]: Shorts
+            - tab "Unwatched" [ref=e201] [cursor=pointer]:
+              - generic [ref=e203]: Unwatched
+            - tab "Watched" [ref=e207] [cursor=pointer]:
+              - generic [ref=e209]: Watched
+            - tab "Videos" [ref=e213] [cursor=pointer]:
+              - generic [ref=e215]: Videos
+            - tab "Recently uploaded" [ref=e219] [cursor=pointer]:
+              - generic [ref=e221]: Recently uploaded
+            - tab "Live" [ref=e225] [cursor=pointer]:
+              - generic [ref=e227]: Live
+          - generic [ref=e229]:
+            - button "Search filters" [ref=e231] [cursor=pointer]:
+              - generic: Filters
+            - tooltip "tooltip"
+        - generic [ref=e235]:
+          - generic [ref=e238]:
+            - generic [ref=e245]:
+              - generic [ref=e248] [cursor=pointer]:
+                - generic [ref=e250]: Play VALORANT Today
+                - img [ref=e252]
+              - generic [ref=e253]:
+                - generic [ref=e254] [cursor=pointer]:
+                  - generic [ref=e255]:
+                    - 'link "Free VALORANT Khelne Ke Liye - VALORANT: A Game for the Next Generation of Shooter Players. darjaon weapons aur tarkeebon se apan kaushal dikhao. Tactical Play." [ref=e258]':
+                      - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjupLjqxfuWAxUZm2YCHYuJJhMYACICCAEQABoCc20&co=1&ase=2&gclid=EAIaIQobChMI7qS46sX7lgMVGZtmAh2LiSYTEAAYASAAEgKlRfD_BwE&cid=CAAS0wHkaLuZjoYn1IHM-abCahc2pgtoCsuD_RNmdrswDlDXO6x58Ro6iFay7gnVffvk5P0SwxlRhI4EVLxPBEzpZBOKWtrY0T4IEEXhKlC03YbnEbuwetVUCc2ZuGUllAV_tFfFR2QCzRyX6mlNSs3NLqhVKFKAF2ZY3ycFMknfawJ9K5T_JwYLMS6mtu6DSc78_D2YI-inZIY8loroPLUKvQHjF-RXB8EDo9ivLZMOO_tgBAWbtLMmDTpH-Jk1p4gmgL4gHTZj5vj90C_azf8vTzDhfJ1b&cce=2&category=acrcp_v1_37&sig=AOD64_2_m_YmON3chGyN4A9fJt7UGsR4Gg&adurl=https://ad.doubleclick.net/searchads/link/click%3Flid%3D43700073744903757%26ds_s_kwgid%3D58700008114169917%26ds_a_cid%3D504613161%26ds_a_caid%3D18632367525%26ds_a_agid%3D142113598949%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-901294085035%26ds_a_extid%3D%26%26ds_e_adid%3D629000227624%26ds_e_matchtype%3Dsearch%26ds_e_device%3Dc%26ds_e_network%3Ds%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://app.adjust.com/1t8kacr9%3Fcampaign%3D18632367525%26adgroup%3D142113598949%26creative%3D629000227624%26gclid%3D%7Bgclid%7D%26lpurl%3Dhttps://playvalorant.com/en-us/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525%26gbraid%3D%7Bgbraid%7D%26wbraid%3D%7Bwbraid%7D%26external_click_id%3D%7Bgclid%7D%26redirect%3Dhttps://playvalorant.com/en-us/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=0
+                    - generic [ref=e259]:
+                      - generic [ref=e261]:
+                        - generic [ref=e262]: Sponsored
+                        - text: ·
+                      - generic [ref=e264]: https://www.playvalorant.com/
+                  - button "My Ad Center" [ref=e267]
+                - generic [ref=e271]:
+                  - link "Weapons" [ref=e272]:
+                    - link "Weapons" [ref=e275] [cursor=pointer]:
+                      - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjupLjqxfuWAxUZm2YCHYuJJhMYACICCAEQARoCc20&co=1&ase=2&gclid=EAIaIQobChMI7qS46sX7lgMVGZtmAh2LiSYTEAAYASABEgLeHPD_BwE&cid=CAAS0wHkaLuZjoYn1IHM-abCahc2pgtoCsuD_RNmdrswDlDXO6x58Ro6iFay7gnVffvk5P0SwxlRhI4EVLxPBEzpZBOKWtrY0T4IEEXhKlC03YbnEbuwetVUCc2ZuGUllAV_tFfFR2QCzRyX6mlNSs3NLqhVKFKAF2ZY3ycFMknfawJ9K5T_JwYLMS6mtu6DSc78_D2YI-inZIY8loroPLUKvQHjF-RXB8EDo9ivLZMOO_tgBAWbtLMmDTpH-Jk1p4gmgL4gHTZj5vj90C_azf8vTzDhfJ1b&cce=2&category=acrcp_v1_37&sig=AOD64_2LkbYhp8yh07qQvq6f0d7pv1Qbag&adurl=https://ad.doubleclick.net/searchads/link/click%3Flid%3D43700073744903757%26ds_s_kwgid%3D58700008114169917%26ds_a_cid%3D504613161%26ds_a_caid%3D18632367525%26ds_a_agid%3D142113598949%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-901294085035%26ds_a_extid%3D39664660514%26%26ds_e_adid%3D629000227624%26ds_e_matchtype%3Dsearch%26ds_e_device%3Dc%26ds_e_network%3Ds%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://app.adjust.com/1t8kacr9%3Fcampaign%3D18632367525%26adgroup%3D142113598949%26creative%3D629000227624%26gclid%3D%7Bgclid%7D%26lpurl%3Dhttps://playvalorant.com/en-us/arsenal/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525%26gbraid%3D%7Bgbraid%7D%26wbraid%3D%7Bwbraid%7D%26external_click_id%3D%7Bgclid%7D%26redirect%3Dhttps://playvalorant.com/en-us/arsenal/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=6
+                  - link "Maps" [ref=e276]:
+                    - link "Maps" [ref=e279] [cursor=pointer]:
+                      - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjupLjqxfuWAxUZm2YCHYuJJhMYACICCAEQAhoCc20&co=1&ase=2&gclid=EAIaIQobChMI7qS46sX7lgMVGZtmAh2LiSYTEAAYASACEgJ7HfD_BwE&cid=CAAS0wHkaLuZjoYn1IHM-abCahc2pgtoCsuD_RNmdrswDlDXO6x58Ro6iFay7gnVffvk5P0SwxlRhI4EVLxPBEzpZBOKWtrY0T4IEEXhKlC03YbnEbuwetVUCc2ZuGUllAV_tFfFR2QCzRyX6mlNSs3NLqhVKFKAF2ZY3ycFMknfawJ9K5T_JwYLMS6mtu6DSc78_D2YI-inZIY8loroPLUKvQHjF-RXB8EDo9ivLZMOO_tgBAWbtLMmDTpH-Jk1p4gmgL4gHTZj5vj90C_azf8vTzDhfJ1b&cce=2&category=acrcp_v1_37&sig=AOD64_2HQjAOMmLbP9gBqQADU6XRpm_G5Q&adurl=https://ad.doubleclick.net/searchads/link/click%3Flid%3D43700073744903757%26ds_s_kwgid%3D58700008114169917%26ds_a_cid%3D504613161%26ds_a_caid%3D18632367525%26ds_a_agid%3D142113598949%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-901294085035%26ds_a_extid%3D39664660511%26%26ds_e_adid%3D629000227624%26ds_e_matchtype%3Dsearch%26ds_e_device%3Dc%26ds_e_network%3Ds%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://app.adjust.com/1t8kacr9%3Fcampaign%3D18632367525%26adgroup%3D142113598949%26creative%3D629000227624%26gclid%3D%7Bgclid%7D%26lpurl%3Dhttps://playvalorant.com/en-us/maps/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525%26gbraid%3D%7Bgbraid%7D%26wbraid%3D%7Bwbraid%7D%26external_click_id%3D%7Bgclid%7D%26redirect%3Dhttps://playvalorant.com/en-us/maps/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=6
+                  - link "News" [ref=e280]:
+                    - link "News" [ref=e283] [cursor=pointer]:
+                      - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjupLjqxfuWAxUZm2YCHYuJJhMYACICCAEQAxoCc20&co=1&ase=2&gclid=EAIaIQobChMI7qS46sX7lgMVGZtmAh2LiSYTEAAYASADEgKvAPD_BwE&cid=CAAS0wHkaLuZjoYn1IHM-abCahc2pgtoCsuD_RNmdrswDlDXO6x58Ro6iFay7gnVffvk5P0SwxlRhI4EVLxPBEzpZBOKWtrY0T4IEEXhKlC03YbnEbuwetVUCc2ZuGUllAV_tFfFR2QCzRyX6mlNSs3NLqhVKFKAF2ZY3ycFMknfawJ9K5T_JwYLMS6mtu6DSc78_D2YI-inZIY8loroPLUKvQHjF-RXB8EDo9ivLZMOO_tgBAWbtLMmDTpH-Jk1p4gmgL4gHTZj5vj90C_azf8vTzDhfJ1b&cce=2&category=acrcp_v1_37&sig=AOD64_0GoLxgiSzgiDmHnP8ZpJSwV_OjOg&adurl=https://ad.doubleclick.net/searchads/link/click%3Flid%3D43700073744903757%26ds_s_kwgid%3D58700008114169917%26ds_a_cid%3D504613161%26ds_a_caid%3D18632367525%26ds_a_agid%3D142113598949%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-901294085035%26ds_a_extid%3D39664660517%26%26ds_e_adid%3D629000227624%26ds_e_matchtype%3Dsearch%26ds_e_device%3Dc%26ds_e_network%3Ds%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://app.adjust.com/1t8kacr9%3Fcampaign%3D18632367525%26adgroup%3D142113598949%26creative%3D629000227624%26gclid%3D%7Bgclid%7D%26lpurl%3Dhttps://playvalorant.com/en-us/news/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525%26gbraid%3D%7Bgbraid%7D%26wbraid%3D%7Bwbraid%7D%26external_click_id%3D%7Bgclid%7D%26redirect%3Dhttps://playvalorant.com/en-us/news/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=6
+                  - link "Agents" [ref=e284]:
+                    - link "Agents" [ref=e287] [cursor=pointer]:
+                      - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjupLjqxfuWAxUZm2YCHYuJJhMYACICCAEQBBoCc20&co=1&ase=2&gclid=EAIaIQobChMI7qS46sX7lgMVGZtmAh2LiSYTEAAYASAEEgI-avD_BwE&cid=CAAS0wHkaLuZjoYn1IHM-abCahc2pgtoCsuD_RNmdrswDlDXO6x58Ro6iFay7gnVffvk5P0SwxlRhI4EVLxPBEzpZBOKWtrY0T4IEEXhKlC03YbnEbuwetVUCc2ZuGUllAV_tFfFR2QCzRyX6mlNSs3NLqhVKFKAF2ZY3ycFMknfawJ9K5T_JwYLMS6mtu6DSc78_D2YI-inZIY8loroPLUKvQHjF-RXB8EDo9ivLZMOO_tgBAWbtLMmDTpH-Jk1p4gmgL4gHTZj5vj90C_azf8vTzDhfJ1b&cce=2&category=acrcp_v1_37&sig=AOD64_25wPh0zjbY9dznzQecJYRLKnug-Q&adurl=https://ad.doubleclick.net/searchads/link/click%3Flid%3D43700073744903757%26ds_s_kwgid%3D58700008114169917%26ds_a_cid%3D504613161%26ds_a_caid%3D18632367525%26ds_a_agid%3D142113598949%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-901294085035%26ds_a_extid%3D39664660508%26%26ds_e_adid%3D629000227624%26ds_e_matchtype%3Dsearch%26ds_e_device%3Dc%26ds_e_network%3Ds%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://app.adjust.com/1t8kacr9%3Fcampaign%3D18632367525%26adgroup%3D142113598949%26creative%3D629000227624%26gclid%3D%7Bgclid%7D%26lpurl%3Dhttps://playvalorant.com/en-us/agents/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525%26gbraid%3D%7Bgbraid%7D%26wbraid%3D%7Bwbraid%7D%26external_click_id%3D%7Bgclid%7D%26redirect%3Dhttps://playvalorant.com/en-us/agents/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=6
+                  - link "Specs" [ref=e288]:
+                    - link "Specs" [ref=e291] [cursor=pointer]:
+                      - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjupLjqxfuWAxUZm2YCHYuJJhMYACICCAEQBRoCc20&co=1&ase=2&gclid=EAIaIQobChMI7qS46sX7lgMVGZtmAh2LiSYTEAAYASAFEgJKE_D_BwE&cid=CAAS0wHkaLuZjoYn1IHM-abCahc2pgtoCsuD_RNmdrswDlDXO6x58Ro6iFay7gnVffvk5P0SwxlRhI4EVLxPBEzpZBOKWtrY0T4IEEXhKlC03YbnEbuwetVUCc2ZuGUllAV_tFfFR2QCzRyX6mlNSs3NLqhVKFKAF2ZY3ycFMknfawJ9K5T_JwYLMS6mtu6DSc78_D2YI-inZIY8loroPLUKvQHjF-RXB8EDo9ivLZMOO_tgBAWbtLMmDTpH-Jk1p4gmgL4gHTZj5vj90C_azf8vTzDhfJ1b&cce=2&category=acrcp_v1_37&sig=AOD64_3BmfyvGtkm2jQJvjlbSADWTQKv9w&adurl=https://ad.doubleclick.net/searchads/link/click%3Flid%3D43700073744903757%26ds_s_kwgid%3D58700008114169917%26ds_a_cid%3D504613161%26ds_a_caid%3D18632367525%26ds_a_agid%3D142113598949%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-901294085035%26ds_a_extid%3D39664660520%26%26ds_e_adid%3D629000227624%26ds_e_matchtype%3Dsearch%26ds_e_device%3Dc%26ds_e_network%3Ds%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://app.adjust.com/1t8kacr9%3Fcampaign%3D18632367525%26adgroup%3D142113598949%26creative%3D629000227624%26gclid%3D%7Bgclid%7D%26lpurl%3Dhttps://playvalorant.com/en-us/specs/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525%26gbraid%3D%7Bgbraid%7D%26wbraid%3D%7Bwbraid%7D%26external_click_id%3D%7Bgclid%7D%26redirect%3Dhttps://playvalorant.com/en-us/specs/%253Fadjust_referrer%253Dadjust_external_click_id%25253D%257Bgclid%257D%2526gclsrc%253Daw.ds%2526gad_source%253D2%2526gad_campaignid%253D18632367525&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=6
+            - generic [ref=e293]:
+              - generic [ref=e295]:
+                - link [ref=e297] [cursor=pointer]:
+                  - /url: /watch?v=dbxUfD7Cb8g&pp=ygUIVmFsb3JhbnQ%3D
+                  - img [ref=e299]
+                - generic [ref=e300] [cursor=pointer]:
+                  - generic [ref=e301]:
+                    - 'heading "I''m the Rank #1 Jett... 9 minutes, 45 seconds" [level=3] [ref=e303]':
+                      - 'link "I''m the Rank #1 Jett... 9 minutes, 45 seconds" [ref=e304]':
+                        - /url: /watch?v=dbxUfD7Cb8g&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: "I'm the Rank #1 Jett..."
+                    - generic [ref=e307]:
+                      - generic [ref=e308]: 416K views
+                      - generic [ref=e309]: •7 days ago
+                  - generic [ref=e310]:
+                    - link "Go to channel Kaemi" [ref=e311]:
+                      - /url: /@Kaemi
+                    - generic [ref=e313]:
+                      - link "Kaemi" [ref=e317]:
+                        - /url: /@Kaemi
+                      - img "Verified" [ref=e322]
+                  - generic [ref=e324]:
+                    - text: "Watch Me Live Twitch: https://www.twitch.tv/kaemii Twitter: https://twitter.com/kaemiii_ TikTok: ..."
+                    - tooltip "tooltip"
+              - generic [ref=e326]:
+                - link [ref=e328] [cursor=pointer]:
+                  - /url: /watch?v=EDOshYsSzT8&pp=ygUIVmFsb3JhbnQ%3D
+                  - img [ref=e330]
+                - generic [ref=e331] [cursor=pointer]:
+                  - generic [ref=e332]:
+                    - heading "This One’s BIG // Dev Updates - VALORANT 5 minutes, 10 seconds" [level=3] [ref=e334]:
+                      - link "This One’s BIG // Dev Updates - VALORANT 5 minutes, 10 seconds" [ref=e335]:
+                        - /url: /watch?v=EDOshYsSzT8&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: This One’s BIG // Dev Updates - VALORANT
+                    - generic [ref=e338]:
+                      - generic [ref=e339]: 995K views
+                      - generic [ref=e340]: •5 days ago
+                  - generic [ref=e341]:
+                    - link "Go to channel VALORANT" [ref=e342]:
+                      - /url: /@valorant
+                    - generic [ref=e344]:
+                      - link "VALORANT" [ref=e348]:
+                        - /url: /@valorant
+                      - img "Verified" [ref=e353]
+                  - generic [ref=e355]:
+                    - generic [ref=e356]: In Patch 13.06 we're going big. REAL big. Insane new mode, new rifle, new systems. Get a look at VALORANT's biggest update of ...
+                    - tooltip "tooltip"
+                  - generic [ref=e358]:
+                    - img "New" [ref=e361]:
+                      - generic [ref=e362]: New
+                    - img "4K" [ref=e365]:
+                      - generic [ref=e366]: 4K
+              - generic [ref=e367]:
+                - generic [ref=e370]:
+                  - img [ref=e372]
+                  - heading "Shorts" [level=2] [ref=e375]
+                - generic [ref=e376]:
+                  - generic [ref=e377]:
+                    - generic [ref=e380]:
+                      - link [ref=e381] [cursor=pointer]:
+                        - /url: /shorts/dLQuxwLWjhU
+                        - img [ref=e386]:
+                          - generic [ref=e387]: New
+                      - generic [ref=e388] [cursor=pointer]:
+                        - link "Guess the Real Yoru in Valorant" [ref=e389]:
+                          - /url: /shorts/dLQuxwLWjhU
+                        - generic [ref=e390]: 19K views
+                      - button "More actions" [ref=e392] [cursor=pointer]
+                    - generic [ref=e398]:
+                      - link [ref=e399] [cursor=pointer]:
+                        - /url: /shorts/2uieMcWWqfI
+                        - img [ref=e404]:
+                          - generic [ref=e405]: New
+                      - generic [ref=e406] [cursor=pointer]:
+                        - 'link "what is yoru doing in my rank up game 😭✌️ #valorant #valorantclips #valoranthighlights" [ref=e407]':
+                          - /url: /shorts/2uieMcWWqfI
+                        - generic [ref=e408]: 317K views
+                      - button "More actions" [ref=e410] [cursor=pointer]
+                    - generic [ref=e416]:
+                      - link [ref=e417] [cursor=pointer]:
+                        - /url: /shorts/r03-5xfh9s8
+                        - img [ref=e422]:
+                          - generic [ref=e423]: New
+                      - generic [ref=e424] [cursor=pointer]:
+                        - link "Jynxzi Finds a Game-Breaking Bug in Valorant’s New Game Mode! 💀😭" [ref=e425]:
+                          - /url: /shorts/r03-5xfh9s8
+                        - generic [ref=e426]: 20K views
+                      - button "More actions" [ref=e428] [cursor=pointer]
+                  - generic [ref=e432]:
+                    - generic [ref=e435]:
+                      - link [ref=e436] [cursor=pointer]:
+                        - /url: /shorts/aEqsxI4s6cQ
+                        - img [ref=e441]:
+                          - generic [ref=e442]: New
+                      - generic [ref=e443] [cursor=pointer]:
+                        - link "He Lost in Simon Says Because of this… (Valorant)" [ref=e444]:
+                          - /url: /shorts/aEqsxI4s6cQ
+                        - generic [ref=e445]: 20K views
+                      - button "More actions" [ref=e447] [cursor=pointer]
+                    - generic [ref=e453]:
+                      - link [ref=e454] [cursor=pointer]:
+                        - /url: /shorts/YStlbduEdvA
+                        - img [ref=e459]:
+                          - generic [ref=e460]: New
+                      - generic [ref=e461] [cursor=pointer]:
+                        - link "Wingman explains the new rifle" [ref=e462]:
+                          - /url: /shorts/YStlbduEdvA
+                        - generic [ref=e463]: 147K views
+                      - button "More actions" [ref=e465] [cursor=pointer]
+              - generic [ref=e470]:
+                - link [ref=e472] [cursor=pointer]:
+                  - /url: /watch?v=J_htRqr3q5g&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e474] [cursor=pointer]:
+                  - generic [ref=e475]:
+                    - heading "THE REAL PROBLEM WITH VALORANT IN 2026... | TenZ 15 minutes" [level=3] [ref=e477]:
+                      - link "THE REAL PROBLEM WITH VALORANT IN 2026... | TenZ 15 minutes" [ref=e478]:
+                        - /url: /watch?v=J_htRqr3q5g&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: THE REAL PROBLEM WITH VALORANT IN 2026... | TenZ
+                    - generic [ref=e481]:
+                      - generic [ref=e482]: 130K views
+                      - generic [ref=e483]: •10 hours ago
+                  - generic [ref=e484]:
+                    - link "Go to channel TenZ" [ref=e485]:
+                      - /url: /@TenZ
+                    - generic [ref=e486]:
+                      - link "TenZ" [ref=e490]:
+                        - /url: /@TenZ
+                      - img "Verified" [ref=e495]
+                  - generic [ref=e497]:
+                    - generic [ref=e498]: "TenZ talks about the biggest issue with Valorant in 2026... Check out Secretlab's website: ..."
+                    - tooltip "tooltip"
+                  - img "New" [ref=e503]:
+                    - generic [ref=e504]: New
+                  - generic [ref=e507]:
+                    - generic [ref=e508]:
+                      - generic [ref=e511]: Summary
+                      - button "TenZ dives into a ranked match where suspicions of cheating arise among opponents. As the game progresses, the team analyzes suspicious player behavior and high tracker scores, questioning the integrity of the competitive environment in the current state of the game." [ref=e512]
+                      - text: ·
+                    - button "More" [ref=e517]
+              - generic [ref=e522]:
+                - link [ref=e524] [cursor=pointer]:
+                  - /url: /watch?v=nbPVAtG0lWA&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e526] [cursor=pointer]:
+                  - generic [ref=e527]:
+                    - heading "TenZ TESTS *NEW* VALORANT Gun 'Warden' 4 minutes, 49 seconds" [level=3] [ref=e529]:
+                      - link "TenZ TESTS *NEW* VALORANT Gun 'Warden' 4 minutes, 49 seconds" [ref=e530]:
+                        - /url: /watch?v=nbPVAtG0lWA&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: TenZ TESTS *NEW* VALORANT Gun 'Warden'
+                    - generic [ref=e533]:
+                      - generic [ref=e534]: 270K views
+                      - generic [ref=e535]: •1 day ago
+                  - generic [ref=e536]:
+                    - link "Go to channel Im_Nb1 أمين" [ref=e537]:
+                      - /url: /@im_nb1231
+                    - link "Im_Nb1 أمين" [ref=e542]:
+                      - /url: /@im_nb1231
+                  - generic [ref=e543]:
+                    - text: "Credits : twitch.tv/TenZ ➡️ Make sure to check out the Creator of this clip on the link above! ➡️ Like and Subscribe for Daily ..."
+                    - tooltip "tooltip"
+                  - img "New" [ref=e548]:
+                    - generic [ref=e549]: New
+              - generic [ref=e551]:
+                - link [ref=e553] [cursor=pointer]:
+                  - /url: /watch?v=qg2TrpwovG8&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e555] [cursor=pointer]:
+                  - generic [ref=e556]:
+                    - heading "TenZ and OXY Give Their Thoughts on the New Weapon | Most Watched VALORANT Clips Today V1856 15 minutes" [level=3] [ref=e558]:
+                      - link "TenZ and OXY Give Their Thoughts on the New Weapon | Most Watched VALORANT Clips Today V1856 15 minutes" [ref=e559]:
+                        - /url: /watch?v=qg2TrpwovG8&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: TenZ and OXY Give Their Thoughts on the New Weapon | Most Watched VALORANT Clips Today V1856
+                    - generic [ref=e562]:
+                      - generic [ref=e563]: 19K views
+                      - generic [ref=e564]: •12 hours ago
+                  - generic [ref=e565]:
+                    - link "Go to channel Valorant by JARSO" [ref=e566]:
+                      - /url: /@valorantbyJARSO
+                    - link "Valorant by JARSO" [ref=e571]:
+                      - /url: /@valorantbyJARSO
+                  - generic [ref=e572]:
+                    - generic [ref=e573]: TenZ and OXY Give Their Thoughts on the New Weapon | Most Watched VALORANT Clips Today V1856 ▻ Follow me here for ...
+                    - tooltip "tooltip"
+                  - img "New" [ref=e578]:
+                    - generic [ref=e579]: New
+                  - generic [ref=e582]:
+                    - generic [ref=e583]:
+                      - generic [ref=e587]: 3 chapters
+                      - button "Intro | Title | Daily Highlights" [ref=e588]
+                    - button "More" [ref=e593]
+              - generic [ref=e597]:
+                - generic [ref=e600]:
+                  - img [ref=e602]
+                  - heading "Shorts" [level=2] [ref=e605]
+                - generic [ref=e606]:
+                  - generic [ref=e607]:
+                    - generic [ref=e610]:
+                      - link [ref=e611] [cursor=pointer]:
+                        - /url: /shorts/nGd7vrsufV4
+                        - img [ref=e616]:
+                          - generic [ref=e617]: New
+                      - generic [ref=e618] [cursor=pointer]:
+                        - 'link "Spike Rush Is Fun To Play in Valorant😂| Valorant Funny Moments | #valorant #valorantfunnymoments" [ref=e619]':
+                          - /url: /shorts/nGd7vrsufV4
+                        - generic [ref=e620]: 2.5K views
+                      - button "More actions" [ref=e622] [cursor=pointer]
+                    - generic [ref=e628]:
+                      - link [ref=e629] [cursor=pointer]:
+                        - /url: /shorts/qbJOnIer7qQ
+                        - img [ref=e634]:
+                          - generic [ref=e635]: New
+                      - generic [ref=e636] [cursor=pointer]:
+                        - 'link "Neon hilarious moment #valorant #valorantclips #valoranthighlights" [ref=e637]':
+                          - /url: /shorts/qbJOnIer7qQ
+                        - generic [ref=e638]: 26K views
+                      - button "More actions" [ref=e640] [cursor=pointer]
+                    - generic [ref=e646]:
+                      - link [ref=e647] [cursor=pointer]:
+                        - /url: /shorts/973p2ow1zcA
+                        - img [ref=e652]:
+                          - generic [ref=e653]: New
+                      - generic [ref=e654] [cursor=pointer]:
+                        - 'link "Is Pa1ze the Ultimate Neon Deterrent? #dopai #valorant" [ref=e655]':
+                          - /url: /shorts/973p2ow1zcA
+                        - generic [ref=e656]: 711 views
+                      - button "More actions" [ref=e658] [cursor=pointer]
+                  - generic [ref=e662]:
+                    - generic [ref=e665]:
+                      - link [ref=e666] [cursor=pointer]:
+                        - /url: /shorts/GMjoRnydAAM
+                        - img [ref=e671]:
+                          - generic [ref=e672]: New
+                      - generic [ref=e673] [cursor=pointer]:
+                        - link "WHAT YOUR VALORANT MAIN SAYS ABOUT YOU" [ref=e674]:
+                          - /url: /shorts/GMjoRnydAAM
+                        - generic [ref=e675]: 6K views
+                      - button "More actions" [ref=e677] [cursor=pointer]
+                    - generic [ref=e683]:
+                      - link [ref=e684] [cursor=pointer]:
+                        - /url: /shorts/K3XXm5eZgt0
+                        - img [ref=e689]:
+                          - generic [ref=e690]: New
+                      - generic [ref=e691] [cursor=pointer]:
+                        - 'link "Top 3 WORST Valorant TIPS to improve #valorantshorts" [ref=e692]':
+                          - /url: /shorts/K3XXm5eZgt0
+                        - generic [ref=e693]: 13K views
+                      - button "More actions" [ref=e695] [cursor=pointer]
+                    - generic [ref=e701]:
+                      - link [ref=e702] [cursor=pointer]:
+                        - /url: /shorts/3W7TcjW4-as
+                        - img [ref=e707]:
+                          - generic [ref=e708]: New
+                      - generic [ref=e709] [cursor=pointer]:
+                        - link "3 things you might not know about valorant" [ref=e710]:
+                          - /url: /shorts/3W7TcjW4-as
+                        - generic [ref=e711]: 6.5K views
+                      - button "More actions" [ref=e713] [cursor=pointer]
+                  - generic [ref=e717]:
+                    - generic [ref=e720]:
+                      - link [ref=e721] [cursor=pointer]:
+                        - /url: /shorts/CU6RRH7RGHE
+                        - img [ref=e726]:
+                          - generic [ref=e727]: New
+                      - generic [ref=e728] [cursor=pointer]:
+                        - 'link "TenZ Shows Off the New Gun 👀 | VALORANT #valorant #gaming #valorantgaming" [ref=e729]':
+                          - /url: /shorts/CU6RRH7RGHE
+                        - generic [ref=e730]: 1.5K views
+                      - button "More actions" [ref=e732] [cursor=pointer]
+                    - generic [ref=e738]:
+                      - link [ref=e739] [cursor=pointer]:
+                        - /url: /shorts/6viYgUsleZY
+                        - img [ref=e744]:
+                          - generic [ref=e745]: New
+                      - generic [ref=e746] [cursor=pointer]:
+                        - 'link "This Is Peak Gaming Dopamine 🤌🔥 #valorant #valorantclips #valorantlive #india #gaming" [ref=e747]':
+                          - /url: /shorts/6viYgUsleZY
+                        - generic [ref=e748]: 13K views
+                      - button "More actions" [ref=e750] [cursor=pointer]
+                    - generic [ref=e756]:
+                      - link [ref=e757] [cursor=pointer]:
+                        - /url: /shorts/R45pYJ4zvoU
+                        - img [ref=e762]:
+                          - generic [ref=e763]: New
+                      - generic [ref=e764] [cursor=pointer]:
+                        - 'link "helllllo?! #VCTGameChangersNA #VALORANT" [ref=e765]':
+                          - /url: /shorts/R45pYJ4zvoU
+                        - generic [ref=e766]: 19K views
+                      - button "More actions" [ref=e768] [cursor=pointer]
+                  - generic [ref=e772]:
+                    - generic [ref=e775]:
+                      - link [ref=e776] [cursor=pointer]:
+                        - /url: /shorts/wp0nk97ZHOw
+                        - img [ref=e781]:
+                          - generic [ref=e782]: New
+                      - generic [ref=e783] [cursor=pointer]:
+                        - 'link "Haven Sage + Omen Trick: One-Tap Heaven at Round Start | VALORANT" [ref=e784]':
+                          - /url: /shorts/wp0nk97ZHOw
+                        - generic [ref=e785]: 24K views
+                      - button "More actions" [ref=e787] [cursor=pointer]
+                    - generic [ref=e793]:
+                      - link [ref=e794] [cursor=pointer]:
+                        - /url: /shorts/H-F4qCCw27s
+                        - img [ref=e799]:
+                          - generic [ref=e800]: New
+                      - generic [ref=e801] [cursor=pointer]:
+                        - link "Wingman explains the new game mode" [ref=e802]:
+                          - /url: /shorts/H-F4qCCw27s
+                        - generic [ref=e803]: 67K views
+                      - button "More actions" [ref=e805] [cursor=pointer]
+                    - generic [ref=e811]:
+                      - link [ref=e812] [cursor=pointer]:
+                        - /url: /shorts/AeK54HxNSro
+                        - img [ref=e817]:
+                          - generic [ref=e818]: New
+                      - generic [ref=e819] [cursor=pointer]:
+                        - link "How I Treat my Valorant Duo" [ref=e820]:
+                          - /url: /shorts/AeK54HxNSro
+                        - generic [ref=e821]: 15K views
+                      - button "More actions" [ref=e823] [cursor=pointer]
+                - button "Show more" [ref=e830] [cursor=pointer]:
+                  - generic: Show more
+              - generic [ref=e835]:
+                - link [ref=e837] [cursor=pointer]:
+                  - /url: /watch?v=x8jAY2CoOBg&list=RDx8jAY2CoOBg&start_radio=1&pp=ygUIVmFsb3JhbnSgBwE%3D
+                - generic [ref=e839] [cursor=pointer]:
+                  - generic [ref=e840]:
+                    - heading "If The Sun Burns Out Tonight ft. Grabbitz, Oli Sykes, Courtney LaPlante // VALORANT Champions 2026 3 minutes, 55 seconds" [level=3] [ref=e842]:
+                      - link "If The Sun Burns Out Tonight ft. Grabbitz, Oli Sykes, Courtney LaPlante // VALORANT Champions 2026 3 minutes, 55 seconds" [ref=e843]:
+                        - /url: /watch?v=x8jAY2CoOBg&list=RDx8jAY2CoOBg&start_radio=1&pp=ygUIVmFsb3JhbnSgBwE%3D
+                        - text: If The Sun Burns Out Tonight ft. Grabbitz, Oli Sykes, Courtney LaPlante // VALORANT Champions 2026
+                    - generic [ref=e846]:
+                      - generic [ref=e847]: 4.4M views
+                      - generic [ref=e848]: •3 days ago
+                  - generic [ref=e849]:
+                    - link "Go to channel VALORANT" [ref=e850]:
+                      - /url: /@valorant
+                    - generic [ref=e851]:
+                      - link "VALORANT" [ref=e855]:
+                        - /url: /@valorant
+                      - img "Verified" [ref=e860]
+                  - generic [ref=e862]:
+                    - text: At the end of the world, when the void calls your name, will you FRAG or DIE? See the official anthem and music video for the ...
+                    - tooltip "tooltip"
+                  - generic [ref=e864]:
+                    - img "New" [ref=e867]:
+                      - generic [ref=e868]: New
+                    - img "4K" [ref=e871]:
+                      - generic [ref=e872]: 4K
+              - generic [ref=e874]:
+                - link [ref=e876] [cursor=pointer]:
+                  - /url: /watch?v=9XL-Aks79Go&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e878] [cursor=pointer]:
+                  - generic [ref=e879]:
+                    - heading "MOUTH CLOSED to 5 TOP RADIANTS 🏆 Horcus Valorant 41 minutes" [level=3] [ref=e881]:
+                      - link "MOUTH CLOSED to 5 TOP RADIANTS 🏆 Horcus Valorant 41 minutes" [ref=e882]:
+                        - /url: /watch?v=9XL-Aks79Go&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: MOUTH CLOSED to 5 TOP RADIANTS 🏆 Horcus Valorant
+                    - generic [ref=e885]:
+                      - generic [ref=e886]: 14K views
+                      - generic [ref=e887]: •4 hours ago
+                  - generic [ref=e888]:
+                    - link "Go to channel Horcus" [ref=e889]:
+                      - /url: /@Horcus
+                    - generic [ref=e890]:
+                      - link "Horcus" [ref=e894]:
+                        - /url: /@Horcus
+                      - img "Verified" [ref=e899]
+                  - generic [ref=e901]:
+                    - text: "Twitch: https://www.twitch.tv/Horcus Twitter: https://twitter.com/Horcus Instagram: https://www.instagram.com/Horcus Tik Tok ..."
+                    - tooltip "tooltip"
+                  - img "New" [ref=e906]:
+                    - generic [ref=e907]: New
+                  - generic [ref=e910]:
+                    - generic [ref=e911]:
+                      - generic [ref=e914]: Summary
+                      - button "Horcus se enfrenta a un equipo de jugadores de alto nivel en Valorant, poniendo a prueba estrategias tácticas y habilidades de comunicación. A través de rondas intensas en el mapa Split, el contenido explora el juego cooperativo y el uso avanzado de los agentes en un entorno competitivo exigente." [ref=e915]
+                      - text: ·
+                    - button "More" [ref=e920]
+              - generic [ref=e925]:
+                - link [ref=e927] [cursor=pointer]:
+                  - /url: /@valorant
+                - generic [ref=e930]:
+                  - link "VALORANT Verified @valorant•2.95M subscribers A 5v5 character-based tactical shooter from Riot Games. Available worldwide. Learn more about VALORANT at ..." [ref=e931] [cursor=pointer]:
+                    - /url: /@valorant
+                    - generic [ref=e932]:
+                      - generic [ref=e933]:
+                        - generic [ref=e936]: VALORANT
+                        - img "Verified" [ref=e941]
+                      - generic [ref=e943]: "@valorant•2.95M subscribers"
+                      - generic [ref=e944]: A 5v5 character-based tactical shooter from Riot Games. Available worldwide. Learn more about VALORANT at ...
+                  - link "Subscribe" [ref=e949] [cursor=pointer]:
+                    - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253DValorant%26continue_action%3DQUZZTVljRUZmekNERDU4LXJTdHV6M19reDRQUnxBTl9pYzRjelg4UjR3ZHp4SkNSbXFPMkNLNVBqMFVEczRpZFJtazhmamZMb1Z4NGctY2xQVUNzT2VGa2RzMjhxNVloMTFtNnc2b2dFM2ZrTV92Sy1qZVFQbmpRSDN5dFowVjFfNVFpQXFnWUVvQXFKbHl4OXJYNFpReWpZTWh1OXFGdFg3d2ZGa0VUbEtfR1g5S0VWNVZIZlBUMzI4SWRTbEtWOVR0MFVDTHZuck5KY0FCUGoxbHZuQ2Qw&hl=en
+                    - generic: Subscribe
+              - generic [ref=e954]:
+                - link [ref=e956] [cursor=pointer]:
+                  - /url: /watch?v=9Tsj7bNGES8&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e958] [cursor=pointer]:
+                  - generic [ref=e959]:
+                    - heading "TenZ TESTS *NEW* BROKEN VETO UPDATE !!! 15 minutes" [level=3] [ref=e961]:
+                      - link "TenZ TESTS *NEW* BROKEN VETO UPDATE !!! 15 minutes" [ref=e962]:
+                        - /url: /watch?v=9Tsj7bNGES8&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: TenZ TESTS *NEW* BROKEN VETO UPDATE !!!
+                    - generic [ref=e965]:
+                      - generic [ref=e966]: 685K views
+                      - generic [ref=e967]: •9 days ago
+                  - generic [ref=e968]:
+                    - link "Go to channel TenZ" [ref=e969]:
+                      - /url: /@TenZ
+                    - generic [ref=e970]:
+                      - link "TenZ" [ref=e974]:
+                        - /url: /@TenZ
+                      - img "Verified" [ref=e979]
+                  - generic [ref=e981]:
+                    - text: This Veto update makes it one of the best agent in the meta according to TenZ, here is why... My ARTISAN NINJA FX ZERO ...
+                    - tooltip "tooltip"
+                  - generic [ref=e984]:
+                    - generic [ref=e985]:
+                      - generic [ref=e988]: Summary
+                      - button "TenZ explores the latest updates for Veto, experimenting with creative utility placement and teleportation strategies. Alongside the gameplay, TenZ showcases a collaboration with Artisan to release a signature red mouse pad designed for high-precision competitive play." [ref=e989]
+                      - text: ·
+                    - button "More" [ref=e994]
+              - generic [ref=e999]:
+                - link [ref=e1001] [cursor=pointer]:
+                  - /url: /watch?v=iy1_QywMeB4&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e1003] [cursor=pointer]:
+                  - generic [ref=e1004]:
+                    - heading "I Filled Until I Hit IMMORTAL... (or quit) 25 minutes" [level=3] [ref=e1006]:
+                      - link "I Filled Until I Hit IMMORTAL... (or quit) 25 minutes" [ref=e1007]:
+                        - /url: /watch?v=iy1_QywMeB4&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: I Filled Until I Hit IMMORTAL... (or quit)
+                    - generic [ref=e1010]:
+                      - generic [ref=e1011]: 263K views
+                      - generic [ref=e1012]: •2 weeks ago
+                  - generic [ref=e1013]:
+                    - link "Go to channel Mossi" [ref=e1014]:
+                      - /url: /@MossiValorant
+                    - generic [ref=e1015]:
+                      - link "Mossi" [ref=e1019]:
+                        - /url: /@MossiValorant
+                      - img "Verified" [ref=e1024]
+                  - generic [ref=e1026]:
+                    - generic [ref=e1027]: "Valorant Points - Best Price!: https://ene.ba/Mossi-Valorant ENEBA - Marketplace for Gamers: https://ene.ba/Mossi Code: ..."
+                    - tooltip "tooltip"
+                  - generic [ref=e1030]:
+                    - generic [ref=e1031]:
+                      - generic [ref=e1034]: Summary
+                      - button "Mossi attempts to climb the ranked ladder by filling for teammates and playing whichever agents are needed to succeed. Throughout this intense journey, Mossi navigates team dynamics and fluctuating performance while documenting the effort to reach the coveted rank of Immortal." [ref=e1035]
+                      - text: ·
+                    - button "More" [ref=e1040]
+              - generic [ref=e1045]:
+                - link [ref=e1047] [cursor=pointer]:
+                  - /url: /watch?v=l5f_8yfMPTA&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e1049] [cursor=pointer]:
+                  - generic [ref=e1050]:
+                    - heading "VALORANT IS FUN AGAIN!! 27 minutes" [level=3] [ref=e1052]:
+                      - link "VALORANT IS FUN AGAIN!! 27 minutes" [ref=e1053]:
+                        - /url: /watch?v=l5f_8yfMPTA&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: VALORANT IS FUN AGAIN!!
+                    - generic [ref=e1056]:
+                      - generic [ref=e1057]: 81K views
+                      - generic [ref=e1058]: •4 days ago
+                  - generic [ref=e1059]:
+                    - link "Go to channel GrimLIVE" [ref=e1060]:
+                      - /url: /@GrimGuyLIVE
+                    - generic [ref=e1061]:
+                      - link "GrimLIVE" [ref=e1065]:
+                        - /url: /@GrimGuyLIVE
+                      - img "Verified" [ref=e1070]
+                  - generic [ref=e1072]:
+                    - text: "Follow me on Twitch https://bit.ly/GrimTV Get Connected: Twitch: https://bit.ly/GrimTV TikTok: https://www.tiktok.com/@grimval ..."
+                    - tooltip "tooltip"
+                  - img "New" [ref=e1077]:
+                    - generic [ref=e1078]: New
+                  - generic [ref=e1081]:
+                    - generic [ref=e1082]:
+                      - generic [ref=e1085]: Summary
+                      - button "GrimLIVE navigates high-stakes competitive matches, focusing on strategic wall placements and precise aim techniques while climbing the ranks. Throughout these intense gameplay sessions, GrimLIVE shares insights into maintaining a consistent practice routine and managing in-game challenges during the climb to Radiant." [ref=e1086]
+                      - text: ·
+                    - button "More" [ref=e1091]
+              - generic [ref=e1096]:
+                - link [ref=e1098] [cursor=pointer]:
+                  - /url: /watch?v=BTiHpVzp5Q0&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e1100] [cursor=pointer]:
+                  - generic [ref=e1101]:
+                    - 'heading "FUNNIEST MOMENTS IN VALORANT #308 14 minutes, 49 seconds" [level=3] [ref=e1103]':
+                      - 'link "FUNNIEST MOMENTS IN VALORANT #308 14 minutes, 49 seconds" [ref=e1104]':
+                        - /url: /watch?v=BTiHpVzp5Q0&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: "FUNNIEST MOMENTS IN VALORANT #308"
+                    - generic [ref=e1107]:
+                      - generic [ref=e1108]: 25K views
+                      - generic [ref=e1109]: •6 days ago
+                  - generic [ref=e1110]:
+                    - link "Go to channel VALORANT - Protatomonster" [ref=e1111]:
+                      - /url: /@VALORANTProtatomonster
+                    - generic [ref=e1112]:
+                      - link "VALORANT - Protatomonster" [ref=e1116]:
+                        - /url: /@VALORANTProtatomonster
+                      - img "Verified" [ref=e1121]
+                  - generic [ref=e1123]:
+                    - generic [ref=e1124]: "FUNNIEST MOMENTS IN VALORANT #308... #funny #Fails , Iron Plays and Best Voice Chat Moments on PS5, Xbox, and Mobile ..."
+                    - tooltip "tooltip"
+                  - img "New" [ref=e1129]:
+                    - generic [ref=e1130]: New
+                  - generic [ref=e1133]:
+                    - generic [ref=e1134]:
+                      - generic [ref=e1137]: Summary
+                      - button "VALORANT - Protatomonster showcases a collection of chaotic gameplay clips, featuring unexpected melee encounters, incredible clutch plays, and humorous ragdoll physics. Players navigate intense combat scenarios, highlighting both impressive individual skill and lighthearted blunders within the game." [ref=e1138]
+                      - text: ·
+                    - button "More" [ref=e1143]
+              - generic [ref=e1148]:
+                - link [ref=e1150] [cursor=pointer]:
+                  - /url: /watch?v=2Y-TQwpkmpI&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e1152] [cursor=pointer]:
+                  - generic [ref=e1153]:
+                    - heading "This Is How I’m INSANELY FAST in Gunfights | VALORANT Visual Guide 2026 1 hour, 1 minute" [level=3] [ref=e1155]:
+                      - link "This Is How I’m INSANELY FAST in Gunfights | VALORANT Visual Guide 2026 1 hour, 1 minute" [ref=e1156]:
+                        - /url: /watch?v=2Y-TQwpkmpI&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: This Is How I’m INSANELY FAST in Gunfights | VALORANT Visual Guide 2026
+                    - generic [ref=e1159]:
+                      - generic [ref=e1160]: 137K views
+                      - generic [ref=e1161]: •7 days ago
+                  - generic [ref=e1162]:
+                    - link "Go to channel Haeyoday" [ref=e1163]:
+                      - /url: /@haeyoday
+                    - link "Haeyoday" [ref=e1168]:
+                      - /url: /@haeyoday
+                  - generic [ref=e1169]:
+                    - text: for AIMROUTINE + COACHING, join my server discord.gg/haeyoday If you appreciate my work wish to give a donation, I would ...
+                    - tooltip "tooltip"
+                  - img "4K" [ref=e1174]:
+                    - generic [ref=e1175]: 4K
+                  - generic [ref=e1178]:
+                    - generic [ref=e1179]:
+                      - generic [ref=e1182]: Summary
+                      - button "Haeyoday demonstrates advanced micro-movements, positioning strategies, and communication techniques to optimize reaction times during intense Valorant encounters. Learn how to effectively trade with teammates, manipulate enemy expectations through baiting, and maintain control during high-pressure defensive holds." [ref=e1183]
+                      - text: ·
+                    - button "More" [ref=e1188]
+              - generic [ref=e1193]:
+                - link [ref=e1195] [cursor=pointer]:
+                  - /url: /watch?v=e3ZJqZDCpyw&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e1197] [cursor=pointer]:
+                  - generic [ref=e1198]:
+                    - heading "Ruining our friendships in Valorant 30 minutes" [level=3] [ref=e1200]:
+                      - link "Ruining our friendships in Valorant 30 minutes" [ref=e1201]:
+                        - /url: /watch?v=e3ZJqZDCpyw&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: Ruining our friendships in Valorant
+                    - generic [ref=e1204]:
+                      - generic [ref=e1205]: 316K views
+                      - generic [ref=e1206]: •2 weeks ago
+                  - generic [ref=e1207]:
+                    - link "Go to channel supertf" [ref=e1208]:
+                      - /url: /@supertf
+                    - generic [ref=e1209]:
+                      - link "supertf" [ref=e1213]:
+                        - /url: /@supertf
+                      - img "Verified" [ref=e1218]
+                  - generic [ref=e1220]:
+                    - text: The throuple is falling apart 0:00 - Hop on swiftplay 3:00 - Iso demon 9:58 - Stop fighting PoroSad 22:14 - super is the greatest ...
+                    - tooltip "tooltip"
+                  - generic [ref=e1223]:
+                    - generic [ref=e1224]:
+                      - generic [ref=e1228]: 4 chapters
+                      - button "Hop on swiftplay | Iso demon | Stop fighting PoroSad | super is the greatest Skye of all time" [ref=e1229]
+                    - button "More" [ref=e1234]
+              - generic [ref=e1239]:
+                - link [ref=e1241] [cursor=pointer]:
+                  - /url: /watch?v=iWtXWhGQoQo&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e1243] [cursor=pointer]:
+                  - generic [ref=e1244]:
+                    - heading "OXY CHAMBER 23 minutes" [level=3] [ref=e1246]:
+                      - link "OXY CHAMBER 23 minutes" [ref=e1247]:
+                        - /url: /watch?v=iWtXWhGQoQo&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: OXY CHAMBER
+                    - generic [ref=e1250]:
+                      - generic [ref=e1251]: 198K views
+                      - generic [ref=e1252]: •8 days ago
+                  - generic [ref=e1253]:
+                    - link "Go to channel Oxy" [ref=e1254]:
+                      - /url: /@LFT_Oxy
+                    - generic [ref=e1255]:
+                      - link "Oxy" [ref=e1259]:
+                        - /url: /@LFT_Oxy
+                      - img "Verified" [ref=e1264]
+                  - generic [ref=e1266]:
+                    - text: OXY DROPS ONE OF HIS MOST INSANE CHAMBER CLIPS IN RADIANT RANKED PULLING OFF A CRAZY 1V4 CLUTCH!
+                    - tooltip "tooltip"
+                  - generic [ref=e1269]:
+                    - generic [ref=e1270]:
+                      - generic [ref=e1274]: 4 chapters
+                      - button "Warm Up | Game 1 | Games & Highlights | Outro" [ref=e1275]
+                    - button "More" [ref=e1280]
+              - generic [ref=e1285]:
+                - heading "Latest from VALORANT" [level=2] [ref=e1288]:
+                  - generic [ref=e1290]: Latest from VALORANT
+                - generic [ref=e1292]:
+                  - generic [ref=e1293]:
+                    - generic [ref=e1295]:
+                      - link [ref=e1297] [cursor=pointer]:
+                        - /url: /watch?v=s3WyCf_SD54&pp=ygUIVmFsb3JhbnTSBwkJJAwBhyohjO8%3D
+                      - generic [ref=e1299] [cursor=pointer]:
+                        - generic [ref=e1300]:
+                          - heading "FRAG OR DIE // Champions 2026 Skin Reveal Trailer - VALORANT 1 minute, 21 seconds" [level=3] [ref=e1302]:
+                            - link "FRAG OR DIE // Champions 2026 Skin Reveal Trailer - VALORANT 1 minute, 21 seconds" [ref=e1303]:
+                              - /url: /watch?v=s3WyCf_SD54&pp=ygUIVmFsb3JhbnTSBwkJJAwBhyohjO8%3D
+                              - text: FRAG OR DIE // Champions 2026 Skin Reveal Trailer - VALORANT
+                          - generic [ref=e1306]:
+                            - generic [ref=e1307]: 1.5M views
+                            - generic [ref=e1308]: •2 days ago
+                        - generic [ref=e1309]:
+                          - link "Go to channel VALORANT" [ref=e1310]:
+                            - /url: /@valorant
+                          - generic [ref=e1311]:
+                            - link "VALORANT" [ref=e1315]:
+                              - /url: /@valorant
+                            - img "Verified" [ref=e1320]
+                        - generic [ref=e1322]:
+                          - text: Frag or Die with a new Phantom and Fan Melee featuring premium flourishes and a dynamic side-swap effect. Available in your ...
+                          - tooltip "tooltip"
+                        - img "New" [ref=e1327]:
+                          - generic [ref=e1328]: New
+                    - generic [ref=e1330]:
+                      - link [ref=e1332] [cursor=pointer]:
+                        - /url: /watch?v=V_uHGQUvLPw&pp=ygUIVmFsb3JhbnQ%3D
+                      - generic [ref=e1334] [cursor=pointer]:
+                        - generic [ref=e1335]:
+                          - 'heading "GAUNTLET: GLITCHED // Game Mode Reveal Trailer - VALORANT 1 minute, 43 seconds" [level=3] [ref=e1337]':
+                            - 'link "GAUNTLET: GLITCHED // Game Mode Reveal Trailer - VALORANT 1 minute, 43 seconds" [ref=e1338]':
+                              - /url: /watch?v=V_uHGQUvLPw&pp=ygUIVmFsb3JhbnQ%3D
+                              - text: "GAUNTLET: GLITCHED // Game Mode Reveal Trailer - VALORANT"
+                          - generic [ref=e1341]:
+                            - generic [ref=e1342]: 506K views
+                            - generic [ref=e1343]: •5 days ago
+                        - generic [ref=e1344]:
+                          - link "Go to channel VALORANT" [ref=e1345]:
+                            - /url: /@valorant
+                          - generic [ref=e1346]:
+                            - link "VALORANT" [ref=e1350]:
+                              - /url: /@valorant
+                            - img "Verified" [ref=e1355]
+                        - generic [ref=e1357]:
+                          - text: 16 players, 8 teams, pure chaos. Build your perfect Agent, upgrade Abilities, and earn your place in the winner's circle in the most ...
+                          - tooltip "tooltip"
+                        - img "New" [ref=e1362]:
+                          - generic [ref=e1363]: New
+                  - button "+4 more" [ref=e1365] [cursor=pointer]
+              - generic [ref=e1366]:
+                - generic [ref=e1369]:
+                  - img [ref=e1371]
+                  - heading "Latest Shorts from VALORANT" [level=2] [ref=e1374]
+                - generic [ref=e1376]:
+                  - generic [ref=e1379]:
+                    - link [ref=e1380] [cursor=pointer]:
+                      - /url: /shorts/1sqSgDT6628
+                      - img [ref=e1385]:
+                        - generic [ref=e1386]: New
+                    - generic [ref=e1387] [cursor=pointer]:
+                      - link "Wingman explains the new Performance Score" [ref=e1388]:
+                        - /url: /shorts/1sqSgDT6628
+                      - generic [ref=e1389]: 153K views
+                    - button "More actions" [ref=e1391] [cursor=pointer]
+                  - generic [ref=e1397]:
+                    - link [ref=e1398] [cursor=pointer]:
+                      - /url: /shorts/H-F4qCCw27s
+                      - img [ref=e1403]:
+                        - generic [ref=e1404]: New
+                    - generic [ref=e1405] [cursor=pointer]:
+                      - link "Wingman explains the new game mode" [ref=e1406]:
+                        - /url: /shorts/H-F4qCCw27s
+                      - generic [ref=e1407]: 67K views
+                    - button "More actions" [ref=e1409] [cursor=pointer]
+                  - generic [ref=e1415]:
+                    - link [ref=e1416] [cursor=pointer]:
+                      - /url: /shorts/adK7xjKjAWU
+                      - img [ref=e1421]:
+                        - generic [ref=e1422]: New
+                    - generic [ref=e1423] [cursor=pointer]:
+                      - link "Wingman explains FTW" [ref=e1424]:
+                        - /url: /shorts/adK7xjKjAWU
+                      - generic [ref=e1425]: 46K views
+                    - button "More actions" [ref=e1427] [cursor=pointer]
+                - button "Show more" [ref=e1434] [cursor=pointer]:
+                  - generic: Show more
+              - generic [ref=e1439]:
+                - link [ref=e1441] [cursor=pointer]:
+                  - /url: /watch?v=XRyr0mCTcV4&pp=ygUIVmFsb3JhbnQ%3D
+                - generic [ref=e1443] [cursor=pointer]:
+                  - generic [ref=e1444]:
+                    - heading "ALL NEW Agent Mastery Cards & Poses in VALORANT! 2 minutes, 35 seconds" [level=3] [ref=e1446]:
+                      - link "ALL NEW Agent Mastery Cards & Poses in VALORANT! 2 minutes, 35 seconds" [ref=e1447]:
+                        - /url: /watch?v=XRyr0mCTcV4&pp=ygUIVmFsb3JhbnQ%3D
+                        - text: ALL NEW Agent Mastery Cards & Poses in VALORANT!
+                    - generic [ref=e1450]:
+                      - generic [ref=e1451]: 13K views
+                      - generic [ref=e1452]: •7 hours ago
+                  - generic [ref=e1453]:
+                    - link "Go to channel ToRaN" [ref=e1454]:
+                      - /url: /@toran_valorant
+                    - link "ToRaN" [ref=e1459]:
+                      - /url: /@toran_valorant
+                  - generic [ref=e1460]:
+                    - generic [ref=e1461]: Check out the latest Valorant agent mastery rewards for your favourite agents, featuring unique animated player cards and ...
+                    - tooltip "tooltip"
+                  - img "New" [ref=e1466]:
+                    - generic [ref=e1467]: New
+                  - generic [ref=e1470]:
+                    - generic [ref=e1471]:
+                      - generic [ref=e1475]: 30 chapters
+                      - button "Astra | Breach | Brimstone | Chamber | Clove | Cypher | Deadlock | Fade | Gekko | Harbor | Iso | Jett | KAY/O | Killjoy | Miks | Neon | Omen | Phoenix | Raze | Reyna | Sage | Skye | Sova | Tejo | Veto | Viper | Vyse | Waylay | Yoru | Outro" [ref=e1476]
+                    - button "More" [ref=e1481]
+          - generic [ref=e1510]:
+            - 'link "Valorant Video game • Released: 2020" [ref=e1515] [cursor=pointer]':
+              - /url: /channel/UCiMRGE8Sc6oxIGuu_JxFoHg
+              - generic [ref=e1518]: Valorant
+              - generic [ref=e1520]: "Video game • Released: 2020"
+            - generic [ref=e1528] [cursor=pointer]:
+              - link "Wingman explains the new Performance Score" [ref=e1529]:
+                - /url: /watch?v=1sqSgDT6628&pp=0gcJCUAE6IfKp2fp
+                - generic [ref=e1530]: Wingman explains the new Performance Score
+              - generic [ref=e1532]: VALORANT • 153K views • 2 days ago
+            - generic [ref=e1536]:
+              - generic [ref=e1537]:
+                - generic [ref=e1538]:
+                  - link [ref=e1540] [cursor=pointer]:
+                    - /url: /watch?v=s3WyCf_SD54&pp=ygUIVmFsb3JhbnQ%3D
+                    - img [ref=e1542]
+                  - generic [ref=e1543] [cursor=pointer]:
+                    - link "FRAG OR DIE // Champions 2026 Skin Reveal Trailer - VALORANT" [ref=e1545]:
+                      - /url: /watch?v=s3WyCf_SD54&pp=ygUIVmFsb3JhbnQ%3D
+                      - generic [ref=e1546]: FRAG OR DIE // Champions 2026 Skin Reveal Trailer - VALORANT
+                    - link "VALORANT" [ref=e1548]:
+                      - /url: /@valorant
+                    - generic [ref=e1549]: 1.5M views • 2 days ago
+                - generic [ref=e1550]:
+                  - link [ref=e1552] [cursor=pointer]:
+                    - /url: /watch?v=Slc67XPd-dk&pp=ygUIVmFsb3JhbnQ%3D
+                    - img [ref=e1554]
+                  - generic [ref=e1555] [cursor=pointer]:
+                    - link "soon..." [ref=e1557]:
+                      - /url: /watch?v=Slc67XPd-dk&pp=ygUIVmFsb3JhbnQ%3D
+                      - generic [ref=e1558]: soon...
+                    - link "VALORANT" [ref=e1560]:
+                      - /url: /@valorant
+                    - generic [ref=e1561]: 182K views • 3 days ago
+                - generic [ref=e1562]:
+                  - link [ref=e1564] [cursor=pointer]:
+                    - /url: /watch?v=x8jAY2CoOBg&start_radio=1&pp=ygUIVmFsb3JhbnQ%3D
+                    - img [ref=e1566]
+                  - generic [ref=e1567] [cursor=pointer]:
+                    - link "If The Sun Burns Out Tonight ft. Grabbitz, Oli Sykes, Courtney LaPlante // VALORANT Champions 2026" [ref=e1569]:
+                      - /url: /watch?v=x8jAY2CoOBg&start_radio=1&pp=ygUIVmFsb3JhbnQ%3D
+                      - generic [ref=e1570]: If The Sun Burns Out Tonight ft. Grabbitz, Oli Sykes, Courtney LaPlante // VALORANT Champions 2026
+                    - link "VALORANT" [ref=e1572]:
+                      - /url: /@valorant
+                    - generic [ref=e1573]: 4.4M views • 3 days ago
+                - generic [ref=e1574]:
+                  - link [ref=e1576] [cursor=pointer]:
+                    - /url: /watch?v=V_uHGQUvLPw&pp=ygUIVmFsb3JhbnQ%3D
+                    - img [ref=e1578]
+                  - generic [ref=e1579] [cursor=pointer]:
+                    - 'link "GAUNTLET: GLITCHED // Game Mode Reveal Trailer - VALORANT" [ref=e1581]':
+                      - /url: /watch?v=V_uHGQUvLPw&pp=ygUIVmFsb3JhbnQ%3D
+                      - generic [ref=e1582]: "GAUNTLET: GLITCHED // Game Mode Reveal Trailer - VALORANT"
+                    - link "VALORANT" [ref=e1584]:
+                      - /url: /@valorant
+                    - generic [ref=e1585]: 506K views • 5 days ago
+                - generic [ref=e1586]:
+                  - link [ref=e1588] [cursor=pointer]:
+                    - /url: /watch?v=6ZNB7eFScB8&pp=ygUIVmFsb3JhbnQ%3D
+                    - img [ref=e1590]
+                  - generic [ref=e1591] [cursor=pointer]:
+                    - 'link "Our newest mode, Gauntlet: Glitched" [ref=e1593]':
+                      - /url: /watch?v=6ZNB7eFScB8&pp=ygUIVmFsb3JhbnQ%3D
+                      - generic [ref=e1594]: "Our newest mode, Gauntlet: Glitched"
+                    - link "VALORANT" [ref=e1596]:
+                      - /url: /@valorant
+                    - generic [ref=e1597]: 34K views • 5 days ago
+              - link "View all" [ref=e1598] [cursor=pointer]:
+                - /url: /channel/UCiMRGE8Sc6oxIGuu_JxFoHg/official
+    - text: •
+```

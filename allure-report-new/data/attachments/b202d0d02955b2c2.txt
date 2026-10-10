@@ -1,0 +1,4 @@
+[
+  locator('//input[@type="radio"]/following-sibling::label').first(),
+  locator('//input[@type="radio"]/following-sibling::label').nth(1)
+]

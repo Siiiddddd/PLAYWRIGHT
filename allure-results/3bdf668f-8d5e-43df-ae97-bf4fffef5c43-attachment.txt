@@ -1,0 +1,34 @@
+APIResponse: 200 OK
+  Access-Control-Allow-Headers: Accept, Authorization, Content-Type, Origin, X-Requested-With
+  Access-Control-Allow-Methods: GET
+  Access-Control-Allow-Origin: *
+  Content-Length: 479
+  Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+  Content-Type: application/json; charset=utf-8
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Date: Thu, 27 Aug 2026 07:29:41 GMT
+  Etag: W/"1df-Tx83jyCBXcZBzEyTe43rV+b/yXM"
+  Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+  Origin-Agent-Cluster: ?1
+  Referrer-Policy: no-referrer
+  Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=zt%2BkSAR52LzqrCjA3Xv5TFzTe8Bvm7a9hi0lATCsbQg%3D\u0026sid=1b10b0ff-8a76-4548-befa-353fc6c6c045\u0026ts=1787815781"}],"max_age":3600}
+  Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=zt%2BkSAR52LzqrCjA3Xv5TFzTe8Bvm7a9hi0lATCsbQg%3D&sid=1b10b0ff-8a76-4548-befa-353fc6c6c045&ts=1787815781"
+  Server: Heroku
+  Strict-Transport-Security: max-age=15552000; includeSubDomains
+  Via: 1.1 heroku-router
+  X-Content-Type-Options: nosniff
+  X-Dns-Prefetch-Control: off
+  X-Download-Options: noopen
+  X-Frame-Options: SAMEORIGIN
+  X-Permitted-Cross-Domain-Policies: none
+  X-Xss-Protection: 0
+200 {
+  data: [
+    'A cats field of vision is about 185 degrees.',
+    'Cats that live together sometimes rub each others heads to show that they have no intention of fighting. Young cats do this more often, especially when they are excited.',
+    'Cats have been domesticated for half as long as dogs have been.',
+    'In tigers and tabbies, the middle of the tongue is covered in backward-pointing spines, used for breaking off and gripping meat.',
+    'Cats have over 20 muscles that control their ears.'
+  ]
+} {"data":["A cats field of vision is about 185 degrees.","Cats that live together sometimes rub each others heads to show that they have no intention of fighting. Young cats do this more often, especially when they are excited.","Cats have been domesticated for half as long as dogs have been.","In tigers and tabbies, the middle of the tongue is covered in backward-pointing spines, used for breaking off and gripping meat.","Cats have over 20 muscles that control their ears."]} OK

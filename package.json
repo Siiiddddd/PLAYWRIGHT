@@ -14,10 +14,15 @@
   "type": "module",
   "devDependencies": {
     "@playwright/test": "^1.57.0",
-    "@types/node": "^25.0.3",
+    "@types/node": "^25.9.8",
+    "@types/xlsx": "^0.0.35",
     "allure-playwright": "^3.6.0"
   },
   "dependencies": {
+    "csv": "^6.5.1",
+    "mysql2": "^3.24.5",
+    "parse": "^8.6.0",
+    "pdf-parse": "^2.4.5",
     "playwright": "^1.57.0",
     "xlsx": "^0.18.5"
   }

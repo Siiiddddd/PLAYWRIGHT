@@ -1,0 +1,8 @@
+Link http://www.deadlinkcity.com/error-page.asp?e=400 is broken with status code 400
+Link http://www.deadlinkcity.com/error-page.asp?e=401 is broken with status code 401
+Link http://www.deadlinkcity.com/error-page.asp?e=403 is broken with status code 403
+Link http://www.deadlinkcity.com/error-page.asp?e=404 is broken with status code 404
+Link http://www.deadlinkcity.com/error-page.asp?e=408 is broken with status code 408
+Link http://www.deadlinkcity.com/error-page.asp?e=500 is broken with status code 500
+Link http://www.deadlinkcity.com/error-page.asp?e=502 is broken with status code 502
+Link http://www.deadlinkcity.com/error-page.asp?e=503 is broken with status code 503

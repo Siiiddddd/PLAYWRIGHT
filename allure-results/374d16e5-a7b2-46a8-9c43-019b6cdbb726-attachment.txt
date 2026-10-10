@@ -1,0 +1,5 @@
+{
+  message: 'https://images.dog.ceo/breeds/terrier-toy/n02087046_5439.jpg',
+  status: 'success'
+}
+{"message":"https://images.dog.ceo/breeds/terrier-toy/n02087046_5439.jpg","status":"success"} https://images.dog.ceo/breeds/terrier-toy/n02087046_5439.jpg

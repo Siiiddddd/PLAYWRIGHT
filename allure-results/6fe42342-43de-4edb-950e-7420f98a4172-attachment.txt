@@ -1,0 +1,18 @@
+{
+  id: 'amer',
+  name: 'American Ringtail',
+  species_id: '1',
+  life_span: '12-18',
+  temperament: 'Friendly, Affectionate, Intelligent, Active, Playful',
+  origin: 'United States',
+  country_codes: 'US',
+  country_code: 'US',
+  description: 'Medium-sized cat with distinctive curled tail that curls over the back. Natural mutation first observed in California.',
+  bred_for: null,
+  perfect_for: null,
+  breed_group: 'Short/Long-hair',
+  history: 'Developed from a natural mutation first observed in a feral kitten named Solomon in Fremont, California in 1998. The curled tail is carried over the back but is not fused. Experimental breed.',
+  reference_image_id: null,
+  weight: { imperial: '7-15', metric: '3.2-6.8' },
+  height: { imperial: '9-12', metric: '23-30' }
+}

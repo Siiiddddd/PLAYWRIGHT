@@ -1,4 +1,7 @@
 import { test, expect, Page, BrowserContext, chromium, Locator } from "@playwright/test";
+import * as fs from 'fs';
+// Import pdf-parse in ESM-friendly way
+import pdfParse from 'pdf-parse';
 
 let page: Page;
 let context: BrowserContext;
@@ -156,17 +159,30 @@ test("tab popups windows" , async()=>{
     console.log(await i.url());
   }
 
-  await pages[1].
+
   
 });
-
-
-
-
-
-
-});
-
 test.afterAll(async () => {
   await browser.close();
 });
+});
+
+
+
+
+
+
+test.only("pdfread", async({page})=>{
+
+   let a =  await fs.readFileSync("C:/Users/Lenovo/Downloads/2026-EROLLGEN-S10-73-SIR-DraftRoll-Revision1-ENG-3-WI.pdf")
+//console.log(a.toString())
+
+const data = await pdfParse(a);
+
+// pdf-parse returns an object with a `text` property containing the extracted text
+console.log(data.text);
+
+
+
+
+})

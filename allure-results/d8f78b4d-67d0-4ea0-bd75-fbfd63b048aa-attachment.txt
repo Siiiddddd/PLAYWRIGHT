@@ -1,0 +1,5 @@
+{
+  message: 'https://images.dog.ceo/breeds/stbernard/n02109525_2943.jpg',
+  status: 'success'
+}
+{"message":"https://images.dog.ceo/breeds/stbernard/n02109525_2943.jpg","status":"success"} https://images.dog.ceo/breeds/stbernard/n02109525_2943.jpg

@@ -1,0 +1,7 @@
+sunday [ locator('#sunday').first() ]
+monday [ locator('#monday').first() ]
+tuesday [ locator('#tuesday').first() ]
+wednesday [ locator('#wednesday').first() ]
+thursday [ locator('#thursday').first() ]
+friday [ locator('#friday').first() ]
+saturday [ locator('#saturday').first() ]

@@ -11,7 +11,7 @@ test.beforeAll("ini" , async()=>{
 });
 
 test("iframes" , async()=>{
-    await page.goto("https://demo.automationtesting.in/Frames.html");
+   await page.goto("https://demo.automationtesting.in/Frames.html");
    const a  =  await page.frames();
    console.log(a.length);
    const frame =  page.frameLocator('//iframe[@id="singleframe"]')
@@ -29,6 +29,51 @@ test("nested iframes" , async()=>{
     // get the reference of the first frame and then get the reference of the second frame and then perform the action on the second frame
 });
 
+
+test ( "shadow rrot " , async () => {
+
+await page.goto("https://practice.expandtesting.com/shadowdom");
+
+let a = await page.locator('#my-btn[type="button"]').innerText();
+
+console.log(a);
+
+
+})
+
+test ("frameinframe" , async ()=>{
+await page.goto("https://testautomationpractice.blogspot.com/")
+
+// await Promise.all([
+//  await page.waitForEvent('popup'),
+//  await page.locator('//button[@onclick="myFunction()"]').click()
+// ])
+
+// let a = context.pages();
+
+// console.log(a[1].url());
+
+await Promise.all([
+    context.waitForEvent('page'),
+    await page.locator('#PopUp').click()
+])
+
+let b = context.pages() ;
+
+await page.waitForTimeout(30000)
+await page.waitForLoadState('domcontentloaded');
+await page.waitForTimeout(30000)
+for ( let i =0 ; i< b.length ; i++){
+    console.log(b[i].url());
+}
+
+
+
+
+
+
+
+})
 
 
 // child frames are also called nested frames and parent frames are also called main frames. we can have multiple child frames in a parent frame but we can not have multiple parent frames in a child frame. we can switch between frames using the frame locator and we can perform actions on the frames using the frame locator.    

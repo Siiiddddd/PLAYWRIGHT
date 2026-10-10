@@ -1,0 +1,10 @@
+[
+  locator('//h4[text()="Broken Links"]/following-sibling::a').first(),
+  locator('//h4[text()="Broken Links"]/following-sibling::a').nth(1),
+  locator('//h4[text()="Broken Links"]/following-sibling::a').nth(2),
+  locator('//h4[text()="Broken Links"]/following-sibling::a').nth(3),
+  locator('//h4[text()="Broken Links"]/following-sibling::a').nth(4),
+  locator('//h4[text()="Broken Links"]/following-sibling::a').nth(5),
+  locator('//h4[text()="Broken Links"]/following-sibling::a').nth(6),
+  locator('//h4[text()="Broken Links"]/following-sibling::a').nth(7)
+]

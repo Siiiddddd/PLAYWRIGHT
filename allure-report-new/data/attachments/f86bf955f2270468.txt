@@ -1,0 +1,8 @@
+5
+[
+  { Username: 'A', Password: 'a', Valid: 'Valid' },
+  { Username: 'B', Password: 'b', Valid: 'Valid' },
+  { Username: 'C', Password: 'c', Valid: 'Valid' },
+  { Username: 'D', Password: 'd', Valid: 'Invalid' },
+  { Username: 'E', Password: 'e', Valid: 'Invalid' }
+]

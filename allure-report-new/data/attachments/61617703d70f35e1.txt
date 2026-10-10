@@ -1,0 +1,12 @@
+[ 'Male', 'Female' ]
+[
+  locator('//input[@type="radio"]/following-sibling::label').first(),
+  locator('//input[@type="radio"]/following-sibling::label').nth(1)
+]
+locator('//input[@type="radio"]/following-sibling::label')
+Male
+Male
+Male
+Female
+Female
+Female

@@ -1,0 +1,14 @@
+[
+  {
+    emp_id: 1,
+    emp_name: 'Rahul',
+    age: 25,
+    gender: 'Male',
+    department: 'IT',
+    job_title: 'Developer',
+    salary: '50000.00',
+    hire_date: 2022-01-09T18:30:00.000Z,
+    email: 'rahul@email.com',
+    city: 'Bangalore'
+  }
+]

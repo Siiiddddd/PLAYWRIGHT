@@ -1,0 +1,6 @@
+{
+  type: 'general',
+  setup: 'A grocery store cashier asked if I would like my milk in a bag.',
+  punchline: "I told her 'No, thanks. The carton works fine.'",
+  id: 397
+}

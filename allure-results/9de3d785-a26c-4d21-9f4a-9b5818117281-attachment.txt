@@ -1,0 +1,25 @@
+2
+Online Training
+TypeScript For Playwright & Cypress
+Playwright with TypeScript Tutorials
+Career Guidance
+Miscellaneous Topics
+SDET Essentials
+Advanced Java
+Mock Interviews
+Selenium with Python
+Cypress  Tutorials
+API Testing 
+Websites for Automation Practice
+Downloads
+Job Websites (Top Job Portals)
+Manual Testing Tutorials
+ISTQB
+Agile Methodology
+SQL For Testers
+UNIX /Linux
+ETL Testing videos
+Big Data Hadoop
+Resume Templates
+Automation Testing Materials
+Manual Testing Materials

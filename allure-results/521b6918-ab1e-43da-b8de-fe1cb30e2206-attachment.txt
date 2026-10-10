@@ -1,0 +1,6 @@
+{
+  type: 'programming',
+  setup: 'Why do programmers prefer dark chocolate?',
+  punchline: "Because it's bitter like their code.",
+  id: 416
+}

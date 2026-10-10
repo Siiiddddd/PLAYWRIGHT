@@ -1,0 +1,6 @@
+{
+  type: 'general',
+  setup: "I got hit in the head by a soda can, but it didn't hurt that much...",
+  punchline: 'It was a soft drink.',
+  id: 68
+}

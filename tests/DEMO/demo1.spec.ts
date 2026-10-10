@@ -10,7 +10,7 @@ test("Open URL" , async ({page}) => {
 })
 
 test("trying expect", async ({page}) => {
-   await expect(5).toBe(5);
+   await expect(5).toBe("5");
    await page.goto("https://www.google.com/")
    
 })

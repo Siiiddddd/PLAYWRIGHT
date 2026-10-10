@@ -1,0 +1,5 @@
+{
+  message: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_1889.jpg',
+  status: 'success'
+}
+{"message":"https://images.dog.ceo/breeds/mastiff-bull/n02108422_1889.jpg","status":"success"} https://images.dog.ceo/breeds/mastiff-bull/n02108422_1889.jpg

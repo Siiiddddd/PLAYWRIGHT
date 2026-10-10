@@ -51,7 +51,7 @@ test("logout", async () => {
  // browser will be called once and it can have multiple contexts and each context can have multiple pages
  // e:g: browser -> context1 -> page1, page2, page3
  // e:g: browser -> context2 -> page1, page2, page3
-// in pages : windows, tabs and pop ups are all same
+ // in pages : windows, tabs and pop ups are all same
  // think of browser as a car and context as a driver and page as a route, so one car can have multiple drivers and each driver can have multiple routes
  // pages are tab opened by clicking on something in page 
  // we need to use context.waitForEvent("page") to wait for the new page to open and then we can switch to that page and perform actions on it  

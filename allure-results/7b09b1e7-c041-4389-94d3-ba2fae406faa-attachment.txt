@@ -1,0 +1,6 @@
+{
+  type: 'general',
+  setup: 'Who did the wizard marry?',
+  punchline: 'His ghoul-friend',
+  id: 296
+}

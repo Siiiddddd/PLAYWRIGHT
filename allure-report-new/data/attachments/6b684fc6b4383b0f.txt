@@ -1,0 +1,30 @@
+[
+  locator('//button[text()="Share interest"]').first(),
+  locator('//button[text()="Share interest"]').nth(1),
+  locator('//button[text()="Share interest"]').nth(2),
+  locator('//button[text()="Share interest"]').nth(3),
+  locator('//button[text()="Share interest"]').nth(4),
+  locator('//button[text()="Share interest"]').nth(5),
+  locator('//button[text()="Share interest"]').nth(6),
+  locator('//button[text()="Share interest"]').nth(7),
+  locator('//button[text()="Share interest"]').nth(8),
+  locator('//button[text()="Share interest"]').nth(9),
+  locator('//button[text()="Share interest"]').nth(10),
+  locator('//button[text()="Share interest"]').nth(11),
+  locator('//button[text()="Share interest"]').nth(12),
+  locator('//button[text()="Share interest"]').nth(13),
+  locator('//button[text()="Share interest"]').nth(14),
+  locator('//button[text()="Share interest"]').nth(15),
+  locator('//button[text()="Share interest"]').nth(16),
+  locator('//button[text()="Share interest"]').nth(17)
+]
+locator('//button[text()="Share interest"]').first()
+locator('//button[text()="Share interest"]').nth(1)
+locator('//button[text()="Share interest"]').nth(2)
+locator('//button[text()="Share interest"]').nth(3)
+locator('//button[text()="Share interest"]').nth(4)
+locator('//button[text()="Share interest"]').nth(5)
+locator('//button[text()="Share interest"]').nth(6)
+locator('//button[text()="Share interest"]').nth(7)
+locator('//button[text()="Share interest"]').nth(8)
+locator('//button[text()="Share interest"]').nth(9)

@@ -1,0 +1,12 @@
+[
+  locator('//button[text()="Share interest"]').first(),
+  locator('//button[text()="Share interest"]').nth(1),
+  locator('//button[text()="Share interest"]').nth(2),
+  locator('//button[text()="Share interest"]').nth(3),
+  locator('//button[text()="Share interest"]').nth(4),
+  locator('//button[text()="Share interest"]').nth(5)
+]
+locator('//button[text()="Share interest"]').first()
+locator('//button[text()="Share interest"]').nth(1)
+locator('//button[text()="Share interest"]').nth(2)
+locator('//button[text()="Share interest"]').nth(3)

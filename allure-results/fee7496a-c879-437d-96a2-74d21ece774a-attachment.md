@@ -1,0 +1,81 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - separator [ref=e3]
+    - iframe [ref=e8]:
+      - generic [ref=f2e2]:
+        - generic [ref=f2e3]:
+          - checkbox "I'm not a robot" [ref=f2e7]
+          - generic [ref=f2e10]: I'm not a robot
+        - generic [ref=f2e14]: reCAPTCHA
+    - separator [ref=e9]
+    - generic [ref=e10]:
+      - text: About this page
+      - text: Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot.
+      - link "Why did this happen?" [ref=e11] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e12]:
+        - text: "IP address: 2405:201:d041:b070:694e:4756:5cb1:6c72"
+        - text: "Time: 2026-06-30T08:57:37Z"
+        - text: "URL: https://www.google.com/search?q=youtube&sca_esv=9c297ecd27ddd5cd&source=hp&ei=_YRDauq8CPKbseMPn53asQ8&iflsig=ABILxe8AAAAAakOTDZGJgXujC23_ivDbPS9C_DN9lkAT&ved=0ahUKEwiqr_6fzK6VAxXyTWwGHZ-ONvYQ4dUDCC4&uact=5&oq=youtube&gs_lp=Egdnd3Mtd2l6Igd5b3V0dWJlSERQAFgAcAB4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAJgDAJIHAKAHALIHALgHAMIHAMgHAIAIAQ&sclient=gws-wiz&sei=_4RDavqzNoru0PEP38ul2QE"
+  - iframe [active] [ref=e16]:
+    - dialog [ref=f5e3]:
+      - generic [ref=f5e4]:
+        - generic [ref=f5e7]:
+          - text: Select all squares with
+          - strong [ref=f5e8]: motorcycles
+          - generic [ref=f5e9]: If there are none, click skip
+        - generic [ref=f5e11]:
+          - table [ref=f5e12]:
+            - rowgroup [ref=f5e13]:
+              - row [ref=f5e14]:
+                - button [ref=f5e15]
+                - button [ref=f5e18]
+                - button [ref=f5e22]
+                - button [ref=f5e26]
+              - row [ref=f5e29]:
+                - button [ref=f5e30]
+                - button [ref=f5e33]
+                - button [ref=f5e37]
+                - button [ref=f5e41]
+              - row [ref=f5e44]:
+                - button [ref=f5e45]
+                - button [ref=f5e48]
+                - button [ref=f5e52]
+                - button [ref=f5e56]
+              - row [ref=f5e59]:
+                - button [ref=f5e60]
+                - button [ref=f5e63]
+                - button [ref=f5e66]
+                - button [ref=f5e69]
+          - table [ref=f5e72]:
+            - rowgroup [ref=f5e73]:
+              - row [ref=f5e74]:
+                - button [ref=f5e75]
+                - button [ref=f5e78]
+                - button [ref=f5e81]
+                - button [ref=f5e84]
+              - row [ref=f5e87]:
+                - button [ref=f5e88]
+                - button [ref=f5e91]
+                - button [ref=f5e94]
+                - button [ref=f5e97]
+              - row [ref=f5e100]:
+                - button [ref=f5e101]
+                - button [ref=f5e104]
+                - button [ref=f5e107]
+                - button [ref=f5e110]
+              - row [ref=f5e113]:
+                - button [ref=f5e114]
+                - button [ref=f5e117]
+                - button [ref=f5e120]
+                - button [ref=f5e123]
+      - generic [ref=f5e129]:
+        - generic [ref=f5e130]:
+          - button "Get a new challenge" [disabled] [ref=f5e132] [cursor=pointer]
+          - button "Get an audio challenge" [disabled] [ref=f5e134] [cursor=pointer]
+          - button "Help" [disabled] [ref=f5e136] [cursor=pointer]
+        - button "Skip" [disabled] [ref=f5e138]
+```
