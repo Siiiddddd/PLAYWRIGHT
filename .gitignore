@@ -1,0 +1,12 @@
+
+# Playwright
+allure-report
+allure-report-new
+allure-results
+allure-2.38.1.zip
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

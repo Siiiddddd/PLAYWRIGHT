@@ -1,0 +1,41 @@
+Installing : 
+npm init playwright@latest
+
+Report : 
+npx playwright show-report
+
+Execution : 
+
+All files under test folder : npx playwright test
+A specific browser : npx playwright test --project=chromium
+headed ( to see the actual automation ) : npx playwright test --headed
+if we want to skip any test method from a class we can : Test.skip ()
+if we want to run only one test method from a class we can : Test.only ()
+UI mode (mast hai) : npx playwright test --ui
+
+A specific class folder : npx playwright test -g "has title"
+A specific class folder with specific browser : npx playwright test -g "has title" --project=chromium
+A Specific class : npx playwright test ( class file name )
+
+Commands which is used in this video
+npx playwright --help
+npx playwright test --help
+npx playwright test ./tests/sample.spec.js
+npx playwright test ./tests/sample.spec.js --headed
+npx playwright test ./tests/sample.spec.js --project=chromium
+npx playwright test ./tests/sample.spec.js --project="Google Chrome"
+npx playwright test ./tests/sample.spec.js --project="Google Chrome" --headed
+npx playwright test ./tests/sample.spec.js ./tests/verifyErrorMessage.spec.js  --headed
+npx playwright test sample
+npx playwright test -g "My First Test"
+npx playwright test
+
+
+
+       
+
+
+
+
+
+

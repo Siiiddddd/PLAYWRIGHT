@@ -1,0 +1,66 @@
+// locator syntax rules for playwright objects
+tagname[attribute='value']  --> input[placeholder='Username']
+tagname#idvalue  --> input#txtUsername
+tagname.classvalue  --> input.oxd-input
+tagname.classvalue[attribute='value']  --> input.oxd-input[placeholder='Username']  
+tagname#idvalue.classvalue  --> input#txtUsername.oxd-input
+tagname#idvalue.classvalue[attribute='value']  --> input#txtUsername.oxd-input[placeholder='Username']
+.classvalue  --> .oxd-input
+#idvalue  --> #txtUsername    
+tagname  --> input    
+.classvalue[attribute1='value1'][attribute2='value2']  --> .oxd-input[placeholder='Username'][type='text']
+tagname[attribute1='value1'][attribute2='value2']  --> input[placeholder='Username'][type='text']
+tagname.classvalue.classvalue  --> input.oxd-input.oxd-input--focus
+tagname#idvalue#idvalue  --> input#txtUsername#txtUsername        
+tagname#idvalue.classvalue.classvalue  --> input#txtUsername.oxd-input.oxd-input--focus
+tagname#idvalue.classvalue[attribute1='value1'][attribute2='value2']  --> input#txtUsername.oxd-input--focus[placeholder='Username'][type='text']
+tagname#idvalue#idvalue.classvalue.classvalue[attribute1='value1'][attribute2='value2']  --> input#txtUsername#txtUsername.oxd-input--focus[placeholder='Username'][type='text']
+nth(indexvalue)  --> to select element based on index value starting from 0
+
+
+// to get elements we have 
+page.getByRole
+page.getByLabel
+page.getByPlaceholder    
+page.getByText
+page.getByTitle
+page.getByAltText    
+page.locator (most powerful) 
+nth(index)  --> to select element based on index 
+first()  --> to select first element
+last()  --> to select last element   
+all()  --> to select all elements
+queryLocator  --> to select shadow DOM elements
+
+document.querySelector  --> to select elements using JS
+querySelectorAll  --> to select multiple elements using JS
+evaluate  --> to perform operations on elements using JS
+evaluateAll  --> to perform operations on multiple elements using JS
+
+RELATIONAL ELEMENTS 
+
+html
+<div id="parent">
+    <p>Direct Child</p>
+    <div class="nested">
+        <p>Grandchild (Still a descendant)</p>
+    </div>
+</div>
+
+Direct child  = const directChild = document.querySelector('#parent > p'); 
+descendant = const allParas = document.querySelectorAll('#parent p');
+
+If you already have a reference to a parent element, you can access its children directly using JavaScript properties. 
+element.children: Returns a live collection of only element children (ignores text and spaces).
+element.childNodes: Returns all child nodes, including text nodes (whitespace/line breaks)
+
+Parent	           element.parentElement
+Children	       element.children
+First child	       element.firstElementChild
+Last child	       element.lastElementChild
+Next sibling	   element.nextElementSibling
+Previous sibling   element.previousElementSibling
+Ancestor	       element.closest(selector)
+Descendants	       element.querySelectorAll(selector)
+Contains	       parent.contains(child)
+

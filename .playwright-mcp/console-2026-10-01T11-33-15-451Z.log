@@ -1,0 +1,16 @@
+[     310ms] [ERROR] Error with Permissions-Policy header: Parse of permissions policy failed because of errors reported by structured header parser. @ :0
+[    4255ms] [ERROR] ERROR Error: Initialization Failed. No Parent window found.
+    at Mv (https://ultimaworks.ltm.com/chunk-FSPJHCRG.js:49:1527)
+    at https://ultimaworks.ltm.com/chunk-FSPJHCRG.js:49:18161
+    at new A (https://ultimaworks.ltm.com/polyfills-CJUM5REQ.js:2:2232)
+    at https://ultimaworks.ltm.com/chunk-FSPJHCRG.js:49:18074
+    at https://ultimaworks.ltm.com/chunk-FSPJHCRG.js:49:19134
+    at https://ultimaworks.ltm.com/chunk-FSPJHCRG.js:47:46229
+    at new A (https://ultimaworks.ltm.com/polyfills-CJUM5REQ.js:2:2232)
+    at RP (https://ultimaworks.ltm.com/chunk-FSPJHCRG.js:47:46185)
+    at Bv (https://ultimaworks.ltm.com/chunk-FSPJHCRG.js:49:18045)
+    at Object.s4 (https://ultimaworks.ltm.com/chunk-FSPJHCRG.js:49:11635) @ https://ultimaworks.ltm.com/chunk-X2FHNIVK.js:23
+[    6071ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ https://autologon.microsoftazuread-sso.com/ff355289-721e-4dd7-a663-afec62ab9d54/winauth/ssoprobe?client-request-id=6b106f7c-39d5-4bc3-bd16-3804b6accb7c&_=1790854401424:0
+[    6364ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://login.microsoftonline.com/ff355289-721e-4dd7-a663-afec62ab9d54/oauth2/authorize?response_type=code&client_id=a8f569cc-8b0b-424e-b73c-d414f1c44019&redirect_uri=https://ultimaworksapi.ltimindtree.com/api/auth/v1/oauthLogin&state=6b298e87-abb2-4784-a1d4-420105686290&nux=1&resource=https://graph.microsoft.com&client-request-id=6b106f7c-39d5-4bc3-bd16-3804b6accb7c&nonce=3f5dfde5-e3da-4b2b-9bf9-c8d7d7226412&response_mode=query:0
+[   12380ms] ReferenceError: System is not defined
+    at https://passwordreset.microsoftonline.com/?ru=https%3a%2f%2flogin.microsoftonline.com%2fff355289-721e-4dd7-a663-afec62ab9d54%2freprocess%3fctx%3drQQIABABBAABBgIAAAADAOz_BQD0_0V2b1N0c0FydGlmYWN0cxgAAAAAAJIkYb3GFSQD1v8sDB6JUKE8vJp5lvEAPe5PleoJ2c9jsl8hAMXEeuJG3jA7zx3psKSRuNVnN0Q32Vv1EerrSjdYTPHu2VVEDTFSsBYN0h478ZFt9acGGup0jOyVube1Lm_EilZ1FIzIiQ4JtgSuHuSNx38N565QZZ2U36BnNx5GsZfmnfKbrtyqJIvq5_PbRDPTCxAY8hkPhjsNBFTRAvwadKGPvW5qU_RHpi2TEjyMQ3nnOXTib01_o0ANp535rnGehGrYIIG1xDcILYNejRQHFMqiU4hmaGO4x8-EIfXazyVRoUxB7doyZ-469wLxANnWRiLwcBCtATC9tHI9nLNdX1wzWU_qm-W_jfcwbG20YZ0ox-9hHibPprQ16rDYh0kSl5hBQZ1rS0lDc7o2aQJaA0RYuTFqhyAsTpyG2W4hZJI92gqq6e6FkEpVqOHWmeucjdcsLFYW89JjPL9G5JPhDhdN0_TH-8hEo5JjjR8kZ1w4cmXNAIFV06PCxB4E1i9-A18lhs-7Qp9mqSZ5d6QOz17jAo3Vrd_W9HTKuWvg63r8fS5rGakAZhOLlDJOdUdzkbC75FFR9t8liwDL5E2v1uNwxx_tQlBtEy8J4uDAQN1cfNRggR3EFgTQJIagqAVMcmkYkLmTaSwqAFig6cuHgiTBudi4CSWF5uYRxFdd9aYJY9bEl381&mkt=en-US&hosted=0&device_platform=Windows+10:208:48

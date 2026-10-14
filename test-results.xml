@@ -1,0 +1,42 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="15.782577000000048">
+<testsuite name="DEMO\dropdown.spec.ts" timestamp="2026-03-23T18:25:58.159Z" hostname="chromium" tests="4" failures="0" skipped="0" time="11.487" errors="0">
+<testcase name="open Url" classname="DEMO\dropdown.spec.ts" time="2.614">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\DEMO-dropdown-open-Url-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="open dropdown page" classname="DEMO\dropdown.spec.ts" time="0.483">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\DEMO-dropdown-open-dropdown-page-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="select value from dropdown" classname="DEMO\dropdown.spec.ts" time="8.245">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\DEMO-dropdown-select-value-from-dropdown-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="store values frm DD" classname="DEMO\dropdown.spec.ts" time="0.145">
+<system-out>
+<![CDATA[values from dropdown are: 
+                        Audi
+                        BMW
+                        Ford
+                        Honda
+                        Jeep
+                        Mercedes
+                        Suzuki
+                        Volkswagen
+                     
+
+[[ATTACHMENT|test-results\DEMO-dropdown-store-values-frm-DD-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
