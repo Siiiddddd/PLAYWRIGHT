@@ -55,6 +55,7 @@ export default defineConfig({
         video: 'on',
         screenshot: 'on',
         trace: 'on',
+        storageState : 'playwright/.auth/user.json',
        }
     },
 
@@ -65,6 +66,7 @@ export default defineConfig({
         video: 'on',
         screenshot: 'on',
         trace: 'on',
+        storageState : 'playwright/.auth/user.json',
        }
     },
 

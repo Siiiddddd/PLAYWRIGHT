@@ -14,11 +14,11 @@ let browser: Browser;
 let context: BrowserContext;
 let page: Page;
 
-//  test.beforeAll("ini", async () => {
-//   browser = await chromium.launch();
-//   context = await browser.newContext();
-//   page = await context.newPage();
-// });
+test.beforeAll("ini", async () => {
+  browser = await chromium.launch();
+  context = await browser.newContext();
+  page = await context.newPage();
+});
 
 test("fill", async () => {
   await page.goto("https://testautomationpractice.blogspot.com/");
@@ -236,29 +236,29 @@ test("drop downs and dates", async () => {
 
 })
 
-test("pract",async()=>{
-//await page.goto("https://www.google.com/")
-// let a = "andrew"
-// let b:any = []
-// let c=""
-// for(let i = 0 ; i<a.length ; i++){
-// c=c+a.charAt(i)
-// await page.locator('#ti6dpd').fill(c)
-// await page.waitForTimeout(3000)
-// b.push(await page.locator('//li[@data-attrid="AutocompletePrediction"]/div/div[2]/div/div/span/b').allInnerTexts())
-// if(await page.locator('//*[text()="Andrew Garfield"]').isVisible()){
-//   await page.locator('//*[text()="Andrew Garfield"]').click();
-//   break ;
-// }else{
-//   continue ;
-// }
-// }
-// console.log(b.flat(a.length))
+test("pract", async () => {
+  //await page.goto("https://www.google.com/")
+  // let a = "andrew"
+  // let b:any = []
+  // let c=""
+  // for(let i = 0 ; i<a.length ; i++){
+  // c=c+a.charAt(i)
+  // await page.locator('#ti6dpd').fill(c)
+  // await page.waitForTimeout(3000)
+  // b.push(await page.locator('//li[@data-attrid="AutocompletePrediction"]/div/div[2]/div/div/span/b').allInnerTexts())
+  // if(await page.locator('//*[text()="Andrew Garfield"]').isVisible()){
+  //   await page.locator('//*[text()="Andrew Garfield"]').click();
+  //   break ;
+  // }else{
+  //   continue ;
+  // }
+  // }
+  // console.log(b.flat(a.length))
 
-let a = "str"
+  let a = "str"
 
-let b = JSON.parse(fs.readFileSync("Test_Data/created.json","utf-8"))
-console.log(b.data2["obj"]["oobj"]["x"])
+  let b = JSON.parse(fs.readFileSync("Test_Data/created.json", "utf-8"))
+  console.log(b.data2["obj"]["oobj"]["x"])
 
 
 
@@ -278,50 +278,128 @@ test("JS", async () => {
   //   c.set(a[i],b[i])
   // }
   // console.log(c.get(a[3]))
-//   let a = "abcdefghijklmnopqrstuvwxyz"
+  //   let a = "abcdefghijklmnopqrstuvwxyz"
 
 
-//   let fn = ""
-//   let fnlength = Math.round(Math.random() * (8 - 5 + 1) + 5)
-//   console.log(fnlength)
-//   for (let i = 0; i < fnlength; i++) {
-//     let addnl = a.charAt(Math.round(Math.random() * 26))
-//     fn = fn + addnl
-//   }
-//   let ln = ""
-//   for (let i = 0; i < Math.round(Math.random() * (8 - 5 + 1) + 5); i++) { //(max-min+1)+min
-//     ln = ln + a.charAt(Math.round(Math.random() * 26))
-//   }
-//   let pan = ""
-//   for (let i = 0; i < 5; i++) { //(max-min+1)+min
-//     pan = pan + a.charAt(Math.round(Math.random()*10))
-//   }//
-//   console.log(String.fromCharCode(Math.floor(Math.random() * (90 - 65 + 1)) + 65).repeat(10))
+  //   let fn = ""
+  //   let fnlength = Math.round(Math.random() * (8 - 5 + 1) + 5)
+  //   console.log(fnlength)
+  //   for (let i = 0; i < fnlength; i++) {
+  //     let addnl = a.charAt(Math.round(Math.random() * 26))
+  //     fn = fn + addnl
+  //   }
+  //   let ln = ""
+  //   for (let i = 0; i < Math.round(Math.random() * (8 - 5 + 1) + 5); i++) { //(max-min+1)+min
+  //     ln = ln + a.charAt(Math.round(Math.random() * 26))
+  //   }
+  //   let pan = ""
+  //   for (let i = 0; i < 5; i++) { //(max-min+1)+min
+  //     pan = pan + a.charAt(Math.round(Math.random()*10))
+  //   }//
+  //   console.log(String.fromCharCode(Math.floor(Math.random() * (90 - 65 + 1)) + 65).repeat(10))
 
-// console.log("o".repeat(10))
-
-
-//   console.log(fn + " " + ln)
-
-// let num = 153 
-// let sum = 0 ;
-// let b
-// while(num>0){
-// b = num%10
-// sum = sum + (b*b*b)
-// num = Math.floor(num/10)
-// }
-// console.log(sum)
+  // console.log("o".repeat(10))
 
 
+  //   console.log(fn + " " + ln)
 
+  // let num = 153 
+  // let sum = 0 ;
+  // let b
+  // while(num>0){
+  // b = num%10
+  // sum = sum + (b*b*b)
+  // num = Math.floor(num/10)
+  // }
+  // console.log(sum)
 
 
 
- })
 
- test("test",async({page})=>{
 
-await page.goto("https://ultimaworks.ltm.com/home")
 
- })
+})
+
+test("test", async ({ page }) => {
+
+  await page.goto("https://ultimaworks.ltm.com/home")
+
+})
+
+test("wait for response", async () => {
+
+  await page.goto('https://ultimaworks.ltm.com/home');
+  await page.getByRole('textbox', { name: 'someone@example.com' }).fill("Siddalinganagouda.10879510@ltimindtree.com")
+  await page.locator('#idSIButton9').click();
+
+  await page.waitForResponse(response =>
+    response.url() === "https://ultimaworksapi.ltimindtree.com/api/studio/v1/user/myProfile" 
+    && response.status() === 200
+  )
+expect(await page.locator('//div[text()="Siddalinganagouda Patil"]').innerText()).toBe("Siddalinganagouda Patil")
+
+await page.context().storageState({
+    path: "playwright/.auth/user.json"
+  });
+
+}
+);
+
+test("stored state upper test for reference" , async()=>{
+
+  await page.goto('https://ultimaworks.ltm.com/home');
+  await page.waitForSelector('//div[text()="Siddalinganagouda Patil"]')
+  expect(page.locator('//div[text()="Siddalinganagouda Patil"]')).toBeVisible();
+  await page.waitForSelector('//div[@class="fav-apps-desc"]/div')
+let a = await page.locator('//div[@class="fav-apps-desc"]/div').allInnerTexts();
+console.log(a)
+
+
+})
+
+test("API Mocking" , async()=>{
+
+await page.goto("https://ultimaworks.ltm.com/home");
+await page.waitForSelector('//div[text()="Siddalinganagouda Patil"]')
+await page.route("https://ultimaworksapi.ltimindtree.com/api/studio/v1/user/myProfile" ,async route=>{
+await route.fulfill(
+
+  {
+    "id": null,
+    "orgCode": null,
+    "orgName": null,
+    "username": null,
+    "email": "Siddalinganagouda.10879510@LTIMindtree.com",
+    "name": "Siddalinganagouda Patil",
+    "mid": "10879510",
+    "status": null,
+    "profilePic": null,
+    "acls": null,
+    "owner": false,
+    "userDesignation": "Senior Quality Engineer",
+    "userVertical": null,
+    "teamMeeting": null,
+    "phoneNo": null,
+    "department": null,
+    "profileIconText": "SP",
+    "profileIconColor": "#001954",
+    "userRole": "Non_Admin",
+    "source": null,
+    "isNewUser": null,
+    "theme": null,
+    "createdBy": null,
+    "createdOn": null,
+    "lastUpadateBy": null,
+    "lastUpdatedOn": null,
+    "hasMarketpriceAccess": false
+}
+
+)
+}
+
+)
+
+
+})
+
+
