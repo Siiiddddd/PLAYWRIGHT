@@ -1,12 +1,4 @@
-import {
-  test,
-  expect,
-  BrowserContext,
-  chromium,
-  Page,
-  Browser,
-  request,
-} from "@playwright/test";
+import { test, expect, BrowserContext, chromium, Page, Browser, request } from "@playwright/test";
 import XLSX from "xlsx";
 import fs from "fs";
 import mysql from "mysql2/promise";
@@ -32,18 +24,24 @@ test("fill", async () => {
 test("pop window @smoke", async () => {
   await page.goto("https://testautomationpractice.blogspot.com/");
 
-  await Promise.all([
+  let [np] = await Promise.all([
     page.waitForEvent("popup"),
     page.getByText("New Tab").click(),
   ]);
-  //  await Promise.all([ context.waitForEvent("page"),
+  //  await Promise.all([ 
+  //   context.waitForEvent("page"),
   //   page.getByText("New Tab").click()])
+  //first method but if there are multiple pages we cant index
+
+
+  let link = await np.locator('//div[@class="widget-content"]/ul/li/a').all();
+  for (let i = 0; i < link.length; i++) {
+    console.log(await link[i].textContent());
+  }
 
   let pages = context.pages();
   console.log(pages.length);
-  let links = await pages[1]
-    .locator('//div[@class="widget-content"]/ul/li/a')
-    .all();
+  let links = await pages[1].locator('//div[@class="widget-content"]/ul/li/a').all();
   for (let i = 0; i < links.length; i++) {
     console.log(await links[i].textContent());
   }
@@ -139,20 +137,17 @@ test("brokenlinks", async ({ request }) => {
 })
 
 test("data", async () => {
-  const wb = XLSX.readFile("G:/VS CODE/Playwright/Test_Data/test_data.xlsx")
+  const wb = XLSX.readFile("C:/Users/10879510/OneDrive - LTM/SID/PLAYWRIGHT/PLAYWRIGHT-sid/Test_Data/test_data.xlsx")
   const sh = wb.Sheets["Sheet1"]
-  const data = XLSX.utils.sheet_to_json(sh)
+  const data: any = XLSX.utils.sheet_to_json(sh)
 
-  console.log(data[0])
+  console.log(data)
 
-  let jsn = fs.readFileSync("G:/VS CODE/Playwright/Test_Data/readwright.json");
+  let jsn = fs.readFileSync("C:/Users/10879510/OneDrive - LTM/SID/PLAYWRIGHT/PLAYWRIGHT-sid/Test_Data/readwright.json");
   let wdt = JSON.parse(jsn)
   console.log(JSON.parse(jsn))
 
-  fs.writeFileSync("G:/VS CODE/Playwright/Test_Data/created.json", JSON.stringify(wdt))
-
-
-
+  fs.writeFileSync("C:/Users/10879510/OneDrive - LTM/SID/PLAYWRIGHT/PLAYWRIGHT-sid/Test_Data/created.json", JSON.stringify(wdt))
 }
 )
 
@@ -229,7 +224,7 @@ test("drop downs and dates", async () => {
 
   await page.locator('p input[id="datepicker"]').fill("06/04/2000")
   await page.locator('//input[@readonly="readonly"]').click()
-  await page.locator('//select[@class="ui-datepicker-year"]').selectOption("2000")
+  await page.locator('//select[@class="ui-datepicker-year"]').selectOption("2020")
   await page.locator('//select[@class="ui-datepicker-month"]').selectOption({ value: "5" })
 
   await page.waitForTimeout(4000)
@@ -279,7 +274,6 @@ test("JS", async () => {
   // }
   // console.log(c.get(a[3]))
   //   let a = "abcdefghijklmnopqrstuvwxyz"
-
 
   //   let fn = ""
   //   let fnlength = Math.round(Math.random() * (8 - 5 + 1) + 5)
@@ -333,71 +327,70 @@ test("wait for response", async () => {
   await page.locator('#idSIButton9').click();
 
   await page.waitForResponse(response =>
-    response.url() === "https://ultimaworksapi.ltimindtree.com/api/studio/v1/user/myProfile" 
-    && response.status() === 200
-  )
-expect(await page.locator('//div[text()="Siddalinganagouda Patil"]').innerText()).toBe("Siddalinganagouda Patil")
+    response.url() === "https://ultimaworksapi.ltimindtree.com/api/studio/v1/user/myProfile"
+    && response.status() === 200)
+  expect(await page.locator('//div[text()="Siddalinganagouda Patil"]').innerText()).toBe("Siddalinganagouda Patil")
 
-await page.context().storageState({
+  await page.context().storageState({
     path: "playwright/.auth/user.json"
   });
 
 }
 );
 
-test("stored state upper test for reference" , async()=>{
+test("stored state upper test for reference", async () => {
 
   await page.goto('https://ultimaworks.ltm.com/home');
   await page.waitForSelector('//div[text()="Siddalinganagouda Patil"]')
   expect(page.locator('//div[text()="Siddalinganagouda Patil"]')).toBeVisible();
   await page.waitForSelector('//div[@class="fav-apps-desc"]/div')
-let a = await page.locator('//div[@class="fav-apps-desc"]/div').allInnerTexts();
-console.log(a)
+  let a = await page.locator('//div[@class="fav-apps-desc"]/div').allInnerTexts();
+  console.log(a)
 
 
 })
 
-test("API Mocking" , async()=>{
+test("API Mocking", async () => {
 
-await page.goto("https://ultimaworks.ltm.com/home");
-await page.waitForSelector('//div[text()="Siddalinganagouda Patil"]')
-await page.route("https://ultimaworksapi.ltimindtree.com/api/studio/v1/user/myProfile" ,async route=>{
-await route.fulfill(
+  await page.goto("https://ultimaworks.ltm.com/home");
+  await page.waitForSelector('//div[text()="Siddalinganagouda Patil"]')
+  await page.route("https://ultimaworksapi.ltimindtree.com/api/studio/v1/user/myProfile", async route => {
+    await route.fulfill(
 
-  {
-    "id": null,
-    "orgCode": null,
-    "orgName": null,
-    "username": null,
-    "email": "Siddalinganagouda.10879510@LTIMindtree.com",
-    "name": "Siddalinganagouda Patil",
-    "mid": "10879510",
-    "status": null,
-    "profilePic": null,
-    "acls": null,
-    "owner": false,
-    "userDesignation": "Senior Quality Engineer",
-    "userVertical": null,
-    "teamMeeting": null,
-    "phoneNo": null,
-    "department": null,
-    "profileIconText": "SP",
-    "profileIconColor": "#001954",
-    "userRole": "Non_Admin",
-    "source": null,
-    "isNewUser": null,
-    "theme": null,
-    "createdBy": null,
-    "createdOn": null,
-    "lastUpadateBy": null,
-    "lastUpdatedOn": null,
-    "hasMarketpriceAccess": false
-}
+      {
+        "id": null,
+        "orgCode": null,
+        "orgName": null,
+        "username": null,
+        "email": "Siddalinganagouda.10879510@LTIMindtree.com",
+        "name": "Siddalinganagouda Patil",
+        "mid": "10879510",
+        "status": null,
+        "profilePic": null,
+        "acls": null,
+        "owner": false,
+        "userDesignation": "Senior Quality Engineer",
+        "userVertical": null,
+        "teamMeeting": null,
+        "phoneNo": null,
+        "department": null,
+        "profileIconText": "SP",
+        "profileIconColor": "#001954",
+        "userRole": "Non_Admin",
+        "source": null,
+        "isNewUser": null,
+        "theme": null,
+        "createdBy": null,
+        "createdOn": null,
+        "lastUpadateBy": null,
+        "lastUpdatedOn": null,
+        "hasMarketpriceAccess": false
+      }
 
-)
-}
+    )
+  }
 
-)
+  )
 
 
 })
