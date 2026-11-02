@@ -13,7 +13,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@playwright/test": "^1.57.0",
+    "@playwright/test": "^1.63.0",
     "@types/node": "^25.9.8",
     "@types/xlsx": "^0.0.35",
     "allure-playwright": "^3.6.0"

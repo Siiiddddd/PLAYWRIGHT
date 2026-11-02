@@ -1,0 +1,27 @@
+- generic [ref=f6e5]:
+  - img "Organization background image" [ref=f6e6]
+  - generic [ref=f6e8]:
+    - generic [ref=f6e14]:
+      - img "Organization banner logo" [ref=f6e17]
+      - main [ref=f6e18]:
+        - generic [ref=f6e55]:
+          - heading "Which type of account do you need help with?" [level=1] [ref=f6e56]
+          - list [ref=f6e57]:
+            - listitem [ref=f6e58] [cursor=pointer]:
+              - button "Work or school account Created by your IT department" [active] [ref=f6e59]:
+                - generic [ref=f6e62]:
+                  - generic [ref=f6e63]: Work or school account
+                  - generic [ref=f6e64]: Created by your IT department
+            - listitem [ref=f6e65] [cursor=pointer]:
+              - button "Personal account Created by you" [ref=f6e66]:
+                - generic [ref=f6e69]:
+                  - generic [ref=f6e70]: Personal account
+                  - generic [ref=f6e71]: Created by you
+          - button "Back" [ref=f6e76] [cursor=pointer]
+    - contentinfo [ref=f6e50]:
+      - generic [ref=f6e51]:
+        - link "Terms of use" [ref=f6e52] [cursor=pointer]:
+          - /url: https://www.microsoft.com/en-US/servicesagreement/
+        - link "Privacy & cookies" [ref=f6e53] [cursor=pointer]:
+          - /url: https://privacy.microsoft.com/en-US/privacystatement
+        - button "Click here for troubleshooting information" [ref=f6e54] [cursor=pointer]: ...

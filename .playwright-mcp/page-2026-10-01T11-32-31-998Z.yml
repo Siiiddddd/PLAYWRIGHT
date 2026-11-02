@@ -1,0 +1,27 @@
+- generic [ref=f2e5]:
+  - img "Organization background image" [ref=f2e6]
+  - generic [ref=f2e8]:
+    - generic [ref=f2e14]:
+      - img "Organization banner logo" [ref=f2e17]
+      - main [ref=f2e18]:
+        - generic [ref=f2e55]:
+          - heading "Sign-in options" [level=1] [ref=f2e56]
+          - list "Sign-in options" [ref=f2e57]:
+            - generic [ref=f2e58]:
+              - listitem [ref=f2e59] [cursor=pointer]:
+                - button "Face, fingerprint, PIN or security key Use your device to sign in with a passkey." [active] [ref=f2e60]:
+                  - generic [aria-hidden] [ref=f2e63]:
+                    - generic [ref=f2e64]: Face, fingerprint, PIN or security key
+                    - generic [ref=f2e65]: Use your device to sign in with a passkey.
+              - button "Learn more about signing in with face, fingerprint, PIN, or a security key" [ref=f2e66] [cursor=pointer]
+            - listitem [ref=f2e68] [cursor=pointer]:
+              - button "Sign in with GitHub" [ref=f2e69]:
+                - generic [ref=f2e73]: Sign in with GitHub
+          - button "Back" [ref=f2e78] [cursor=pointer]
+    - contentinfo [ref=f2e50]:
+      - generic [ref=f2e51]:
+        - link "Terms of use" [ref=f2e52] [cursor=pointer]:
+          - /url: https://www.microsoft.com/en-US/servicesagreement/
+        - link "Privacy & cookies" [ref=f2e53] [cursor=pointer]:
+          - /url: https://privacy.microsoft.com/en-US/privacystatement
+        - button "Click here for troubleshooting information" [ref=f2e54] [cursor=pointer]: ...

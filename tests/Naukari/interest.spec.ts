@@ -30,12 +30,24 @@ test ("share interest" , async() =>{
     await page.locator('[href="/mnjuser/recommended-earjobs"]').click();
 await page.waitForTimeout(10000)
     let intlist : Array <Locator> = await page.locator('//button[text()="Share interest"]').all();
+<<<<<<< HEAD
     console.log(intlist);
     for(let i of intlist){
         console.log(i);
         await i.click();
         await page.waitForTimeout(5000)
         await page.goBack()
+=======
+    
+    for(let i =0 ; i <intlist.length ; i++){
+       
+        await intlist[i].click();
+        await page.waitForTimeout(5000)
+    //    await page.waitForSelector('//span[text()="Interest shared successfully!"')
+    //     await page.waitForURL(url => url.href.includes("https://www.naukri.com/myapply/saveApply"))
+        await page.goBack()
+        //await page.waitForURL("https://www.naukri.com/mnjuser/recommended-earjobs")
+>>>>>>> SHRU2.0
     }
 
 

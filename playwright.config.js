@@ -25,7 +25,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
  //workers:3,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [//['html', { open: 'always' }],
+  reporter: [['html', { open: 'always' }],
   // ['list'],
   // ['line'],
   // ['dot'],
@@ -55,6 +55,7 @@ export default defineConfig({
         video: 'on',
         screenshot: 'on',
         trace: 'on',
+        storageState : 'playwright/.auth/user.json',
        }
     },
 
@@ -65,6 +66,7 @@ export default defineConfig({
         video: 'on',
         screenshot: 'on',
         trace: 'on',
+        storageState : 'playwright/.auth/user.json',
        }
     },
 

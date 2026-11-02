@@ -1,0 +1,20 @@
+- generic [ref=f7e2]:
+  - banner [ref=f7e4]:
+    - img "Company branding image" [ref=f7e5]
+  - form [ref=f7e7]:
+    - heading "Get back into your account" [level=1] [ref=f7e8]
+    - heading "Who are you?" [level=2] [ref=f7e9]
+    - generic [ref=f7e10]: To recover your account, begin by entering your email or username.
+    - generic [ref=f7e11]: "Email or Username: *"
+    - textbox "Email or Username" [active] [ref=f7e12]: not-an-email
+    - text: "Example: user@contoso.onmicrosoft.com or user@contoso.com"
+    - alert [ref=f7e22]: Please type your email address in the format user@contoso.onmicrosoft.com or user@contoso.com
+    - alert
+    - generic [ref=f7e15]:
+      - button "Next" [ref=f7e16] [cursor=pointer]
+      - button "Cancel" [ref=f7e18] [cursor=pointer]
+  - contentinfo:
+    - img "Microsoft" [ref=f7e20]
+    - text: ©2026 Microsoft Corporation
+    - link "Support code" [ref=f7e21] [cursor=pointer]:
+      - /url: javascript:ShowSupportCode()
